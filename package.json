@@ -1,0 +1,33 @@
+{
+  "name": "vsfi",
+  "version": "1.0.0",
+  "description": "Font Icon generator for VS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiyuuga/vsfi.git"
+  },
+  "keywords": [
+    "Font",
+    "Icon",
+    "SVG"
+  ],
+  "author": "@chryw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiyuuga/vsfi/issues"
+  },
+  "homepage": "https://github.com/hiyuuga/vsfi",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgicons2svgfont": "^2.4.0",
+    "lodash": "^3.10.1",
+    "node-gyp": "^3.0.3"
+  }
+}
