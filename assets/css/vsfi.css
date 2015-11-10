@@ -1,0 +1,154 @@
+@font-face {
+	font-family: "vsfi";
+	src: url('../fonts/vsfi.eot');
+	src: url('../fonts/vsfi.eot?#iefix') format('eot'),
+		url('../fonts/vsfi.woff') format('woff'),
+		url('../fonts/vsfi.ttf') format('truetype'),
+		url('../fonts/vsfi.svg#vsfi') format('svg');
+		  font-weight: normal;
+  font-style: normal;
+}
+
+.vsfi:before {
+	display: inline-block;
+  font-family: "vsfi";
+  font-style: normal;
+  font-weight: normal;
+  font-size:24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.vsfi-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.vsfi-2x { font-size: 2em; }
+.vsfi-3x { font-size: 3em; }
+.vsfi-4x { font-size: 4em; }
+.vsfi-5x { font-size: 5em; }
+.vsfi-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+
+.icon-ghpullrequest:before {
+	content: "\E001";
+}
+
+.icon-git:before {
+	content: "\E002";
+}
+
+.icon-social-bitbucket:before {
+	content: "\E003";
+}
+
+.icon-social-codepen:before {
+	content: "\E004";
+}
+
+.icon-social-delicious:before {
+	content: "\E005";
+}
+
+.icon-social-digg:before {
+	content: "\E006";
+}
+
+.icon-social-dribbble:before {
+	content: "\E007";
+}
+
+.icon-social-dropbox:before {
+	content: "\E008";
+}
+
+.icon-social-email:before {
+	content: "\E009";
+}
+
+.icon-social-facebook:before {
+	content: "\E00A";
+}
+
+.icon-social-github:before {
+	content: "\E00B";
+}
+
+.icon-social-gplus:before {
+	content: "\E00C";
+}
+
+.icon-social-instagram-square:before {
+	content: "\E00D";
+}
+
+.icon-social-instagram:before {
+	content: "\E00E";
+}
+
+.icon-social-linkedin-square:before {
+	content: "\E00F";
+}
+
+.icon-social-pinterest:before {
+	content: "\E010";
+}
+
+.icon-social-share:before {
+	content: "\E011";
+}
+
+.icon-social-stackoverflow:before {
+	content: "\E012";
+}
+
+.icon-social-tumblr-square:before {
+	content: "\E013";
+}
+
+.icon-social-tumblr:before {
+	content: "\E014";
+}
+
+.icon-social-twitter:before {
+	content: "\E015";
+}
+
+.icon-social-vimeo:before {
+	content: "\E016";
+}
+
+.icon-social-vine-square:before {
+	content: "\E017";
+}
+
+.icon-social-vine:before {
+	content: "\E018";
+}
+
+.icon-social-web:before {
+	content: "\E019";
+}
+
+.icon-social-wechat:before {
+	content: "\E01A";
+}
+
+.icon-social-wordpress:before {
+	content: "\E01B";
+}
+
+.icon-social-yelp:before {
+	content: "\E01C";
+}
+
+.icon-social-youtube:before {
+	content: "\E01D";
+}
+
+.icon-statusinvalid:before {
+	content: "\E01E";
+}
