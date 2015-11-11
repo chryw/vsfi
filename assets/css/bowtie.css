@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "bowtie";
+  src: url('../fonts/bowtie.eot');
+  src: url('../fonts/bowtie.eot?#iefix') format('eot'),
+    url('../fonts/bowtie.woff') format('woff'),
+    url('../fonts/bowtie.ttf') format('truetype'),
+    url('../fonts/bowtie.svg#bowtie') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bowtie:before {
+  display: inline-block;
+  font-family: "bowtie";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bowtie-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.bowtie-2x { font-size: 2em; }
+.bowtie-3x { font-size: 3em; }
+.bowtie-4x { font-size: 4em; }
+.bowtie-5x { font-size: 5em; }
+.bowtie-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+
+.bowtie-alert:before {
+	content: "\E001";
+}
+
+.bowtie-approve-disapprove:before {
+	content: "\E002";
+}
+
+.bowtie-approve:before {
+	content: "\E003";
+}
+
+.bowtie-arrow-down:before {
+	content: "\E004";
+}
+
+.bowtie-arrow-left:before {
+	content: "\E005";
+}
+
+.bowtie-arrow-right:before {
+	content: "\E006";
+}
+
+.bowtie-arrow-up:before {
+	content: "\E007";
+}
+
+.bowtie-chevron-down-light:before {
+	content: "\E008";
+}
+
+.bowtie-chevron-left-light:before {
+	content: "\E009";
+}
+
+.bowtie-chevron-right-light:before {
+	content: "\E00A";
+}
+
+.bowtie-chevron-up-light:before {
+	content: "\E00B";
+}
+
+.bowtie-gitlogo:before {
+	content: "\E00C";
+}
+

@@ -2,13 +2,17 @@ var gulp = require("gulp");
 var iconfont = require('gulp-iconfont');
 var iconfontCss = require('gulp-iconfont-css');
 var runTimestamp = Math.round(Date.now() / 1000);
+var consolidate = require('gulp-consolidate');
+var rename = require("gulp-rename");
+var template = '_bowtie';
 
-var fontName = 'vsfi'; // set name of your symbol font
-gulp.task('iconfont', function() {
-  gulp.src(['assets/icons/*.svg'])
+var fontName = 'bowtie'; // set name of your symbol font
+gulp.task('iconfont-bowtie', function() {
+  gulp.src(['assets/icons/bowtie/*.svg'])
     .pipe(iconfontCss({
       fontName: fontName,
-      targetPath: '../../assets/css/vsfi.css',
+      path: 'templates/' + template + '.css',
+      targetPath: '../../assets/css/bowtie.css',
       fontPath: '../fonts/'
     }))
     .pipe(iconfont({fontName: fontName}))
@@ -27,9 +31,13 @@ gulp.task('iconfont', function() {
         }),
         fontName: fontName,
         fontPath: 'assets/fonts/', // set path to font (from your CSS file if relative)
-        className: fontName // set class name in your CSS
+        className: fontName, // set class name in your CSS
       };
       console.log(glyphs);
+      gulp.src('templates/' + template + '.html')
+        .pipe(consolidate('lodash', options))
+        .pipe(rename({ basename:'sample' }))
+        .pipe(gulp.dest('.')); // set path to export your sample HTML
     })
     .pipe(gulp.dest('assets/fonts/')); // set path to export your fonts
 });
