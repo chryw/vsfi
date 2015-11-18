@@ -1,4 +1,2 @@
 # vsfi
-Font Icon Generator
-test
-test again
+Icon font generator for Bowtie
