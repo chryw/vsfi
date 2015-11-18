@@ -38,47 +38,75 @@
 	content: "\E001";
 }
 
-.bowtie-approve-disapprove:before {
+.bowtie-approve-disapprove-fill:before {
 	content: "\E002";
 }
 
-.bowtie-approve:before {
+.bowtie-approve-disapprove:before {
 	content: "\E003";
 }
 
-.bowtie-arrow-down:before {
+.bowtie-approve-fill:before {
 	content: "\E004";
 }
 
-.bowtie-arrow-left:before {
+.bowtie-approve:before {
 	content: "\E005";
 }
 
-.bowtie-arrow-right:before {
+.bowtie-arrow-down:before {
 	content: "\E006";
 }
 
-.bowtie-arrow-up:before {
+.bowtie-arrow-left:before {
 	content: "\E007";
 }
 
-.bowtie-chevron-down-light:before {
+.bowtie-arrow-right:before {
 	content: "\E008";
 }
 
-.bowtie-chevron-left-light:before {
+.bowtie-arrow-up:before {
 	content: "\E009";
 }
 
-.bowtie-chevron-right-light:before {
+.bowtie-attach:before {
 	content: "\E00A";
 }
 
-.bowtie-chevron-up-light:before {
+.bowtie-azure-api-management:before {
 	content: "\E00B";
 }
 
-.bowtie-gitlogo:before {
+.bowtie-azure-service-endpoint:before {
 	content: "\E00C";
+}
+
+.bowtie-chevron-down-light:before {
+	content: "\E00D";
+}
+
+.bowtie-chevron-left-light:before {
+	content: "\E00E";
+}
+
+.bowtie-chevron-right-light:before {
+	content: "\E00F";
+}
+
+.bowtie-chevron-up-light:before {
+	content: "\E010";
+}
+
+.bowtie-cloud-fill:before {
+	content: "\E011";
+}
+
+.bowtie-cloud:before {
+	content: "\E012";
+}
+
+.bowtie-gitlogo:before {
+	content: "\E013";
 }
 
