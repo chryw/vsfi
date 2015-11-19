@@ -16,6 +16,25 @@
       margin: 1em 0
     }
 
+    .btn-zoom {
+      padding: .5em .5em .5em .5em;
+      border-radius: .5em;
+      background-color: #666699;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .btn-zoom:hover,
+    .btn-zoom:focus {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #8888BB;
+    }
+
+    .btn-zoom:active, .active {
+      background-color: #8888BB;
+    }
+
     .glyph {
       list-style: none;
     }
@@ -55,10 +74,15 @@
   <h1>
     bowtie
   </h1>
+  <a class="btn-zoom" data-zoom="1x">1x</a>
+  <a class="btn-zoom" data-zoom="2x">2x</a>
+  <a class="btn-zoom" data-zoom="3x">3x</a>
+  <a class="btn-zoom" data-zoom="4x">4x</a>
+  <a class="btn-zoom" data-zoom="5x">5x</a>
   <ul class="glyph">
     
       <li>
-        <span class="bowtie bowtie-4x bowtie-alert"></span>
+        <span class="bowtie bowtie-alert"></span>
         <span class="glyph-name">
           alert
         </span>
@@ -68,7 +92,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-approve-disapprove-fill"></span>
+        <span class="bowtie bowtie-approve-disapprove-fill"></span>
         <span class="glyph-name">
           approve-disapprove-fill
         </span>
@@ -78,7 +102,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-approve-disapprove"></span>
+        <span class="bowtie bowtie-approve-disapprove"></span>
         <span class="glyph-name">
           approve-disapprove
         </span>
@@ -88,7 +112,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-approve-fill"></span>
+        <span class="bowtie bowtie-approve-fill"></span>
         <span class="glyph-name">
           approve-fill
         </span>
@@ -98,7 +122,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-approve"></span>
+        <span class="bowtie bowtie-approve"></span>
         <span class="glyph-name">
           approve
         </span>
@@ -108,7 +132,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-arrow-down"></span>
+        <span class="bowtie bowtie-arrow-down"></span>
         <span class="glyph-name">
           arrow-down
         </span>
@@ -118,7 +142,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-arrow-left"></span>
+        <span class="bowtie bowtie-arrow-left"></span>
         <span class="glyph-name">
           arrow-left
         </span>
@@ -128,7 +152,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-arrow-right"></span>
+        <span class="bowtie bowtie-arrow-right"></span>
         <span class="glyph-name">
           arrow-right
         </span>
@@ -138,7 +162,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-arrow-up"></span>
+        <span class="bowtie bowtie-arrow-up"></span>
         <span class="glyph-name">
           arrow-up
         </span>
@@ -148,7 +172,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-attach"></span>
+        <span class="bowtie bowtie-attach"></span>
         <span class="glyph-name">
           attach
         </span>
@@ -158,7 +182,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-azure-api-management"></span>
+        <span class="bowtie bowtie-azure-api-management"></span>
         <span class="glyph-name">
           azure-api-management
         </span>
@@ -168,7 +192,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-azure-service-endpoint"></span>
+        <span class="bowtie bowtie-azure-service-endpoint"></span>
         <span class="glyph-name">
           azure-service-endpoint
         </span>
@@ -178,7 +202,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-build"></span>
+        <span class="bowtie bowtie-build"></span>
         <span class="glyph-name">
           build
         </span>
@@ -188,7 +212,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-check"></span>
+        <span class="bowtie bowtie-check"></span>
         <span class="glyph-name">
           check
         </span>
@@ -198,7 +222,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-down-light"></span>
+        <span class="bowtie bowtie-chevron-down-light"></span>
         <span class="glyph-name">
           chevron-down-light
         </span>
@@ -208,7 +232,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-down"></span>
+        <span class="bowtie bowtie-chevron-down"></span>
         <span class="glyph-name">
           chevron-down
         </span>
@@ -218,7 +242,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-left-light"></span>
+        <span class="bowtie bowtie-chevron-left-light"></span>
         <span class="glyph-name">
           chevron-left-light
         </span>
@@ -228,7 +252,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-left"></span>
+        <span class="bowtie bowtie-chevron-left"></span>
         <span class="glyph-name">
           chevron-left
         </span>
@@ -238,7 +262,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-right-light"></span>
+        <span class="bowtie bowtie-chevron-right-light"></span>
         <span class="glyph-name">
           chevron-right-light
         </span>
@@ -248,7 +272,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-right"></span>
+        <span class="bowtie bowtie-chevron-right"></span>
         <span class="glyph-name">
           chevron-right
         </span>
@@ -258,7 +282,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-up-light"></span>
+        <span class="bowtie bowtie-chevron-up-light"></span>
         <span class="glyph-name">
           chevron-up-light
         </span>
@@ -268,7 +292,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-chevron-up"></span>
+        <span class="bowtie bowtie-chevron-up"></span>
         <span class="glyph-name">
           chevron-up
         </span>
@@ -278,7 +302,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-cloud-fill"></span>
+        <span class="bowtie bowtie-cloud-fill"></span>
         <span class="glyph-name">
           cloud-fill
         </span>
@@ -288,7 +312,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-cloud"></span>
+        <span class="bowtie bowtie-cloud"></span>
         <span class="glyph-name">
           cloud
         </span>
@@ -298,7 +322,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-edit-fill"></span>
+        <span class="bowtie bowtie-edit-fill"></span>
         <span class="glyph-name">
           edit-fill
         </span>
@@ -308,7 +332,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-edit"></span>
+        <span class="bowtie bowtie-edit"></span>
         <span class="glyph-name">
           edit
         </span>
@@ -318,7 +342,7 @@
       </li>
       
       <li>
-        <span class="bowtie bowtie-4x bowtie-gitlogo"></span>
+        <span class="bowtie bowtie-gitlogo"></span>
         <span class="glyph-name">
           gitlogo
         </span>
@@ -328,6 +352,33 @@
       </li>
       
   </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".btn-zoom").click(function() {
+        $(".btn-zoom").removeClass("active");
+        $(this).addClass("active");
+        var zoom = $(this).attr("data-zoom");
+        $(".bowtie").removeClass("bowtie-2x bowtie-3x bowtie-4x bowtie-5x");
+        switch (zoom) {
+          case "1x":
+            break;
+          case "2x":
+            $(".bowtie").addClass("bowtie-2x");
+            break;
+          case "3x":
+            $(".bowtie").addClass("bowtie-3x");
+            break;
+          case "4x":
+            $(".bowtie").addClass("bowtie-4x");
+            break;
+          case "5x":
+            $(".bowtie").addClass("bowtie-5x");
+            break;
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
