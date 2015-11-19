@@ -82,31 +82,63 @@
 	content: "\E00C";
 }
 
-.bowtie-chevron-down-light:before {
+.bowtie-build:before {
 	content: "\E00D";
 }
 
-.bowtie-chevron-left-light:before {
+.bowtie-check:before {
 	content: "\E00E";
 }
 
-.bowtie-chevron-right-light:before {
+.bowtie-chevron-down-light:before {
 	content: "\E00F";
 }
 
-.bowtie-chevron-up-light:before {
+.bowtie-chevron-down:before {
 	content: "\E010";
 }
 
-.bowtie-cloud-fill:before {
+.bowtie-chevron-left-light:before {
 	content: "\E011";
 }
 
-.bowtie-cloud:before {
+.bowtie-chevron-left:before {
 	content: "\E012";
 }
 
-.bowtie-gitlogo:before {
+.bowtie-chevron-right-light:before {
 	content: "\E013";
+}
+
+.bowtie-chevron-right:before {
+	content: "\E014";
+}
+
+.bowtie-chevron-up-light:before {
+	content: "\E015";
+}
+
+.bowtie-chevron-up:before {
+	content: "\E016";
+}
+
+.bowtie-cloud-fill:before {
+	content: "\E017";
+}
+
+.bowtie-cloud:before {
+	content: "\E018";
+}
+
+.bowtie-edit-fill:before {
+	content: "\E019";
+}
+
+.bowtie-edit:before {
+	content: "\E01A";
+}
+
+.bowtie-gitlogo:before {
+	content: "\E01B";
 }
 
