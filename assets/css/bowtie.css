@@ -86,107 +86,155 @@
 	content: "\E00D";
 }
 
-.bowtie-check:before {
+.bowtie-check-light:before {
 	content: "\E00E";
 }
 
-.bowtie-chevron-down-light:before {
+.bowtie-check:before {
 	content: "\E00F";
 }
 
-.bowtie-chevron-down:before {
+.bowtie-checkbox-light:before {
 	content: "\E010";
 }
 
-.bowtie-chevron-left-light:before {
+.bowtie-chevron-down-light:before {
 	content: "\E011";
 }
 
-.bowtie-chevron-left:before {
+.bowtie-chevron-down:before {
 	content: "\E012";
 }
 
-.bowtie-chevron-right-light:before {
+.bowtie-chevron-left-light:before {
 	content: "\E013";
 }
 
-.bowtie-chevron-right:before {
+.bowtie-chevron-left:before {
 	content: "\E014";
 }
 
-.bowtie-chevron-up-light:before {
+.bowtie-chevron-right-light:before {
 	content: "\E015";
 }
 
-.bowtie-chevron-up:before {
+.bowtie-chevron-right:before {
 	content: "\E016";
 }
 
-.bowtie-cloud-fill:before {
+.bowtie-chevron-up-light:before {
 	content: "\E017";
 }
 
-.bowtie-cloud:before {
+.bowtie-chevron-up:before {
 	content: "\E018";
 }
 
-.bowtie-edit-fill:before {
+.bowtie-cloud-fill:before {
 	content: "\E019";
 }
 
-.bowtie-edit:before {
+.bowtie-cloud:before {
 	content: "\E01A";
 }
 
-.bowtie-gitlogo:before {
+.bowtie-edit-delete:before {
 	content: "\E01B";
 }
 
-.bowtie-math-minus-box-light:before {
+.bowtie-edit-fill:before {
 	content: "\E01C";
 }
 
-.bowtie-math-minus-box:before {
+.bowtie-edit:before {
 	content: "\E01D";
 }
 
-.bowtie-math-minus-circle-light:before {
+.bowtie-gitlogo:before {
 	content: "\E01E";
 }
 
-.bowtie-math-minus-circle:before {
+.bowtie-math-minus-box-light:before {
 	content: "\E01F";
 }
 
-.bowtie-math-minus-light:before {
+.bowtie-math-minus-box:before {
 	content: "\E020";
 }
 
-.bowtie-math-minus:before {
+.bowtie-math-minus-circle-light:before {
 	content: "\E021";
 }
 
-.bowtie-math-multiply-box-light:before {
+.bowtie-math-minus-circle:before {
 	content: "\E022";
 }
 
-.bowtie-math-multiply-box:before {
+.bowtie-math-minus-light:before {
 	content: "\E023";
 }
 
-.bowtie-math-multiply-circle-light:before {
+.bowtie-math-minus:before {
 	content: "\E024";
 }
 
-.bowtie-math-multiply-circle:before {
+.bowtie-math-multiply-box-light:before {
 	content: "\E025";
 }
 
-.bowtie-math-multiply-light:before {
+.bowtie-math-multiply-box:before {
 	content: "\E026";
 }
 
-.bowtie-math-multiply:before {
+.bowtie-math-multiply-light:before {
 	content: "\E027";
+}
+
+.bowtie-math-multiply:before {
+	content: "\E028";
+}
+
+.bowtie-math-plus-box-light:before {
+	content: "\E029";
+}
+
+.bowtie-math-plus-box:before {
+	content: "\E02A";
+}
+
+.bowtie-math-plus-circle-light:before {
+	content: "\E02B";
+}
+
+.bowtie-math-plus-circle:before {
+	content: "\E02C";
+}
+
+.bowtie-math-plus-light:before {
+	content: "\E02D";
+}
+
+.bowtie-math-plus:before {
+	content: "\E02E";
+}
+
+.bowtie-math-status-failure-light:before {
+	content: "\E02F";
+}
+
+.bowtie-math-status-failure:before {
+	content: "\E030";
+}
+
+.bowtie-status-success-box:before {
+	content: "\E031";
+}
+
+.bowtie-status-success-light:before {
+	content: "\E032";
+}
+
+.bowtie-status-success:before {
+	content: "\E033";
 }
 
