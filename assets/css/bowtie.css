@@ -141,4 +141,52 @@
 .bowtie-gitlogo:before {
 	content: "\E01B";
 }
+
+.bowtie-math-minus-box-light:before {
+	content: "\E01C";
+}
+
+.bowtie-math-minus-box:before {
+	content: "\E01D";
+}
+
+.bowtie-math-minus-circle-light:before {
+	content: "\E01E";
+}
+
+.bowtie-math-minus-circle:before {
+	content: "\E01F";
+}
+
+.bowtie-math-minus-light:before {
+	content: "\E020";
+}
+
+.bowtie-math-minus:before {
+	content: "\E021";
+}
+
+.bowtie-math-multiply-box-light:before {
+	content: "\E022";
+}
+
+.bowtie-math-multiply-box:before {
+	content: "\E023";
+}
+
+.bowtie-math-multiply-circle-light:before {
+	content: "\E024";
+}
+
+.bowtie-math-multiply-circle:before {
+	content: "\E025";
+}
+
+.bowtie-math-multiply-light:before {
+	content: "\E026";
+}
+
+.bowtie-math-multiply:before {
+	content: "\E027";
+}
 
