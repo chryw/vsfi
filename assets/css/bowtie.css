@@ -226,15 +226,75 @@
 	content: "\E030";
 }
 
-.bowtie-status-success-box:before {
+.bowtie-navigate-history:before {
 	content: "\E031";
 }
 
-.bowtie-status-success-light:before {
+.bowtie-security-outline:before {
 	content: "\E032";
 }
 
-.bowtie-status-success:before {
+.bowtie-security:before {
 	content: "\E033";
+}
+
+.bowtie-settings-wrench:before {
+	content: "\E034";
+}
+
+.bowtie-status-error-outline:before {
+	content: "\E035";
+}
+
+.bowtie-status-error:before {
+	content: "\E036";
+}
+
+.bowtie-status-help-outline:before {
+	content: "\E037";
+}
+
+.bowtie-status-help:before {
+	content: "\E038";
+}
+
+.bowtie-status-info-outline:before {
+	content: "\E039";
+}
+
+.bowtie-status-info:before {
+	content: "\E03A";
+}
+
+.bowtie-status-no-light:before {
+	content: "\E03B";
+}
+
+.bowtie-status-no:before {
+	content: "\E03C";
+}
+
+.bowtie-status-success-box:before {
+	content: "\E03D";
+}
+
+.bowtie-status-success-light:before {
+	content: "\E03E";
+}
+
+.bowtie-status-success:before {
+	content: "\E03F";
+}
+
+.bowtie-status-warning-outline:before {
+	content: "\E040";
+}
+
+.bowtie-status-warning:before {
+	content: "\E041";
+}
+
+.bowtie-time:before {
+	content: "\E042";
 }
 
