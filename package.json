@@ -29,5 +29,8 @@
     "gulp-rename": "^1.2.2",
     "lodash": "^3.10.1",
     "node-gyp": "^3.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
   }
 }
