@@ -146,175 +146,207 @@
 	content: "\E01C";
 }
 
-.bowtie-download-to-desktop:before {
+.bowtie-comment-add:before {
 	content: "\E01D";
 }
 
-.bowtie-download:before {
+.bowtie-comment-discussion:before {
 	content: "\E01E";
 }
 
-.bowtie-edit-delete:before {
+.bowtie-comment-fill:before {
 	content: "\E01F";
 }
 
-.bowtie-edit-fill:before {
+.bowtie-comment-lines:before {
 	content: "\E020";
 }
 
-.bowtie-edit:before {
+.bowtie-comment-next:before {
 	content: "\E021";
 }
 
-.bowtie-gitlogo:before {
+.bowtie-comment-previous:before {
 	content: "\E022";
 }
 
-.bowtie-math-minus-box-light:before {
+.bowtie-comment-urgent:before {
 	content: "\E023";
 }
 
-.bowtie-math-minus-box:before {
+.bowtie-comment:before {
 	content: "\E024";
 }
 
-.bowtie-math-minus-circle-light:before {
+.bowtie-download-to-desktop:before {
 	content: "\E025";
 }
 
-.bowtie-math-minus-circle:before {
+.bowtie-download:before {
 	content: "\E026";
 }
 
-.bowtie-math-minus-light:before {
+.bowtie-edit-delete:before {
 	content: "\E027";
 }
 
-.bowtie-math-minus:before {
+.bowtie-edit-fill:before {
 	content: "\E028";
 }
 
-.bowtie-math-multiply-box-light:before {
+.bowtie-edit:before {
 	content: "\E029";
 }
 
-.bowtie-math-multiply-box:before {
+.bowtie-gitlogo:before {
 	content: "\E02A";
 }
 
-.bowtie-math-multiply-light:before {
+.bowtie-math-minus-box-light:before {
 	content: "\E02B";
 }
 
-.bowtie-math-multiply:before {
+.bowtie-math-minus-box:before {
 	content: "\E02C";
 }
 
-.bowtie-math-plus-box-light:before {
+.bowtie-math-minus-circle-light:before {
 	content: "\E02D";
 }
 
-.bowtie-math-plus-box:before {
+.bowtie-math-minus-circle:before {
 	content: "\E02E";
 }
 
-.bowtie-math-plus-circle-light:before {
+.bowtie-math-minus-light:before {
 	content: "\E02F";
 }
 
-.bowtie-math-plus-circle:before {
+.bowtie-math-minus:before {
 	content: "\E030";
 }
 
-.bowtie-math-plus-light:before {
+.bowtie-math-multiply-box-light:before {
 	content: "\E031";
 }
 
-.bowtie-math-plus:before {
+.bowtie-math-multiply-box:before {
 	content: "\E032";
 }
 
-.bowtie-math-status-failure-light:before {
+.bowtie-math-multiply-light:before {
 	content: "\E033";
 }
 
-.bowtie-math-status-failure:before {
+.bowtie-math-multiply:before {
 	content: "\E034";
 }
 
-.bowtie-navigate-history:before {
+.bowtie-math-plus-box-light:before {
 	content: "\E035";
 }
 
-.bowtie-security-outline:before {
+.bowtie-math-plus-box:before {
 	content: "\E036";
 }
 
-.bowtie-security:before {
+.bowtie-math-plus-circle-light:before {
 	content: "\E037";
 }
 
-.bowtie-settings-wrench:before {
+.bowtie-math-plus-circle:before {
 	content: "\E038";
 }
 
-.bowtie-status-error-outline:before {
+.bowtie-math-plus-light:before {
 	content: "\E039";
 }
 
-.bowtie-status-error:before {
+.bowtie-math-plus:before {
 	content: "\E03A";
 }
 
-.bowtie-status-help-outline:before {
+.bowtie-math-status-failure-light:before {
 	content: "\E03B";
 }
 
-.bowtie-status-help:before {
+.bowtie-math-status-failure:before {
 	content: "\E03C";
 }
 
-.bowtie-status-info-outline:before {
+.bowtie-navigate-history:before {
 	content: "\E03D";
 }
 
-.bowtie-status-info:before {
+.bowtie-security-outline:before {
 	content: "\E03E";
 }
 
-.bowtie-status-no-light:before {
+.bowtie-security:before {
 	content: "\E03F";
 }
 
-.bowtie-status-no:before {
+.bowtie-settings-wrench:before {
 	content: "\E040";
 }
 
-.bowtie-status-success-box:before {
+.bowtie-status-error-outline:before {
 	content: "\E041";
 }
 
-.bowtie-status-success-light:before {
+.bowtie-status-error:before {
 	content: "\E042";
 }
 
-.bowtie-status-success:before {
+.bowtie-status-help-outline:before {
 	content: "\E043";
 }
 
-.bowtie-status-warning-outline:before {
+.bowtie-status-help:before {
 	content: "\E044";
 }
 
-.bowtie-status-warning:before {
+.bowtie-status-info-outline:before {
 	content: "\E045";
 }
 
-.bowtie-time:before {
+.bowtie-status-info:before {
 	content: "\E046";
 }
 
-.bowtie-upload:before {
+.bowtie-status-no-light:before {
 	content: "\E047";
+}
+
+.bowtie-status-no:before {
+	content: "\E048";
+}
+
+.bowtie-status-success-box:before {
+	content: "\E049";
+}
+
+.bowtie-status-success-light:before {
+	content: "\E04A";
+}
+
+.bowtie-status-success:before {
+	content: "\E04B";
+}
+
+.bowtie-status-warning-outline:before {
+	content: "\E04C";
+}
+
+.bowtie-status-warning:before {
+	content: "\E04D";
+}
+
+.bowtie-time:before {
+	content: "\E04E";
+}
+
+.bowtie-upload:before {
+	content: "\E04F";
 }
 
