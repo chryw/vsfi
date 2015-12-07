@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "vssocial";
+  src: url('../fonts/vssocial.eot');
+  src: url('../fonts/vssocial.eot?#iefix') format('eot'),
+    url('../fonts/vssocial.woff') format('woff'),
+    url('../fonts/vssocial.ttf') format('truetype'),
+    url('../fonts/vssocial.svg#vssocial') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vssocial:before {
+  display: inline-block;
+  font-family: "vssocial";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vssocial-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.vssocial { font-size: 24px; }
+.vssocial-2x { font-size: 48px; }
+.vssocial-3x { font-size: 72px; }
+.vssocial-4x { font-size: 96px; }
+.vssocial-5x { font-size: 120px; }
+.vssocial-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+
+.vssocial-bitbucket:before {
+	content: "\E001";
+}
+
+.vssocial-codepen:before {
+	content: "\E002";
+}
+
+.vssocial-delicious:before {
+	content: "\E003";
+}
+
+.vssocial-digg:before {
+	content: "\E004";
+}
+
+.vssocial-dribbble:before {
+	content: "\E005";
+}
+
+.vssocial-dropbox:before {
+	content: "\E006";
+}
+
+.vssocial-email:before {
+	content: "\E007";
+}
+
+.vssocial-facebook:before {
+	content: "\E008";
+}
+
+.vssocial-gh-pull-request:before {
+	content: "\E009";
+}
+
+.vssocial-git:before {
+	content: "\E00A";
+}
+
+.vssocial-github:before {
+	content: "\E00B";
+}
+
+.vssocial-gplus:before {
+	content: "\E00C";
+}
+
+.vssocial-instagram-square:before {
+	content: "\E00D";
+}
+
+.vssocial-instagram:before {
+	content: "\E00E";
+}
+
+.vssocial-linkedin-square:before {
+	content: "\E00F";
+}
+
+.vssocial-pinterest:before {
+	content: "\E010";
+}
+
+.vssocial-share:before {
+	content: "\E011";
+}
+
+.vssocial-stackoverflow:before {
+	content: "\E012";
+}
+
+.vssocial-statusinvalid:before {
+	content: "\E013";
+}
+
+.vssocial-tumblr-square:before {
+	content: "\E014";
+}
+
+.vssocial-tumblr:before {
+	content: "\E015";
+}
+
+.vssocial-twitter:before {
+	content: "\E016";
+}
+
+.vssocial-vimeo:before {
+	content: "\E017";
+}
+
+.vssocial-vine-square:before {
+	content: "\E018";
+}
+
+.vssocial-vine:before {
+	content: "\E019";
+}
+
+.vssocial-web:before {
+	content: "\E01A";
+}
+
+.vssocial-wechat:before {
+	content: "\E01B";
+}
+
+.vssocial-wordpress:before {
+	content: "\E01C";
+}
+
+.vssocial-yelp:before {
+	content: "\E01D";
+}
+
+.vssocial-youtube:before {
+	content: "\E01E";
+}
+

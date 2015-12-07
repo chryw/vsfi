@@ -24,11 +24,11 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.<%= fontName %> { font-size: 16px; }
-.<%= fontName %>-2x { font-size: 32px; }
-.<%= fontName %>-3x { font-size: 48px; }
-.<%= fontName %>-4x { font-size: 64px; }
-.<%= fontName %>-5x { font-size: 128px; }
+.<%= fontName %> { font-size: 24px; }
+.<%= fontName %>-2x { font-size: 48px; }
+.<%= fontName %>-3x { font-size: 72px; }
+.<%= fontName %>-4x { font-size: 96px; }
+.<%= fontName %>-5x { font-size: 120px; }
 .<%= fontName %>-fw {
   width: 1.2857142857142858em;
   text-align: center;
