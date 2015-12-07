@@ -187,43 +187,47 @@
 	content: "\E026";
 }
 
-.vscom-search-and-apps:before {
+.vscom-rocket:before {
 	content: "\E027";
 }
 
-.vscom-search:before {
+.vscom-search-and-apps:before {
 	content: "\E028";
 }
 
-.vscom-setup:before {
+.vscom-search:before {
 	content: "\E029";
 }
 
-.vscom-source:before {
+.vscom-setup:before {
 	content: "\E02A";
 }
 
-.vscom-stopwatch:before {
+.vscom-source:before {
 	content: "\E02B";
 }
 
-.vscom-test:before {
+.vscom-stopwatch:before {
 	content: "\E02C";
 }
 
-.vscom-tools-wrench:before {
+.vscom-test:before {
 	content: "\E02D";
 }
 
-.vscom-tools:before {
+.vscom-tools-wrench:before {
 	content: "\E02E";
 }
 
-.vscom-whats-this:before {
+.vscom-tools:before {
 	content: "\E02F";
 }
 
-.vscom-work-calendar:before {
+.vscom-whats-this:before {
 	content: "\E030";
+}
+
+.vscom-work-calendar:before {
+	content: "\E031";
 }
 
