@@ -1,0 +1,175 @@
+<html>
+
+<head>
+  <title>
+    vscom icon font demo</title>
+  <link href="assets/css/vscom.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <style>
+    body {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    body > h1 {
+      margin: 1em 0
+    }
+
+    .btn-zoom {
+      padding: .5em .5em .5em .5em;
+      border-radius: .5em;
+      background-color: #666699;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .btn-zoom:hover,
+    .btn-zoom:focus {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #8888BB;
+    }
+
+    .btn-zoom:active, .active {
+      background-color: #8888BB;
+    }
+
+    .glyph {
+      list-style: none;
+    }
+
+    .glyph > li {
+      display: inline-block;
+      position: relative;
+      padding: .5em .5em .5em .5em;
+      margin: .5em;
+      border-radius: .5em;
+    }
+
+    .glyph > li:hover {
+      cursor: pointer;
+      color: #fff;
+      background-color: #666699;
+    }
+
+    .glyph > li .s {
+      display: block;
+      margin-top: .1em;
+      line-height: 0
+    }
+
+    .glyph-name {
+      font-size: .8em;
+      display: block
+    }
+
+    .glyph-codepoint {
+      font-family: monospace
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    vscom
+  </h1>
+  <a class="btn-zoom" data-zoom="1x">1x</a>
+  <a class="btn-zoom" data-zoom="2x">2x</a>
+  <a class="btn-zoom" data-zoom="3x">3x</a>
+  <a class="btn-zoom" data-zoom="4x">4x</a>
+  <a class="btn-zoom" data-zoom="5x">5x</a>
+  <ul class="glyph">
+    
+      <li>
+        <span class="vscom vscom-360-rotate"></span>
+        <span class="glyph-name">
+          360-rotate
+        </span>
+        <span class="glyph-codepoint">
+          E001
+        </span>
+      </li>
+      
+      <li>
+        <span class="vscom vscom-award-cup"></span>
+        <span class="glyph-name">
+          award-cup
+        </span>
+        <span class="glyph-codepoint">
+          E002
+        </span>
+      </li>
+      
+      <li>
+        <span class="vscom vscom-bar-chart"></span>
+        <span class="glyph-name">
+          bar-chart
+        </span>
+        <span class="glyph-codepoint">
+          E003
+        </span>
+      </li>
+      
+      <li>
+        <span class="vscom vscom-building-blocks"></span>
+        <span class="glyph-name">
+          building-blocks
+        </span>
+        <span class="glyph-codepoint">
+          E004
+        </span>
+      </li>
+      
+      <li>
+        <span class="vscom vscom-clock"></span>
+        <span class="glyph-name">
+          clock
+        </span>
+        <span class="glyph-codepoint">
+          E005
+        </span>
+      </li>
+      
+      <li>
+        <span class="vscom vscom-cloud"></span>
+        <span class="glyph-name">
+          cloud
+        </span>
+        <span class="glyph-codepoint">
+          E006
+        </span>
+      </li>
+      
+  </ul>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".btn-zoom").click(function() {
+        $(".btn-zoom").removeClass("active");
+        $(this).addClass("active");
+        var zoom = $(this).attr("data-zoom");
+        $(".vscom").removeClass("vscom-2x vscom-3x vscom-4x vscom-5x");
+        switch (zoom) {
+          case "1x":
+            break;
+          case "2x":
+            $(".vscom").addClass("vscom-2x");
+            break;
+          case "3x":
+            $(".vscom").addClass("vscom-3x");
+            break;
+          case "4x":
+            $(".vscom").addClass("vscom-4x");
+            break;
+          case "5x":
+            $(".vscom").addClass("vscom-5x");
+            break;
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "vscom";
+  src: url('../fonts/vscom.eot');
+  src: url('../fonts/vscom.eot?#iefix') format('eot'),
+    url('../fonts/vscom.woff') format('woff'),
+    url('../fonts/vscom.ttf') format('truetype'),
+    url('../fonts/vscom.svg#vscom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.vscom:before {
+  display: inline-block;
+  font-family: "vscom";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vscom-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.vscom-2x { font-size: 2em; }
+.vscom-3x { font-size: 3em; }
+.vscom-4x { font-size: 4em; }
+.vscom-5x { font-size: 5em; }
+.vscom-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+
+.vscom-360-rotate:before {
+	content: "\E001";
+}
+
+.vscom-award-cup:before {
+	content: "\E002";
+}
+
+.vscom-bar-chart:before {
+	content: "\E003";
+}
+
+.vscom-building-blocks:before {
+	content: "\E004";
+}
+
+.vscom-clock:before {
+	content: "\E005";
+}
+
+.vscom-cloud:before {
+	content: "\E006";
+}
+
