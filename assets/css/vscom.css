@@ -57,4 +57,172 @@
 .vscom-cloud:before {
 	content: "\E006";
 }
+
+.vscom-code-bubble:before {
+	content: "\E007";
+}
+
+.vscom-code-opensource:before {
+	content: "\E008";
+}
+
+.vscom-code-pc:before {
+	content: "\E009";
+}
+
+.vscom-creditcard:before {
+	content: "\E00A";
+}
+
+.vscom-delivery-truck:before {
+	content: "\E00B";
+}
+
+.vscom-devops-presentation:before {
+	content: "\E00C";
+}
+
+.vscom-documentation:before {
+	content: "\E00D";
+}
+
+.vscom-education:before {
+	content: "\E00E";
+}
+
+.vscom-forum:before {
+	content: "\E00F";
+}
+
+.vscom-get-package:before {
+	content: "\E010";
+}
+
+.vscom-gift:before {
+	content: "\E011";
+}
+
+.vscom-group:before {
+	content: "\E012";
+}
+
+.vscom-headset:before {
+	content: "\E013";
+}
+
+.vscom-help:before {
+	content: "\E014";
+}
+
+.vscom-idea:before {
+	content: "\E015";
+}
+
+.vscom-integrate:before {
+	content: "\E016";
+}
+
+.vscom-keyboard:before {
+	content: "\E017";
+}
+
+.vscom-lifecycle:before {
+	content: "\E018";
+}
+
+.vscom-line-node-chart:before {
+	content: "\E019";
+}
+
+.vscom-manufacturing:before {
+	content: "\E01A";
+}
+
+.vscom-marketplace:before {
+	content: "\E01B";
+}
+
+.vscom-money:before {
+	content: "\E01C";
+}
+
+.vscom-monitor:before {
+	content: "\E01D";
+}
+
+.vscom-multiplatform:before {
+	content: "\E01E";
+}
+
+.vscom-navigation:before {
+	content: "\E01F";
+}
+
+.vscom-news:before {
+	content: "\E020";
+}
+
+.vscom-oem:before {
+	content: "\E021";
+}
+
+.vscom-people-code:before {
+	content: "\E022";
+}
+
+.vscom-plug:before {
+	content: "\E023";
+}
+
+.vscom-process-gears:before {
+	content: "\E024";
+}
+
+.vscom-reading:before {
+	content: "\E025";
+}
+
+.vscom-report:before {
+	content: "\E026";
+}
+
+.vscom-search-and-apps:before {
+	content: "\E027";
+}
+
+.vscom-search:before {
+	content: "\E028";
+}
+
+.vscom-setup:before {
+	content: "\E029";
+}
+
+.vscom-source:before {
+	content: "\E02A";
+}
+
+.vscom-stopwatch:before {
+	content: "\E02B";
+}
+
+.vscom-test:before {
+	content: "\E02C";
+}
+
+.vscom-tools-wrench:before {
+	content: "\E02D";
+}
+
+.vscom-tools:before {
+	content: "\E02E";
+}
+
+.vscom-whats-this:before {
+	content: "\E02F";
+}
+
+.vscom-work-calendar:before {
+	content: "\E030";
+}
 
