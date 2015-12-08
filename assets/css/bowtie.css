@@ -250,227 +250,291 @@
 	content: "\E036";
 }
 
-.bowtie-edit:before {
+.bowtie-edit-paste:before {
 	content: "\E037";
 }
 
-.bowtie-file-code:before {
+.bowtie-edit:before {
 	content: "\E038";
 }
 
-.bowtie-file-comment:before {
+.bowtie-file-code:before {
 	content: "\E039";
 }
 
-.bowtie-file-content:before {
+.bowtie-file-comment:before {
 	content: "\E03A";
 }
 
-.bowtie-file-fill:before {
+.bowtie-file-content:before {
 	content: "\E03B";
 }
 
-.bowtie-file:before {
+.bowtie-file-fill:before {
 	content: "\E03C";
 }
 
-.bowtie-folder-fill:before {
+.bowtie-file-image:before {
 	content: "\E03D";
 }
 
-.bowtie-folder-git:before {
+.bowtie-file-preview:before {
 	content: "\E03E";
 }
 
-.bowtie-folder:before {
+.bowtie-file-symlink:before {
 	content: "\E03F";
 }
 
-.bowtie-gitlogo:before {
+.bowtie-file:before {
 	content: "\E040";
 }
 
-.bowtie-image-fill:before {
+.bowtie-folder-fill:before {
 	content: "\E041";
 }
 
-.bowtie-image:before {
+.bowtie-folder-git:before {
 	content: "\E042";
 }
 
-.bowtie-mail-fill:before {
+.bowtie-folder:before {
 	content: "\E043";
 }
 
-.bowtie-mail:before {
+.bowtie-gitlogo:before {
 	content: "\E044";
 }
 
-.bowtie-math-minus-box-light:before {
+.bowtie-image-fill:before {
 	content: "\E045";
 }
 
-.bowtie-math-minus-box:before {
+.bowtie-image:before {
 	content: "\E046";
 }
 
-.bowtie-math-minus-circle-light:before {
+.bowtie-mail-fill:before {
 	content: "\E047";
 }
 
-.bowtie-math-minus-circle:before {
+.bowtie-mail:before {
 	content: "\E048";
 }
 
-.bowtie-math-minus-light:before {
+.bowtie-math-minus-box-light:before {
 	content: "\E049";
 }
 
-.bowtie-math-minus:before {
+.bowtie-math-minus-box:before {
 	content: "\E04A";
 }
 
-.bowtie-math-multiply-box-light:before {
+.bowtie-math-minus-circle-light:before {
 	content: "\E04B";
 }
 
-.bowtie-math-multiply-box:before {
+.bowtie-math-minus-circle:before {
 	content: "\E04C";
 }
 
-.bowtie-math-multiply-light:before {
+.bowtie-math-minus-light:before {
 	content: "\E04D";
 }
 
-.bowtie-math-multiply:before {
+.bowtie-math-minus:before {
 	content: "\E04E";
 }
 
-.bowtie-math-plus-box-light:before {
+.bowtie-math-multiply-box-light:before {
 	content: "\E04F";
 }
 
-.bowtie-math-plus-box:before {
+.bowtie-math-multiply-box:before {
 	content: "\E050";
 }
 
-.bowtie-math-plus-circle-light:before {
+.bowtie-math-multiply-light:before {
 	content: "\E051";
 }
 
-.bowtie-math-plus-circle:before {
+.bowtie-math-multiply:before {
 	content: "\E052";
 }
 
-.bowtie-math-plus-light:before {
+.bowtie-math-plus-box-light:before {
 	content: "\E053";
 }
 
-.bowtie-math-plus:before {
+.bowtie-math-plus-box:before {
 	content: "\E054";
 }
 
-.bowtie-math-status-failure-light:before {
+.bowtie-math-plus-circle-light:before {
 	content: "\E055";
 }
 
-.bowtie-math-status-failure:before {
+.bowtie-math-plus-circle:before {
 	content: "\E056";
 }
 
-.bowtie-navigate-history:before {
+.bowtie-math-plus-light:before {
 	content: "\E057";
 }
 
-.bowtie-security-access:before {
+.bowtie-math-plus:before {
 	content: "\E058";
 }
 
-.bowtie-security-lock-fill:before {
+.bowtie-media-play-fill:before {
 	content: "\E059";
 }
 
-.bowtie-security-lock:before {
+.bowtie-media-play:before {
 	content: "\E05A";
 }
 
-.bowtie-security-outline:before {
+.bowtie-navigate-history:before {
 	content: "\E05B";
 }
 
-.bowtie-security-unlock-fill:before {
+.bowtie-navigate-refresh:before {
 	content: "\E05C";
 }
 
-.bowtie-security-unlock:before {
+.bowtie-save:before {
 	content: "\E05D";
 }
 
-.bowtie-security:before {
+.bowtie-search:before {
 	content: "\E05E";
 }
 
-.bowtie-settings-wrench:before {
+.bowtie-security-access:before {
 	content: "\E05F";
 }
 
-.bowtie-status-error-outline:before {
+.bowtie-security-lock-fill:before {
 	content: "\E060";
 }
 
-.bowtie-status-error:before {
+.bowtie-security-lock:before {
 	content: "\E061";
 }
 
-.bowtie-status-help-outline:before {
+.bowtie-security-outline:before {
 	content: "\E062";
 }
 
-.bowtie-status-help:before {
+.bowtie-security-unlock-fill:before {
 	content: "\E063";
 }
 
-.bowtie-status-info-outline:before {
+.bowtie-security-unlock:before {
 	content: "\E064";
 }
 
-.bowtie-status-info:before {
+.bowtie-security:before {
 	content: "\E065";
 }
 
-.bowtie-status-no-light:before {
+.bowtie-settings-wrench:before {
 	content: "\E066";
 }
 
-.bowtie-status-no:before {
+.bowtie-sort:before {
 	content: "\E067";
 }
 
-.bowtie-status-success-box:before {
+.bowtie-square:before {
 	content: "\E068";
 }
 
-.bowtie-status-success-light:before {
+.bowtie-status-error-outline:before {
 	content: "\E069";
 }
 
-.bowtie-status-success:before {
+.bowtie-status-error:before {
 	content: "\E06A";
 }
 
-.bowtie-status-warning-outline:before {
+.bowtie-status-failure-light:before {
 	content: "\E06B";
 }
 
-.bowtie-status-warning:before {
+.bowtie-status-failure:before {
 	content: "\E06C";
 }
 
-.bowtie-time:before {
+.bowtie-status-help-outline:before {
 	content: "\E06D";
 }
 
-.bowtie-upload:before {
+.bowtie-status-help:before {
 	content: "\E06E";
+}
+
+.bowtie-status-info-outline:before {
+	content: "\E06F";
+}
+
+.bowtie-status-info:before {
+	content: "\E070";
+}
+
+.bowtie-status-no-light:before {
+	content: "\E071";
+}
+
+.bowtie-status-no:before {
+	content: "\E072";
+}
+
+.bowtie-status-success-box:before {
+	content: "\E073";
+}
+
+.bowtie-status-success-light:before {
+	content: "\E074";
+}
+
+.bowtie-status-success:before {
+	content: "\E075";
+}
+
+.bowtie-status-warning-outline:before {
+	content: "\E076";
+}
+
+.bowtie-status-warning:before {
+	content: "\E077";
+}
+
+.bowtie-switch:before {
+	content: "\E078";
+}
+
+.bowtie-synchronize:before {
+	content: "\E079";
+}
+
+.bowtie-tfvc-change-list-fill:before {
+	content: "\E07A";
+}
+
+.bowtie-tfvc-change-list:before {
+	content: "\E07B";
+}
+
+.bowtie-tfvc-compare:before {
+	content: "\E07C";
+}
+
+.bowtie-time:before {
+	content: "\E07D";
+}
+
+.bowtie-upload:before {
+	content: "\E07E";
 }
 
