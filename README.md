@@ -1,5 +1,21 @@
 # vsfi
-### Icon font generator for Bowtie icon font
-Bowtie icon (https://github.com/jimlamb/Bowtie) by @jimlamb
+### Icon font generator
+Original Bowtie icons (https://github.com/jimlamb/Bowtie) by @jimlamb
 
-[Preview work in progress icons](http://goo.gl/FzoE6C)
+### Prerequisites
+- nodejs 4.1+
+- python 2.7
+
+### Use
+- clone repo
+- npm install
+- put *.svg format icons in assets/icons/ folder
+- edit templates as needed
+- edit gulp task name, icon name, file path, etc. in gulpfile.js as needed
+- run gulp task
+
+[Preview Work-in-progress Bowtie icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/bowtie.html)
+
+[Preview VSCOM icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vssocial.html)
+
+[Preview social icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vssocial.html)
