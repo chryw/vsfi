@@ -16,6 +16,6 @@ Original Bowtie icons (https://github.com/jimlamb/Bowtie) by @jimlamb
 
 [Preview Work-in-progress Bowtie icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/bowtie.html)
 
-[Preview VSCOM icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vssocial.html)
+[Preview VSCOM icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vscom.html)
 
 [Preview social icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vssocial.html)
