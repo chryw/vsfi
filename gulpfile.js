@@ -5,7 +5,7 @@ var runTimestamp = Math.round(Date.now() / 1000);
 var consolidate = require('gulp-consolidate');
 var rename = require("gulp-rename");
 var fontName = 'bowtie';
-var svgsourcefolder = 'assets/icons/bowtie/1.1/';
+var svgsourcefolder = 'assets/icons/bowtie/1.2/';
 var templateprefix = '_';
 
 gulp.task('iconfont', function() {

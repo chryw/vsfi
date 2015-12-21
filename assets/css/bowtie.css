@@ -677,4 +677,344 @@
 .bowtie-E6A0-work-item-bar:before {
 	content: "\E0A1";
 }
+
+.bowtie-E6A1-alert-fill:before {
+	content: "\E0A2";
+}
+
+.bowtie-E6A2-approve-disapprove-fill:before {
+	content: "\E0A3";
+}
+
+.bowtie-E6A3-approve-fill:before {
+	content: "\E0A4";
+}
+
+.bowtie-E6A4-brand-android:before {
+	content: "\E0A5";
+}
+
+.bowtie-E6A5-brand-facebook:before {
+	content: "\E0A6";
+}
+
+.bowtie-E6A6-brand-git:before {
+	content: "\E0A7";
+}
+
+.bowtie-E6A7-brand-github:before {
+	content: "\E0A8";
+}
+
+.bowtie-E6A8-brand-nuget:before {
+	content: "\E0A9";
+}
+
+.bowtie-E6A9-brand-tfvc:before {
+	content: "\E0AA";
+}
+
+.bowtie-E6AA-brand-twitter:before {
+	content: "\E0AB";
+}
+
+.bowtie-E6AB-brand-visualstudio:before {
+	content: "\E0AC";
+}
+
+.bowtie-E6AC-brand-windows:before {
+	content: "\E0AD";
+}
+
+.bowtie-E6AD-calendar-month:before {
+	content: "\E0AE";
+}
+
+.bowtie-E6AE-check-light:before {
+	content: "\E0AF";
+}
+
+.bowtie-E6AF-checkbox-empty:before {
+	content: "\E0B0";
+}
+
+.bowtie-E6B0-checkbox:before {
+	content: "\E0B1";
+}
+
+.bowtie-E6B1-cloud-fill:before {
+	content: "\E0B2";
+}
+
+.bowtie-E6B2-connect-to-feed:before {
+	content: "\E0B3";
+}
+
+.bowtie-E6B3-copy-to-clipboard:before {
+	content: "\E0B4";
+}
+
+.bowtie-E6B4-dashboard-fill:before {
+	content: "\E0B5";
+}
+
+.bowtie-E6B5-database-fill:before {
+	content: "\E0B6";
+}
+
+.bowtie-E6B6-diff-image-fill:before {
+	content: "\E0B7";
+}
+
+.bowtie-E6B7-diff-image-overlay-fill:before {
+	content: "\E0B8";
+}
+
+.bowtie-E6B8-diff-image-pixel-fill:before {
+	content: "\E0B9";
+}
+
+.bowtie-E6B9-edit-fill:before {
+	content: "\E0BA";
+}
+
+.bowtie-E6BA-feed:before {
+	content: "\E0BB";
+}
+
+.bowtie-E6BB-file-fill:before {
+	content: "\E0BC";
+}
+
+.bowtie-E6BC-folder-fill:before {
+	content: "\E0BD";
+}
+
+.bowtie-E6BD-folder-git:before {
+	content: "\E0BE";
+}
+
+.bowtie-E6BE-folder-notab:before {
+	content: "\E0BF";
+}
+
+.bowtie-E6BF-heart-fill:before {
+	content: "\E0C0";
+}
+
+.bowtie-E6C0-heart:before {
+	content: "\E0C1";
+}
+
+.bowtie-E6C1-pin-fill:before {
+	content: "\E0C2";
+}
+
+.bowtie-E6C2-heartbeat-fill:before {
+	content: "\E0C3";
+}
+
+.bowtie-E6C2-pin-pinned-fill:before {
+	content: "\E0C4";
+}
+
+.bowtie-E6C3-image-fill:before {
+	content: "\E0C5";
+}
+
+.bowtie-E6C3-pin-pinned:before {
+	content: "\E0C6";
+}
+
+.bowtie-E6C4-image:before {
+	content: "\E0C7";
+}
+
+.bowtie-E6C4-pin-unpin-fill:before {
+	content: "\E0C8";
+}
+
+.bowtie-E6C5-mail-fill:before {
+	content: "\E0C9";
+}
+
+.bowtie-E6C5-pin-unpin:before {
+	content: "\E0CA";
+}
+
+.bowtie-E6C6-math-minus-circle-light:before {
+	content: "\E0CB";
+}
+
+.bowtie-E6C6-plug:before {
+	content: "\E0CC";
+}
+
+.bowtie-E6C7-math-minus-light:before {
+	content: "\E0CD";
+}
+
+.bowtie-E6C7-radio-button-empty:before {
+	content: "\E0CE";
+}
+
+.bowtie-E6C8-math-multiply-box-light:before {
+	content: "\E0CF";
+}
+
+.bowtie-E6C8-radio-button:before {
+	content: "\E0D0";
+}
+
+.bowtie-E6C9-math-multiply-box:before {
+	content: "\E0D1";
+}
+
+.bowtie-E6C9-recycle-bin-lg:before {
+	content: "\E0D2";
+}
+
+.bowtie-E6CA-math-multiply-light:before {
+	content: "\E0D3";
+}
+
+.bowtie-E6CA-recycle-bin:before {
+	content: "\E0D4";
+}
+
+.bowtie-E6CB-math-plus-circle-light:before {
+	content: "\E0D5";
+}
+
+.bowtie-E6CB-recycle:before {
+	content: "\E0D6";
+}
+
+.bowtie-E6CC-math-plus-light:before {
+	content: "\E0D7";
+}
+
+.bowtie-E6CC-repo-fill:before {
+	content: "\E0D8";
+}
+
+.bowtie-E6CD-media-play-fill:before {
+	content: "\E0D9";
+}
+
+.bowtie-E6CD-repo-git-fill:before {
+	content: "\E0DA";
+}
+
+.bowtie-E6CE-network-tower:before {
+	content: "\E0DB";
+}
+
+.bowtie-E6CE-repo-tfvc-fill:before {
+	content: "\E0DC";
+}
+
+.bowtie-E6CF-package-fill:before {
+	content: "\E0DD";
+}
+
+.bowtie-E6CF-repository-submodule-fill:before {
+	content: "\E0DE";
+}
+
+.bowtie-E6D0-restore-from-recycle-bin:before {
+	content: "\E0DF";
+}
+
+.bowtie-E6D1-save-fill:before {
+	content: "\E0E0";
+}
+
+.bowtie-E6D2-search-filter-fill:before {
+	content: "\E0E1";
+}
+
+.bowtie-E6D3-security-lock-fill:before {
+	content: "\E0E2";
+}
+
+.bowtie-E6D4-security-outline:before {
+	content: "\E0E3";
+}
+
+.bowtie-E6D5-security-unlock-fill:before {
+	content: "\E0E4";
+}
+
+.bowtie-E6D6-settings-gear-fill:before {
+	content: "\E0E5";
+}
+
+.bowtie-E6D7-settings-wrench-fill:before {
+	content: "\E0E6";
+}
+
+.bowtie-E6D8-shop-fill:before {
+	content: "\E0E7";
+}
+
+.bowtie-E6D9-sort:before {
+	content: "\E0E8";
+}
+
+.bowtie-E6DA-star-half:before {
+	content: "\E0E9";
+}
+
+.bowtie-E6DB-status-error-outline:before {
+	content: "\E0EA";
+}
+
+.bowtie-E6DC-status-failure-outline:before {
+	content: "\E0EB";
+}
+
+.bowtie-E6DD-status-help-outline:before {
+	content: "\E0EC";
+}
+
+.bowtie-E6DE-status-no-fill:before {
+	content: "\E0ED";
+}
+
+.bowtie-E6DF-status-no:before {
+	content: "\E0EE";
+}
+
+.bowtie-E6E0-status-success-box:before {
+	content: "\E0EF";
+}
+
+.bowtie-E6E1-status-success-light:before {
+	content: "\E0F0";
+}
+
+.bowtie-E6E2-status-warning-outline:before {
+	content: "\E0F1";
+}
+
+.bowtie-E6E3-synchronize:before {
+	content: "\E0F2";
+}
+
+.bowtie-E6E4-tag-fill:before {
+	content: "\E0F3";
+}
+
+.bowtie-E6E5-tfvc-change-list-fill:before {
+	content: "\E0F4";
+}
+
+.bowtie-E6E6-tfvc-folder-fill:before {
+	content: "\E0F5";
+}
+
+.bowtie-E6E7-tfvc-folder:before {
+	content: "\E0F6";
+}
 
