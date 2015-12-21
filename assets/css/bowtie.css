@@ -806,215 +806,215 @@
 	content: "\E0C1";
 }
 
-.bowtie-E6C1-pin-fill:before {
+.bowtie-E6C1-heartbeat-fill:before {
 	content: "\E0C2";
 }
 
-.bowtie-E6C2-heartbeat-fill:before {
+.bowtie-E6C2-image-fill:before {
 	content: "\E0C3";
 }
 
-.bowtie-E6C2-pin-pinned-fill:before {
+.bowtie-E6C3-image:before {
 	content: "\E0C4";
 }
 
-.bowtie-E6C3-image-fill:before {
+.bowtie-E6C4-mail-message-fill:before {
 	content: "\E0C5";
 }
 
-.bowtie-E6C3-pin-pinned:before {
+.bowtie-E6C5-math-minus-circle-outline:before {
 	content: "\E0C6";
 }
 
-.bowtie-E6C4-image:before {
+.bowtie-E6C6-math-minus-light:before {
 	content: "\E0C7";
 }
 
-.bowtie-E6C4-pin-unpin-fill:before {
+.bowtie-E6C7-math-multiply-box-outline:before {
 	content: "\E0C8";
 }
 
-.bowtie-E6C5-mail-fill:before {
+.bowtie-E6C8-math-multiply-box:before {
 	content: "\E0C9";
 }
 
-.bowtie-E6C5-pin-unpin:before {
+.bowtie-E6C9-math-multiply-light:before {
 	content: "\E0CA";
 }
 
-.bowtie-E6C6-math-minus-circle-light:before {
+.bowtie-E6CA-math-plus-circle-outline:before {
 	content: "\E0CB";
 }
 
-.bowtie-E6C6-plug:before {
+.bowtie-E6CB-math-plus-light:before {
 	content: "\E0CC";
 }
 
-.bowtie-E6C7-math-minus-light:before {
+.bowtie-E6CC-media-play-fill:before {
 	content: "\E0CD";
 }
 
-.bowtie-E6C7-radio-button-empty:before {
+.bowtie-E6CD-network-tower:before {
 	content: "\E0CE";
 }
 
-.bowtie-E6C8-math-multiply-box-light:before {
+.bowtie-E6CE-package-fill:before {
 	content: "\E0CF";
 }
 
-.bowtie-E6C8-radio-button:before {
+.bowtie-E6CF-pin-fill:before {
 	content: "\E0D0";
 }
 
-.bowtie-E6C9-math-multiply-box:before {
+.bowtie-E6D0-pin-pinned-fill:before {
 	content: "\E0D1";
 }
 
-.bowtie-E6C9-recycle-bin-lg:before {
+.bowtie-E6D1-pin-pinned:before {
 	content: "\E0D2";
 }
 
-.bowtie-E6CA-math-multiply-light:before {
+.bowtie-E6D2-pin-unpin-fill:before {
 	content: "\E0D3";
 }
 
-.bowtie-E6CA-recycle-bin:before {
+.bowtie-E6D3-pin-unpin:before {
 	content: "\E0D4";
 }
 
-.bowtie-E6CB-math-plus-circle-light:before {
+.bowtie-E6D4-plug:before {
 	content: "\E0D5";
 }
 
-.bowtie-E6CB-recycle:before {
+.bowtie-E6D5-radio-button-empty:before {
 	content: "\E0D6";
 }
 
-.bowtie-E6CC-math-plus-light:before {
+.bowtie-E6D6-radio-button:before {
 	content: "\E0D7";
 }
 
-.bowtie-E6CC-repo-fill:before {
+.bowtie-E6D7-recycle-bin-lg:before {
 	content: "\E0D8";
 }
 
-.bowtie-E6CD-media-play-fill:before {
+.bowtie-E6D8-recycle-bin:before {
 	content: "\E0D9";
 }
 
-.bowtie-E6CD-repo-git-fill:before {
+.bowtie-E6D9-recycle:before {
 	content: "\E0DA";
 }
 
-.bowtie-E6CE-network-tower:before {
+.bowtie-E6DA-repo-fill:before {
 	content: "\E0DB";
 }
 
-.bowtie-E6CE-repo-tfvc-fill:before {
+.bowtie-E6DB-repo-git-fill:before {
 	content: "\E0DC";
 }
 
-.bowtie-E6CF-package-fill:before {
+.bowtie-E6DC-repo-tfvc-fill:before {
 	content: "\E0DD";
 }
 
-.bowtie-E6CF-repository-submodule-fill:before {
+.bowtie-E6DD-repository-submodule-fill:before {
 	content: "\E0DE";
 }
 
-.bowtie-E6D0-restore-from-recycle-bin:before {
+.bowtie-E6DE-restore-from-recycle-bin:before {
 	content: "\E0DF";
 }
 
-.bowtie-E6D1-save-fill:before {
+.bowtie-E6DF-save-fill:before {
 	content: "\E0E0";
 }
 
-.bowtie-E6D2-search-filter-fill:before {
+.bowtie-E6E0-search-filter-fill:before {
 	content: "\E0E1";
 }
 
-.bowtie-E6D3-security-lock-fill:before {
+.bowtie-E6E1-security-lock-fill:before {
 	content: "\E0E2";
 }
 
-.bowtie-E6D4-security-outline:before {
+.bowtie-E6E2-security-outline:before {
 	content: "\E0E3";
 }
 
-.bowtie-E6D5-security-unlock-fill:before {
+.bowtie-E6E3-security-unlock-fill:before {
 	content: "\E0E4";
 }
 
-.bowtie-E6D6-settings-gear-fill:before {
+.bowtie-E6E4-settings-gear-fill:before {
 	content: "\E0E5";
 }
 
-.bowtie-E6D7-settings-wrench-fill:before {
+.bowtie-E6E5-settings-wrench-fill:before {
 	content: "\E0E6";
 }
 
-.bowtie-E6D8-shop-fill:before {
+.bowtie-E6E6-shop-fill:before {
 	content: "\E0E7";
 }
 
-.bowtie-E6D9-sort:before {
+.bowtie-E6E7-sort:before {
 	content: "\E0E8";
 }
 
-.bowtie-E6DA-star-half:before {
+.bowtie-E6E8-star-half:before {
 	content: "\E0E9";
 }
 
-.bowtie-E6DB-status-error-outline:before {
+.bowtie-E6E9-status-error-outline:before {
 	content: "\E0EA";
 }
 
-.bowtie-E6DC-status-failure-outline:before {
+.bowtie-E6EA-status-failure-outline:before {
 	content: "\E0EB";
 }
 
-.bowtie-E6DD-status-help-outline:before {
+.bowtie-E6EB-status-help-outline:before {
 	content: "\E0EC";
 }
 
-.bowtie-E6DE-status-no-fill:before {
+.bowtie-E6EC-status-no-fill:before {
 	content: "\E0ED";
 }
 
-.bowtie-E6DF-status-no:before {
+.bowtie-E6ED-status-no:before {
 	content: "\E0EE";
 }
 
-.bowtie-E6E0-status-success-box:before {
+.bowtie-E6EE-status-success-box:before {
 	content: "\E0EF";
 }
 
-.bowtie-E6E1-status-success-light:before {
+.bowtie-E6EF-status-success-outline:before {
 	content: "\E0F0";
 }
 
-.bowtie-E6E2-status-warning-outline:before {
+.bowtie-E6F0-status-warning-outline:before {
 	content: "\E0F1";
 }
 
-.bowtie-E6E3-synchronize:before {
+.bowtie-E6F1-synchronize:before {
 	content: "\E0F2";
 }
 
-.bowtie-E6E4-tag-fill:before {
+.bowtie-E6F2-tag-fill:before {
 	content: "\E0F3";
 }
 
-.bowtie-E6E5-tfvc-change-list-fill:before {
+.bowtie-E6F3-tfvc-change-list-fill:before {
 	content: "\E0F4";
 }
 
-.bowtie-E6E6-tfvc-folder-fill:before {
+.bowtie-E6F4-tfvc-folder-fill:before {
 	content: "\E0F5";
 }
 
-.bowtie-E6E7-tfvc-folder:before {
+.bowtie-E6F5-tfvc-folder:before {
 	content: "\E0F6";
 }
 
