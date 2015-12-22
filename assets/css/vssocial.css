@@ -14,7 +14,6 @@
   font-family: "vssocial";
   font-style: normal;
   font-weight: normal;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,11 +23,11 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.vssocial { font-size: 24px; }
-.vssocial-2x { font-size: 48px; }
-.vssocial-3x { font-size: 72px; }
-.vssocial-4x { font-size: 96px; }
-.vssocial-5x { font-size: 120px; }
+.vssocial { font-size: 1em; }
+.vssocial-2x { font-size: 2em; }
+.vssocial-3x { font-size: 3em; }
+.vssocial-4x { font-size: 4em; }
+.vssocial-5x { font-size: 5em; }
 .vssocial-fw {
   width: 1.2857142857142858em;
   text-align: center;
@@ -36,122 +35,122 @@
 
 
 .vssocial-bitbucket:before {
-	content: "\E001";
+	content: "\E000";
 }
 
 .vssocial-codepen:before {
-	content: "\E002";
+	content: "\E001";
 }
 
 .vssocial-delicious:before {
-	content: "\E003";
+	content: "\E002";
 }
 
 .vssocial-digg:before {
-	content: "\E004";
+	content: "\E003";
 }
 
 .vssocial-dribbble:before {
-	content: "\E005";
+	content: "\E004";
 }
 
 .vssocial-dropbox:before {
-	content: "\E006";
+	content: "\E005";
 }
 
 .vssocial-email:before {
-	content: "\E007";
+	content: "\E006";
 }
 
 .vssocial-facebook:before {
-	content: "\E008";
+	content: "\E007";
 }
 
 .vssocial-gh-pull-request:before {
-	content: "\E009";
+	content: "\E008";
 }
 
 .vssocial-git:before {
-	content: "\E00A";
+	content: "\E009";
 }
 
 .vssocial-github:before {
-	content: "\E00B";
+	content: "\E00A";
 }
 
 .vssocial-gplus:before {
-	content: "\E00C";
+	content: "\E00B";
 }
 
 .vssocial-instagram-square:before {
-	content: "\E00D";
+	content: "\E00C";
 }
 
 .vssocial-instagram:before {
-	content: "\E00E";
+	content: "\E00D";
 }
 
 .vssocial-linkedin-square:before {
-	content: "\E00F";
+	content: "\E00E";
 }
 
 .vssocial-pinterest:before {
-	content: "\E010";
+	content: "\E00F";
 }
 
 .vssocial-share:before {
-	content: "\E011";
+	content: "\E010";
 }
 
 .vssocial-stackoverflow:before {
-	content: "\E012";
+	content: "\E011";
 }
 
 .vssocial-statusinvalid:before {
-	content: "\E013";
+	content: "\E012";
 }
 
 .vssocial-tumblr-square:before {
-	content: "\E014";
+	content: "\E013";
 }
 
 .vssocial-tumblr:before {
-	content: "\E015";
+	content: "\E014";
 }
 
 .vssocial-twitter:before {
-	content: "\E016";
+	content: "\E015";
 }
 
 .vssocial-vimeo:before {
-	content: "\E017";
+	content: "\E016";
 }
 
 .vssocial-vine-square:before {
-	content: "\E018";
+	content: "\E017";
 }
 
 .vssocial-vine:before {
-	content: "\E019";
+	content: "\E018";
 }
 
 .vssocial-web:before {
-	content: "\E01A";
+	content: "\E019";
 }
 
 .vssocial-wechat:before {
-	content: "\E01B";
+	content: "\E01A";
 }
 
 .vssocial-wordpress:before {
-	content: "\E01C";
+	content: "\E01B";
 }
 
 .vssocial-yelp:before {
-	content: "\E01D";
+	content: "\E01C";
 }
 
 .vssocial-youtube:before {
-	content: "\E01E";
+	content: "\E01D";
 }
 

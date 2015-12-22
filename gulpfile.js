@@ -3,13 +3,11 @@
 // -------------------------------
 var gulp = require("gulp");
 var iconfont = require('gulp-iconfont');
-var iconfontCss = require('gulp-iconfont-css');
 var runTimestamp = Math.round(Date.now() / 1000);
 var consolidate = require('gulp-consolidate');
 var rename = require("gulp-rename");
 var fontName = 'bowtie';
 var svgsourcefolder = 'assets/icons/bowtie/1.2/';
-var templateprefix = '_';
 
 gulp.task('iconfont', function() {
 	gulp.src([svgsourcefolder + '*.svg']) // the location of all the svg files to be created into the font
@@ -17,7 +15,7 @@ gulp.task('iconfont', function() {
 			normalize: true,
 			fontName: fontName,
 			appendCodepoints: true,
-      firstGlyph: 0xE600,
+			startUnicode: 0xE000,
       fontPath: '../fonts/',
 			formats: ['ttf', 'eot', 'woff', 'svg']
 		}))
@@ -37,13 +35,13 @@ gulp.task('iconfont', function() {
 			};
       console.log(glyphs);
 			glyphs.forEach(function(glyph, idx, arr) {
-				arr[idx].glyph = glyph.toString(16)
+				arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
 			});
-			gulp.src('templates/' + templateprefix + fontName + '.css') // a template css file, used to generate the css stylesheet
+			gulp.src('templates/template.css') // a template css file, used to generate the css stylesheet
 				.pipe(consolidate('lodash', options))
 				.pipe(rename(fontName + '.css'))
 				.pipe(gulp.dest('assets/css'));
-			gulp.src('templates/' + templateprefix + fontName + '.html')
+			gulp.src('templates/template.html')
 				.pipe(consolidate('lodash', options))
 				.pipe(rename(fontName + '.html'))
 				.pipe(gulp.dest('.'));

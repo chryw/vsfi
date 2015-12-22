@@ -14,7 +14,6 @@
   font-family: "bowtie";
   font-style: normal;
   font-weight: normal;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,6 +23,7 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
+.bowtie { font-size: 1em; }
 .bowtie-2x { font-size: 2em; }
 .bowtie-3x { font-size: 3em; }
 .bowtie-4x { font-size: 4em; }

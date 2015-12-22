@@ -10,11 +10,11 @@
   <style>
     body {
       text-align: center;
-      font-size: 14px;
+      font-size: initial;
     }
 
     body > h1 {
-      margin: 1em 0
+      margin: 1em 0;
     }
 
     .btn-zoom {
@@ -73,7 +73,7 @@
 
 <body>
   <h1>
-    <%= fontName %>
+    <%= fontName %> icon font demo
   </h1>
   <a class="btn-zoom" data-zoom="1x">1x</a>
   <a class="btn-zoom" data-zoom="2x">2x</a>
@@ -83,9 +83,9 @@
   <ul class="glyph">
     <% _.each(glyphs, function(glyph) { %>
       <li>
-        <span class="<%= fontName %> <%= fontName %>-<%= glyph.name %>"></span>
+        <span class="<%= className %> <%= className %>-<%= glyph.name %>"></span>
         <span class="glyph-name">
-          <%= glyph.name %>
+          <%= className %>-<%= glyph.name %>
         </span>
         <span class="glyph-codepoint">
           <%= glyph.codepoint %>
@@ -100,21 +100,21 @@
         $(".btn-zoom").removeClass("active");
         $(this).addClass("active");
         var zoom = $(this).attr("data-zoom");
-        $(".<%= fontName %>").removeClass("<%= fontName %>-2x <%= fontName %>-3x <%= fontName %>-4x <%= fontName %>-5x");
+        $(".<%= className %>").removeClass("<%= className %>-2x <%= className %>-3x <%= className %>-4x <%= className %>-5x");
         switch (zoom) {
           case "1x":
             break;
           case "2x":
-            $(".<%= fontName %>").addClass("<%= fontName %>-2x");
+            $(".<%= className %>").addClass("<%= className %>-2x");
             break;
           case "3x":
-            $(".<%= fontName %>").addClass("<%= fontName %>-3x");
+            $(".<%= className %>").addClass("<%= className %>-3x");
             break;
           case "4x":
-            $(".<%= fontName %>").addClass("<%= fontName %>-4x");
+            $(".<%= className %>").addClass("<%= className %>-4x");
             break;
           case "5x":
-            $(".<%= fontName %>").addClass("<%= fontName %>-5x");
+            $(".<%= className %>").addClass("<%= className %>-5x");
             break;
         }
       });

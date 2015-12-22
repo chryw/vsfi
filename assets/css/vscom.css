@@ -14,7 +14,6 @@
   font-family: "vscom";
   font-style: normal;
   font-weight: normal;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,11 +23,11 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.vscom { font-size: 16px; }
-.vscom-2x { font-size: 32px; }
-.vscom-3x { font-size: 48px; }
-.vscom-4x { font-size: 64px; }
-.vscom-5x { font-size: 80px; }
+.vscom { font-size: 1em; }
+.vscom-2x { font-size: 2em; }
+.vscom-3x { font-size: 3em; }
+.vscom-4x { font-size: 4em; }
+.vscom-5x { font-size: 5em; }
 .vscom-fw {
   width: 1.2857142857142858em;
   text-align: center;
@@ -36,198 +35,198 @@
 
 
 .vscom-360-rotate:before {
-	content: "\E001";
+	content: "\E000";
 }
 
 .vscom-award-cup:before {
-	content: "\E002";
+	content: "\E001";
 }
 
 .vscom-bar-chart:before {
-	content: "\E003";
+	content: "\E002";
 }
 
 .vscom-building-blocks:before {
-	content: "\E004";
+	content: "\E003";
 }
 
 .vscom-clock:before {
-	content: "\E005";
+	content: "\E004";
 }
 
 .vscom-cloud:before {
-	content: "\E006";
+	content: "\E005";
 }
 
 .vscom-code-bubble:before {
-	content: "\E007";
+	content: "\E006";
 }
 
 .vscom-code-opensource:before {
-	content: "\E008";
+	content: "\E007";
 }
 
 .vscom-code-pc:before {
-	content: "\E009";
+	content: "\E008";
 }
 
 .vscom-creditcard:before {
-	content: "\E00A";
+	content: "\E009";
 }
 
 .vscom-delivery-truck:before {
-	content: "\E00B";
+	content: "\E00A";
 }
 
 .vscom-devops-presentation:before {
-	content: "\E00C";
+	content: "\E00B";
 }
 
 .vscom-documentation:before {
-	content: "\E00D";
+	content: "\E00C";
 }
 
 .vscom-education:before {
-	content: "\E00E";
+	content: "\E00D";
 }
 
 .vscom-forum:before {
-	content: "\E00F";
+	content: "\E00E";
 }
 
 .vscom-get-package:before {
-	content: "\E010";
+	content: "\E00F";
 }
 
 .vscom-gift:before {
-	content: "\E011";
+	content: "\E010";
 }
 
 .vscom-group:before {
-	content: "\E012";
+	content: "\E011";
 }
 
 .vscom-headset:before {
-	content: "\E013";
+	content: "\E012";
 }
 
 .vscom-help:before {
-	content: "\E014";
+	content: "\E013";
 }
 
 .vscom-idea:before {
-	content: "\E015";
+	content: "\E014";
 }
 
 .vscom-integrate:before {
-	content: "\E016";
+	content: "\E015";
 }
 
 .vscom-keyboard:before {
-	content: "\E017";
+	content: "\E016";
 }
 
 .vscom-lifecycle:before {
-	content: "\E018";
+	content: "\E017";
 }
 
 .vscom-line-node-chart:before {
-	content: "\E019";
+	content: "\E018";
 }
 
 .vscom-manufacturing:before {
-	content: "\E01A";
+	content: "\E019";
 }
 
 .vscom-marketplace:before {
-	content: "\E01B";
+	content: "\E01A";
 }
 
 .vscom-money:before {
-	content: "\E01C";
+	content: "\E01B";
 }
 
 .vscom-monitor:before {
-	content: "\E01D";
+	content: "\E01C";
 }
 
 .vscom-multiplatform:before {
-	content: "\E01E";
+	content: "\E01D";
 }
 
 .vscom-navigation:before {
-	content: "\E01F";
+	content: "\E01E";
 }
 
 .vscom-news:before {
-	content: "\E020";
+	content: "\E01F";
 }
 
 .vscom-oem:before {
-	content: "\E021";
+	content: "\E020";
 }
 
 .vscom-people-code:before {
-	content: "\E022";
+	content: "\E021";
 }
 
 .vscom-plug:before {
-	content: "\E023";
+	content: "\E022";
 }
 
 .vscom-process-gears:before {
-	content: "\E024";
+	content: "\E023";
 }
 
 .vscom-reading:before {
-	content: "\E025";
+	content: "\E024";
 }
 
 .vscom-report:before {
-	content: "\E026";
+	content: "\E025";
 }
 
 .vscom-rocket:before {
-	content: "\E027";
+	content: "\E026";
 }
 
 .vscom-search-and-apps:before {
-	content: "\E028";
+	content: "\E027";
 }
 
 .vscom-search:before {
-	content: "\E029";
+	content: "\E028";
 }
 
 .vscom-setup:before {
-	content: "\E02A";
+	content: "\E029";
 }
 
 .vscom-source:before {
-	content: "\E02B";
+	content: "\E02A";
 }
 
 .vscom-stopwatch:before {
-	content: "\E02C";
+	content: "\E02B";
 }
 
 .vscom-test:before {
-	content: "\E02D";
+	content: "\E02C";
 }
 
 .vscom-tools-wrench:before {
-	content: "\E02E";
+	content: "\E02D";
 }
 
 .vscom-tools:before {
-	content: "\E02F";
+	content: "\E02E";
 }
 
 .vscom-whats-this:before {
-	content: "\E030";
+	content: "\E02F";
 }
 
 .vscom-work-calendar:before {
-	content: "\E031";
+	content: "\E030";
 }
 

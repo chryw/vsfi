@@ -9,33 +9,32 @@
   font-style: normal;
 }
 
-.<%= fontName %>:before {
+.<%= className %>:before {
   display: inline-block;
   font-family: "<%= fontName %>";
   font-style: normal;
   font-weight: normal;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.<%= fontName %>-lg {
+.<%= className %>-lg {
   font-size: 1.3333333333333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
-.<%= fontName %> { font-size: 24px; }
-.<%= fontName %>-2x { font-size: 48px; }
-.<%= fontName %>-3x { font-size: 72px; }
-.<%= fontName %>-4x { font-size: 96px; }
-.<%= fontName %>-5x { font-size: 120px; }
-.<%= fontName %>-fw {
+.<%= className %> { font-size: 1em; }
+.<%= className %>-2x { font-size: 2em; }
+.<%= className %>-3x { font-size: 3em; }
+.<%= className %>-4x { font-size: 4em; }
+.<%= className %>-5x { font-size: 5em; }
+.<%= className %>-fw {
   width: 1.2857142857142858em;
   text-align: center;
 }
 
 <% _.each(glyphs, function(glyph) { %>
-.<%= fontName %>-<%= glyph.fileName %>:before {
-	content: "\<%= glyph.codePoint %>";
+.<%= className %>-<%= glyph.name %>:before {
+	content: "\<%= glyph.codepoint %>";
 }
 <% }); %>
