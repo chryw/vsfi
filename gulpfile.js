@@ -1,3 +1,6 @@
+// -------------------------------
+// Define all required Node and Gulp packages
+// -------------------------------
 var gulp = require("gulp");
 var iconfont = require('gulp-iconfont');
 var iconfontCss = require('gulp-iconfont-css');
@@ -9,36 +12,44 @@ var svgsourcefolder = 'assets/icons/bowtie/1.2/';
 var templateprefix = '_';
 
 gulp.task('iconfont', function() {
-  gulp.src([svgsourcefolder + '*.svg'])
-    .pipe(iconfontCss({
-      fontName: fontName,
-      path: 'templates/' + templateprefix + fontName + '.css',
-      targetPath: '../../assets/css/' + fontName + '.css',
-      fontPath: '../fonts/'
-    }))
-    .pipe(iconfont({fontName: fontName}))
-    .on('glyphs', function(glyphs) {
-      var options = {
-        glyphs: glyphs.map(function(glyph) {
-          // this line is needed because gulp-iconfont has changed the api from 2.0
-          return {
-            appendUnicode: true, // recommended option
-            timestamp: runTimestamp, // recommended to get consistent builds when watching files
-            name: glyph.name,
-            codepoint: glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase(),
-            normalize: true,
-            fontHeight: 5000,
-          }
-        }),
-        fontName: fontName,
-        fontPath: 'assets/fonts/', // set path to font (from your CSS file if relative)
-        className: fontName, // set class name in your CSS
-      };
+	gulp.src([svgsourcefolder + '*.svg']) // the location of all the svg files to be created into the font
+		.pipe(iconfont({
+			normalize: true,
+			fontName: fontName,
+			appendCodepoints: true,
+      firstGlyph: 0xE600,
+      fontPath: '../fonts/',
+			formats: ['ttf', 'eot', 'woff', 'svg']
+		}))
+		// automatically assign a unicode value to the icon
+		.on('glyphs', function(glyphs) {
+			var options = {
+				fontName: fontName,
+				fontPath: '../fonts/', // set path to font (from your CSS file if relative)
+				className: fontName, // set class name in your CSS
+				glyphs: glyphs.map(function(glyph) {
+					// this line is needed because gulp-iconfont has changed the api from 2.0
+					return {
+						codepoint: glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase(),
+						name: glyph.name
+					}
+				})
+			};
       console.log(glyphs);
-      gulp.src('templates/' + templateprefix + fontName + '.html')
-        .pipe(consolidate('lodash', options))
-        .pipe(rename({ basename:fontName }))
-        .pipe(gulp.dest('.')); // set path to export your sample HTML
-    })
-    .pipe(gulp.dest('assets/fonts/')); // set path to export your fonts
+			glyphs.forEach(function(glyph, idx, arr) {
+				arr[idx].glyph = glyph.toString(16)
+			});
+			gulp.src('templates/' + templateprefix + fontName + '.css') // a template css file, used to generate the css stylesheet
+				.pipe(consolidate('lodash', options))
+				.pipe(rename(fontName + '.css'))
+				.pipe(gulp.dest('assets/css'));
+			gulp.src('templates/' + templateprefix + fontName + '.html')
+				.pipe(consolidate('lodash', options))
+				.pipe(rename(fontName + '.html'))
+				.pipe(gulp.dest('.'));
+			// -------------------------------
+			// END additional stuff to generate an scss file with all the font characters inside it
+			// -------------------------------
+		})
+		.pipe(gulp.dest('assets/fonts')); // where to save the generated font files
 });
