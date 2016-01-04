@@ -786,16 +786,8 @@
 	content: "\E6BB";
 }
 
-.bowtie-folder-fill:before {
-	content: "\E6BC";
-}
-
 .bowtie-folder-git:before {
 	content: "\E6BD";
-}
-
-.bowtie-folder-notab:before {
-	content: "\E6BE";
 }
 
 .bowtie-heart-fill:before {
@@ -1004,14 +996,6 @@
 
 .bowtie-tag-fill:before {
 	content: "\E6F2";
-}
-
-.bowtie-tfvc-change-list-fill:before {
-	content: "\E6F3";
-}
-
-.bowtie-tfvc-folder-fill:before {
-	content: "\E6F4";
 }
 
 .bowtie-tfvc-folder:before {
