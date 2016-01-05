@@ -997,4 +997,28 @@
 .bowtie-tfvc-folder:before {
 	content: "\E6F5";
 }
+
+.bowtie-arrow-value-increment:before {
+	content: "\E700";
+}
+
+.bowtie-arrow-value-decrement:before {
+	content: "\E701";
+}
+
+.bowtie-arrow-up-right:before {
+	content: "\E702";
+}
+
+.bowtie-arrow-down-right:before {
+	content: "\E703";
+}
+
+.bowtie-arrow-up-left:before {
+	content: "\E704";
+}
+
+.bowtie-arrow-down-left:before {
+	content: "\E705";
+}
 

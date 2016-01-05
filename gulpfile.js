@@ -13,9 +13,9 @@ gulp.task('iconfont', function() {
 	gulp.src([svgsourcefolder + '*.svg']) // the location of all the svg files to be created into the font
 		.pipe(iconfont({
 			normalize: true,
+			descent: 0,
 			fontName: fontName,
 			appendCodepoints: true,
-			startUnicode: 0xE000,
       fontPath: '../fonts/',
 			formats: ['ttf', 'eot', 'woff', 'svg']
 		}))
@@ -33,6 +33,7 @@ gulp.task('iconfont', function() {
 					}
 				})
 			};
+			console.log(options);
       console.log(glyphs);
 			glyphs.forEach(function(glyph, idx, arr) {
 				arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
