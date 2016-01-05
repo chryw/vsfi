@@ -438,8 +438,8 @@
 	content: "\E664";
 }
 
-.bowtie-repository:before {
-	content: "\E665";
+.bowtie-uE665Repository:before {
+	content: "\EA01";
 }
 
 .bowtie-save:before {
@@ -678,14 +678,6 @@
 	content: "\E6A0";
 }
 
-.bowtie-alert-fill:before {
-	content: "\E6A1";
-}
-
-.bowtie-approve-disapprove-fill:before {
-	content: "\E6A2";
-}
-
 .bowtie-approve-fill:before {
 	content: "\E6A3";
 }
@@ -758,22 +750,6 @@
 	content: "\E6B4";
 }
 
-.bowtie-database-fill:before {
-	content: "\E6B5";
-}
-
-.bowtie-diff-image-fill:before {
-	content: "\E6B6";
-}
-
-.bowtie-diff-image-overlay-fill:before {
-	content: "\E6B7";
-}
-
-.bowtie-diff-image-pixel-fill:before {
-	content: "\E6B8";
-}
-
 .bowtie-edit-fill:before {
 	content: "\E6B9";
 }
@@ -800,10 +776,6 @@
 
 .bowtie-heartbeat-fill:before {
 	content: "\E6C1";
-}
-
-.bowtie-image-fill:before {
-	content: "\E6C2";
 }
 
 .bowtie-image:before {
@@ -898,24 +870,8 @@
 	content: "\E6D9";
 }
 
-.bowtie-repo-fill:before {
-	content: "\E6DA";
-}
-
-.bowtie-repo-git-fill:before {
-	content: "\E6DB";
-}
-
-.bowtie-repo-tfvc-fill:before {
-	content: "\E6DC";
-}
-
 .bowtie-restore-from-recycle-bin:before {
 	content: "\E6DE";
-}
-
-.bowtie-save-fill:before {
-	content: "\E6DF";
 }
 
 .bowtie-search-filter-fill:before {
@@ -934,18 +890,6 @@
 	content: "\E6E3";
 }
 
-.bowtie-settings-gear-fill:before {
-	content: "\E6E4";
-}
-
-.bowtie-settings-wrench-fill:before {
-	content: "\E6E5";
-}
-
-.bowtie-shop-fill:before {
-	content: "\E6E6";
-}
-
 .bowtie-sort:before {
 	content: "\E6E7";
 }
@@ -954,36 +898,12 @@
 	content: "\E6E8";
 }
 
-.bowtie-status-error-outline:before {
-	content: "\E6E9";
-}
-
-.bowtie-status-failure-outline:before {
-	content: "\E6EA";
-}
-
 .bowtie-status-help-outline:before {
 	content: "\E6EB";
 }
 
-.bowtie-status-no-fill:before {
-	content: "\E6EC";
-}
-
 .bowtie-status-no:before {
-	content: "\E6ED";
-}
-
-.bowtie-status-success-box:before {
-	content: "\E6EE";
-}
-
-.bowtie-status-success-outline:before {
-	content: "\E6EF";
-}
-
-.bowtie-status-warning-outline:before {
-	content: "\E6F0";
+	content: "\E6EC";
 }
 
 .bowtie-synchronize:before {
@@ -1029,3 +949,4 @@
 .bowtie-status-run-outline:before {
 	content: "\E707";
 }
+
