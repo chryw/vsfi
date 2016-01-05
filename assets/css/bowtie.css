@@ -750,10 +750,6 @@
 	content: "\E6B4";
 }
 
-.bowtie-edit-fill:before {
-	content: "\E6B9";
-}
-
 .bowtie-feed:before {
 	content: "\E6BA";
 }
@@ -948,5 +944,13 @@
 
 .bowtie-status-run-outline:before {
 	content: "\E707";
+}
+
+.bowtie-plug-outline:before {
+	content: "\E708";
+}
+
+.bowtie-edit-outline:before {
+	content: "\E709";
 }
 
