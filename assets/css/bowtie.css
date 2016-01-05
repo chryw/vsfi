@@ -1021,4 +1021,11 @@
 .bowtie-arrow-down-left:before {
 	content: "\E705";
 }
-
+
+.bowtie-status-run:before {
+	content: "\E706";
+}
+
+.bowtie-status-run-outline:before {
+	content: "\E707";
+}
