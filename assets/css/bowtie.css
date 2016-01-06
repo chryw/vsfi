@@ -914,14 +914,6 @@
 	content: "\E6F5";
 }
 
-.bowtie-arrow-value-increment:before {
-	content: "\E700";
-}
-
-.bowtie-arrow-value-decrement:before {
-	content: "\E701";
-}
-
 .bowtie-arrow-up-right:before {
 	content: "\E702";
 }
