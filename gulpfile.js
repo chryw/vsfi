@@ -12,6 +12,9 @@ var svgmin = require("gulp-svgmin");
 var fontName = 'bowtie';
 var svgsourcefolder = 'assets/icons/bowtie/1.22/';
 
+//optimize all svg files by trimming whitespaces and empty tags
+//Note: running this task will modify all svg files
+//even if there is no more room to compress.
 gulp.task('svgmin',function(){
 	return gulp.src([svgsourcefolder + '*.svg'])
 	.pipe(foreach(function(stream,file){
@@ -22,7 +25,8 @@ gulp.task('svgmin',function(){
 	.pipe(gulp.dest(svgsourcefolder));
 });
 
-gulp.task('iconfont',['svgmin'], function() {
+//generate iconfont, stylesheet and demo page.
+gulp.task('iconfont', function() {
 	gulp.src([svgsourcefolder + '*.svg']) // the location of all the svg files to be created into the font
 		.pipe(iconfont({
 			normalize: true,
@@ -64,5 +68,3 @@ gulp.task('iconfont',['svgmin'], function() {
 		})
 		.pipe(gulp.dest('assets/fonts')); // where to save the generated font files
 });
-
-gulp.task('default',['iconfont']);
