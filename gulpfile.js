@@ -6,10 +6,23 @@ var iconfont = require('gulp-iconfont');
 var runTimestamp = Math.round(Date.now() / 1000);
 var consolidate = require('gulp-consolidate');
 var rename = require("gulp-rename");
+var foreach = require("gulp-foreach");
+var concat = require("gulp-concat");
+var svgmin = require("gulp-svgmin");
 var fontName = 'bowtie';
 var svgsourcefolder = 'assets/icons/bowtie/1.22/';
 
-gulp.task('iconfont', function() {
+gulp.task('svgmin',function(){
+	return gulp.src([svgsourcefolder + '*.svg'])
+	.pipe(foreach(function(stream,file){
+		return stream
+		.pipe(svgmin())
+		.pipe(concat(file.path))
+	}))
+	.pipe(gulp.dest(svgsourcefolder));
+});
+
+gulp.task('iconfont',['svgmin'], function() {
 	gulp.src([svgsourcefolder + '*.svg']) // the location of all the svg files to be created into the font
 		.pipe(iconfont({
 			normalize: true,
@@ -33,7 +46,6 @@ gulp.task('iconfont', function() {
 					}
 				})
 			};
-			console.log(options);
       console.log(glyphs);
 			glyphs.forEach(function(glyph, idx, arr) {
 				arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
@@ -52,3 +64,5 @@ gulp.task('iconfont', function() {
 		})
 		.pipe(gulp.dest('assets/fonts')); // where to save the generated font files
 });
+
+gulp.task('default',['iconfont']);
