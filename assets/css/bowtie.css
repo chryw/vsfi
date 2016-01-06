@@ -854,16 +854,8 @@
 	content: "\E6D6";
 }
 
-.bowtie-recycle-bin-lg:before {
-	content: "\E6D7";
-}
-
 .bowtie-recycle-bin:before {
-	content: "\E6D8";
-}
-
-.bowtie-recycle:before {
-	content: "\E6D9";
+	content: "\E6D7";
 }
 
 .bowtie-restore-from-recycle-bin:before {
