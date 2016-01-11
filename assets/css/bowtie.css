@@ -678,7 +678,15 @@
 	content: "\E6A0";
 }
 
-.bowtie-approve-fill:before {
+.bowtie-view-list-back:before {
+	content: "\E6A1";
+}
+
+.bowtie-status-failure-outline:before {
+	content: "\E6A2";
+}
+
+.bowtie-status-success-outline:before {
 	content: "\E6A3";
 }
 
@@ -750,6 +758,26 @@
 	content: "\E6B4";
 }
 
+.bowtie-status-no-outline:before {
+	content: "\E6B5";
+}
+
+.bowtie-status-warning-outline:before {
+	content: "\E6B6";
+}
+
+.bowtie-status-pause:before {
+	content: "\E6B7";
+}
+
+.bowtie-status-pause-outline:before {
+	content: "\E6B8";
+}
+
+.bowtie-status-stop:before {
+	content: "\E6B9";
+}
+
 .bowtie-feed:before {
 	content: "\E6BA";
 }
@@ -758,8 +786,16 @@
 	content: "\E6BB";
 }
 
+.bowtie-status-stop-outline:before {
+	content: "\E6BC";
+}
+
 .bowtie-folder-git:before {
 	content: "\E6BD";
+}
+
+.bowtie-status-waiting-fill:before {
+	content: "\E6BE";
 }
 
 .bowtie-heart-fill:before {
@@ -772,6 +808,10 @@
 
 .bowtie-heartbeat-fill:before {
 	content: "\E6C1";
+}
+
+.bowtie-details-pane:before {
+	content: "\E6C2";
 }
 
 .bowtie-image:before {
@@ -936,5 +976,9 @@
 
 .bowtie-edit-outline:before {
 	content: "\E709";
+}
+
+.bowtie-status-error-outline:before {
+	content: "\EA61";
 }
 
