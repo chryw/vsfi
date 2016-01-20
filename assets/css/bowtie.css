@@ -902,6 +902,10 @@
 	content: "\E6D9";
 }
 
+.bowtie-storyboard:before {
+	content: "\E6DA";
+}
+
 .bowtie-restore-from-recycle-bin:before {
 	content: "\E6DE";
 }
