@@ -678,10 +678,6 @@
 	content: "\E6A0";
 }
 
-.bowtie-view-list-back:before {
-	content: "\E6A1";
-}
-
 .bowtie-status-failure-outline:before {
 	content: "\E6A2";
 }

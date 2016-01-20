@@ -34,6 +34,6 @@
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-foreach": "^0.1.0",
-    "gulp-svgmin": "^1.2.0"
+    "gulp-svgmin": "^1.2.1"
   }
 }
