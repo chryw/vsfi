@@ -894,6 +894,14 @@
 	content: "\E6D7";
 }
 
+.bowtie-view-grid:before {
+	content: "\E6D8";
+}
+
+.bowtie-auto-fill-template:before {
+	content: "\E6D9";
+}
+
 .bowtie-restore-from-recycle-bin:before {
 	content: "\E6DE";
 }
