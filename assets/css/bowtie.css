@@ -906,8 +906,24 @@
 	content: "\E6DA";
 }
 
+.bowtie-chart-pie:before {
+	content: "\E6DB";
+}
+
+.bowtie-chart-bar:before {
+	content: "\E6DC";
+}
+
+.bowtie-chart-column:before {
+	content: "\E6DD";
+}
+
 .bowtie-restore-from-recycle-bin:before {
 	content: "\E6DE";
+}
+
+.bowtie-chart-stacked-bar:before {
+	content: "\E6DF";
 }
 
 .bowtie-search-filter-fill:before {
@@ -926,12 +942,28 @@
 	content: "\E6E3";
 }
 
+.bowtie-chart-pivot:before {
+	content: "\E6E4";
+}
+
+.bowtie-chart-area:before {
+	content: "\E6E5";
+}
+
+.bowtie-chart-stacked-line:before {
+	content: "\E6E6";
+}
+
 .bowtie-sort:before {
 	content: "\E6E7";
 }
 
 .bowtie-star-half:before {
 	content: "\E6E8";
+}
+
+.bowtie-chart-stacked-area:before {
+	content: "\E6E9";
 }
 
 .bowtie-status-help-outline:before {
