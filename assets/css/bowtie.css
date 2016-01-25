@@ -330,10 +330,6 @@
 	content: "\E649";
 }
 
-.bowtie-logo-windows:before {
-	content: "\E64A";
-}
-
 .bowtie-mail-message:before {
 	content: "\E64B";
 }
@@ -430,16 +426,12 @@
 	content: "\E662";
 }
 
-.bowtie-repo:before {
+.bowtie-repo-fill:before {
 	content: "\E663";
 }
 
-.bowtie-repository-submodule:before {
+.bowtie-repo-submodule:before {
 	content: "\E664";
-}
-
-.bowtie-repository:before {
-	content: "\E665";
 }
 
 .bowtie-save:before {
@@ -488,14 +480,6 @@
 
 .bowtie-shop:before {
 	content: "\E671";
-}
-
-.bowtie-social-facebook:before {
-	content: "\E672";
-}
-
-.bowtie-social-twitter:before {
-	content: "\E673";
 }
 
 .bowtie-sort-ascending:before {
@@ -754,7 +738,7 @@
 	content: "\E6B4";
 }
 
-.bowtie-status-no-outline:before {
+.bowtie-status-no:before {
 	content: "\E6B5";
 }
 
@@ -778,16 +762,8 @@
 	content: "\E6BA";
 }
 
-.bowtie-file-fill:before {
-	content: "\E6BB";
-}
-
 .bowtie-status-stop-outline:before {
 	content: "\E6BC";
-}
-
-.bowtie-folder-git:before {
-	content: "\E6BD";
 }
 
 .bowtie-status-waiting-fill:before {
@@ -918,7 +894,7 @@
 	content: "\E6DD";
 }
 
-.bowtie-restore-from-recycle-bin:before {
+.bowtie-recycle-bin-restore:before {
 	content: "\E6DE";
 }
 
@@ -932,10 +908,6 @@
 
 .bowtie-security-lock-fill:before {
 	content: "\E6E1";
-}
-
-.bowtie-security-outline:before {
-	content: "\E6E2";
 }
 
 .bowtie-security-unlock-fill:before {
@@ -966,12 +938,24 @@
 	content: "\E6E9";
 }
 
+.bowtie-policy:before {
+	content: "\E6EA";
+}
+
 .bowtie-status-help-outline:before {
 	content: "\E6EB";
 }
 
-.bowtie-status-no:before {
+.bowtie-status-no-fill:before {
 	content: "\E6EC";
+}
+
+.bowtie-recycle:before {
+	content: "\E6ED";
+}
+
+.bowtie-repo:before {
+	content: "\E6EE";
 }
 
 .bowtie-synchronize:before {
@@ -980,6 +964,10 @@
 
 .bowtie-tag-fill:before {
 	content: "\E6F2";
+}
+
+.bowtie-status-success-box:before {
+	content: "\E6F3";
 }
 
 .bowtie-tfvc-folder:before {
