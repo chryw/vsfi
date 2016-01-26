@@ -118,131 +118,135 @@
 	content: "\EA15";
 }
 
-.vscom-help:before {
+.vscom-heart:before {
 	content: "\EA16";
 }
 
-.vscom-idea:before {
+.vscom-help:before {
 	content: "\EA17";
 }
 
-.vscom-integrate:before {
+.vscom-idea:before {
 	content: "\EA18";
 }
 
-.vscom-iot-chip:before {
+.vscom-integrate:before {
 	content: "\EA19";
 }
 
-.vscom-keyboard:before {
+.vscom-iot-chip:before {
 	content: "\EA1A";
 }
 
-.vscom-lifecycle:before {
+.vscom-keyboard:before {
 	content: "\EA1B";
 }
 
-.vscom-line-node-chart:before {
+.vscom-lifecycle:before {
 	content: "\EA1C";
 }
 
-.vscom-manufacturing:before {
+.vscom-line-node-chart:before {
 	content: "\EA1D";
 }
 
-.vscom-marketplace:before {
+.vscom-manufacturing:before {
 	content: "\EA1E";
 }
 
-.vscom-money:before {
+.vscom-marketplace:before {
 	content: "\EA1F";
 }
 
-.vscom-monitor:before {
+.vscom-money:before {
 	content: "\EA20";
 }
 
-.vscom-multiplatform:before {
+.vscom-monitor:before {
 	content: "\EA21";
 }
 
-.vscom-navigation:before {
+.vscom-multiplatform:before {
 	content: "\EA22";
 }
 
-.vscom-news:before {
+.vscom-navigation:before {
 	content: "\EA23";
 }
 
-.vscom-oem:before {
+.vscom-news:before {
 	content: "\EA24";
 }
 
-.vscom-people-code:before {
+.vscom-oem:before {
 	content: "\EA25";
 }
 
-.vscom-plug:before {
+.vscom-people-code:before {
 	content: "\EA26";
 }
 
-.vscom-process-gears:before {
+.vscom-plug:before {
 	content: "\EA27";
 }
 
-.vscom-reading:before {
+.vscom-process-gears:before {
 	content: "\EA28";
 }
 
-.vscom-report:before {
+.vscom-reading:before {
 	content: "\EA29";
 }
 
-.vscom-rocket:before {
+.vscom-report:before {
 	content: "\EA2A";
 }
 
-.vscom-search-and-apps:before {
+.vscom-rocket:before {
 	content: "\EA2B";
 }
 
-.vscom-search:before {
+.vscom-search-and-apps:before {
 	content: "\EA2C";
 }
 
-.vscom-setup:before {
+.vscom-search:before {
 	content: "\EA2D";
 }
 
-.vscom-source:before {
+.vscom-setup:before {
 	content: "\EA2E";
 }
 
-.vscom-status-success:before {
+.vscom-source:before {
 	content: "\EA2F";
 }
 
-.vscom-stopwatch:before {
+.vscom-status-success:before {
 	content: "\EA30";
 }
 
-.vscom-test:before {
+.vscom-stopwatch:before {
 	content: "\EA31";
 }
 
-.vscom-tools-wrench:before {
+.vscom-test:before {
 	content: "\EA32";
 }
 
-.vscom-tools:before {
+.vscom-tools-wrench:before {
 	content: "\EA33";
 }
 
-.vscom-whats-this:before {
+.vscom-tools:before {
 	content: "\EA34";
 }
 
-.vscom-work-calendar:before {
+.vscom-whats-this:before {
 	content: "\EA35";
+}
+
+.vscom-work-calendar:before {
+	content: "\EA36";
 }
 
