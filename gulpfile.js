@@ -30,7 +30,8 @@ gulp.task('iconfont', function() {
 	gulp.src([svgsourcefolder + '*.svg']) // the location of all the svg files to be created into the font
 		.pipe(iconfont({
 			normalize: true,
-			descent: 0,
+			fontHeight: 448,
+			descent:    64,
 			fontName: fontName,
 			appendCodepoints: true,
       fontPath: '../fonts/',

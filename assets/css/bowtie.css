@@ -958,6 +958,10 @@
 	content: "\E6EE";
 }
 
+.bowtie-work-item-move:before {
+	content: "\E6EF";
+}
+
 .bowtie-synchronize:before {
 	content: "\E6F1";
 }
