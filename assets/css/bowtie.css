@@ -974,6 +974,10 @@
 	content: "\E6F3";
 }
 
+.bowtie-shop-server:before {
+	content: "\E6F4";
+}
+
 .bowtie-tfvc-folder:before {
 	content: "\E6F5";
 }
