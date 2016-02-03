@@ -762,8 +762,16 @@
 	content: "\E6BA";
 }
 
+.bowtie-brand-npm:before {
+	content: "\E6BB";
+}
+
 .bowtie-status-stop-outline:before {
 	content: "\E6BC";
+}
+
+.bowtie-brand-maven:before {
+	content: "\E6BD";
 }
 
 .bowtie-status-waiting-fill:before {
