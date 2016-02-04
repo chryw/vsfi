@@ -918,6 +918,10 @@
 	content: "\E6E1";
 }
 
+.bowtie-format-bold:before {
+	content: "\E6E2";
+}
+
 .bowtie-security-unlock-fill:before {
 	content: "\E6E3";
 }
@@ -970,6 +974,10 @@
 	content: "\E6EF";
 }
 
+.bowtie-format-clear:before {
+	content: "\E6F0";
+}
+
 .bowtie-synchronize:before {
 	content: "\E6F1";
 }
@@ -988,6 +996,38 @@
 
 .bowtie-tfvc-folder:before {
 	content: "\E6F5";
+}
+
+.bowtie-format-font-color:before {
+	content: "\E6F6";
+}
+
+.bowtie-format-font-size:before {
+	content: "\E6F7";
+}
+
+.bowtie-format-indent-decrease:before {
+	content: "\E6F8";
+}
+
+.bowtie-format-indent-increase:before {
+	content: "\E6F9";
+}
+
+.bowtie-format-italic:before {
+	content: "\E6FA";
+}
+
+.bowtie-format-list-ordered:before {
+	content: "\E6FB";
+}
+
+.bowtie-format-list-unordered:before {
+	content: "\E6FC";
+}
+
+.bowtie-format-underline:before {
+	content: "\E6FD";
 }
 
 .bowtie-arrow-up-right:before {
