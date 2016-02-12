@@ -218,7 +218,7 @@
 	content: "\E62D";
 }
 
-.bowtie-edit-delete:before {
+.bowtie-trash:before {
 	content: "\E62E";
 }
 
@@ -1040,6 +1040,10 @@
 
 .bowtie-math-plus-box-light:before {
 	content: "\E700";
+}
+
+.bowtie-edit-delete:before {
+	content: "\E701";
 }
 
 .bowtie-arrow-up-right:before {
