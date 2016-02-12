@@ -1030,6 +1030,18 @@
 	content: "\E6FD";
 }
 
+.bowtie-math-minus-box-light:before {
+	content: "\E6FE";
+}
+
+.bowtie-math-multiply-box-light:before {
+	content: "\E6FF";
+}
+
+.bowtie-math-plus-box-light:before {
+	content: "\E700";
+}
+
 .bowtie-arrow-up-right:before {
 	content: "\E702";
 }
