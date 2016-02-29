@@ -1002,10 +1002,6 @@
 	content: "\E6F6";
 }
 
-.bowtie-format-font-size:before {
-	content: "\E6F7";
-}
-
 .bowtie-format-indent-decrease:before {
 	content: "\E6F8";
 }
@@ -1036,6 +1032,10 @@
 
 .bowtie-math-multiply-box-light:before {
 	content: "\E6FF";
+}
+
+.bowtie-format-font-size:before {
+	content: "\E6F7";
 }
 
 .bowtie-math-plus-box-light:before {
@@ -1232,5 +1232,89 @@
 
 .bowtie-chevron-right-all:before {
 	content: "\EA87";
+}
+
+.bowtie-play-resume:before {
+	content: "\EA88";
+}
+
+.bowtie-play:before {
+	content: "\EA89";
+}
+
+.bowtie-stop-fill:before {
+	content: "\EA8A";
+}
+
+.bowtie-stop:before {
+	content: "\EA8B";
+}
+
+.bowtie-record-fill:before {
+	content: "\EA8C";
+}
+
+.bowtie-fast-forward-fill:before {
+	content: "\EA8D";
+}
+
+.bowtie-fast-backward-fill:before {
+	content: "\EA8E";
+}
+
+.bowtie-previous-frame-fill:before {
+	content: "\EA8F";
+}
+
+.bowtie-next-frame-fill:before {
+	content: "\EA90";
+}
+
+.bowtie-settings-gear-outline:before {
+	content: "\EA91";
+}
+
+.bowtie-play-fill:before {
+	content: "\EA92";
+}
+
+.bowtie-record:before {
+	content: "\EA93";
+}
+
+.bowtie-fast-forward:before {
+	content: "\EA94";
+}
+
+.bowtie-fast-backward:before {
+	content: "\EA95";
+}
+
+.bowtie-previous-frame:before {
+	content: "\EA96";
+}
+
+.bowtie-next-frame:before {
+	content: "\EA97";
+}
+
+.bowtie-pause:before {
+	content: "\EA98";
+}
+
+.bowtie-pause-fill:before {
+	content: "\EA99";
+}
+
+.bowtie-play-resume-fill:before {
+	content: "\EA9A";
+}
+
+.bowtie-work-item-bug:before {
+	content: "\EA9B";
+}
+
+.bowtie-resize-grip:before {
+	content: "\EA9C";
 }
 
