@@ -266,19 +266,23 @@
 	content: "\EA3A";
 }
 
-.vscom-tools-wrench:before {
+.vscom-toolbox:before {
 	content: "\EA3B";
 }
 
-.vscom-tools:before {
+.vscom-tools-wrench:before {
 	content: "\EA3C";
 }
 
-.vscom-whats-this:before {
+.vscom-tools:before {
 	content: "\EA3D";
 }
 
-.vscom-work-calendar:before {
+.vscom-whats-this:before {
 	content: "\EA3E";
+}
+
+.vscom-work-calendar:before {
+	content: "\EA3F";
 }
 
