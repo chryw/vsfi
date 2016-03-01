@@ -1002,6 +1002,10 @@
 	content: "\E6F6";
 }
 
+.bowtie-format-font-size:before {
+	content: "\E6F7";
+}
+
 .bowtie-format-indent-decrease:before {
 	content: "\E6F8";
 }
@@ -1032,10 +1036,6 @@
 
 .bowtie-math-multiply-box-light:before {
 	content: "\E6FF";
-}
-
-.bowtie-format-font-size:before {
-	content: "\E6F7";
 }
 
 .bowtie-math-plus-box-light:before {
@@ -1316,5 +1316,21 @@
 
 .bowtie-resize-grip:before {
 	content: "\EA9C";
+}
+
+.bowtie-chevron-up-end:before {
+	content: "\EA9D";
+}
+
+.bowtie-chevron-down-end:before {
+	content: "\EA9E";
+}
+
+.bowtie-chevron-left-end:before {
+	content: "\EA9F";
+}
+
+.bowtie-chevron-right-end:before {
+	content: "\EAA0";
 }
 
