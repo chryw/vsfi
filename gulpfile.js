@@ -10,7 +10,7 @@ var foreach = require("gulp-foreach");
 var concat = require("gulp-concat");
 var svgmin = require("gulp-svgmin");
 var fontName = 'bowtie';
-var svgsourcefolder = 'assets/icons/bowtie/';
+var svgsourcefolder = 'assets/svgs/bowtie/';
 
 //optimize all svg files by trimming whitespaces and empty tags
 //Note: running this task will modify all svg files
