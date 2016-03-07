@@ -1234,6 +1234,14 @@
 	content: "\EA2B";
 }
 
+.bowtie-folder-plan:before {
+	content: "\EA2C";
+}
+
+.bowtie-folder-query:before {
+	content: "\EA2D";
+}
+
 .bowtie-play-resume:before {
 	content: "\EA88";
 }
