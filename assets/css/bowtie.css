@@ -1341,4 +1341,8 @@
 .bowtie-chevron-right-end:before {
 	content: "\EAA0";
 }
+
+.bowtie-power-button:before {
+	content: "\EAA1";
+}
 
