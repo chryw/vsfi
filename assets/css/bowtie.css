@@ -1345,4 +1345,12 @@
 .bowtie-chevron-right-end:before {
 	content: "\EAA0";
 }
+
+.bowtie-save-close:before {
+	content: "\EAA1";
+}
+
+.bowtie-save-as:before {
+	content: "\EAA2";
+}
 
