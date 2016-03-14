@@ -1353,4 +1353,24 @@
 .bowtie-save-as:before {
 	content: "\EAA2";
 }
+
+.bowtie-power-button:before {
+	content: "\EAA3";
+}
+
+.bowtie-meta-task:before {
+	content: "\EAA4";
+}
+
+.bowtie-row:before {
+	content: "\EAA5";
+}
+
+.bowtie-row-child:before {
+	content: "\EAA6";
+}
+
+.bowtie-meta-task-1:before {
+	content: "\EAA7";
+}
 
