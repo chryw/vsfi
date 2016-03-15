@@ -1369,4 +1369,12 @@
 .bowtie-row-child:before {
 	content: "\EAA6";
 }
+
+.bowtie-live-update-feed:before {
+	content: "\EAA7";
+}
+
+.bowtie-user-remove:before {
+	content: "\EAA8";
+}
 
