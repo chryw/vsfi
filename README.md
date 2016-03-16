@@ -14,7 +14,7 @@ Original Bowtie icons (https://github.com/jimlamb/Bowtie) by @jimlamb
 - edit gulp task name, icon name, file path, etc. in gulpfile.js as needed
 - run gulp task
 
-[Preview Bowtie icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/bowtie.html)
+[Preview Bowtie icons](https://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/bowtie-sfx/bowtie.html)
 
 [Preview VSCOM icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vscom.html)
 
