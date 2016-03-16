@@ -1421,4 +1421,8 @@
 .bowtie-table-blob:before {
 	content: "\EAB3";
 }
+
+.bowtie-log-remove:before {
+	content: "\EAB4";
+}
 
