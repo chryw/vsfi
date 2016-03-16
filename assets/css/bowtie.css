@@ -34,6 +34,10 @@
 }
 
 
+.bowtie-arrow-import:before {
+	content: "\EAAA";
+}
+
 .bowtie-alert:before {
 	content: "\E900";
 }
@@ -1242,6 +1246,10 @@
 	content: "\EA2D";
 }
 
+.bowtie-server-remote:before {
+	content: "\EA2E";
+}
+
 .bowtie-play-resume:before {
 	content: "\EA88";
 }
@@ -1342,7 +1350,75 @@
 	content: "\EAA0";
 }
 
-.bowtie-power-button:before {
+.bowtie-save-close:before {
 	content: "\EAA1";
+}
+
+.bowtie-save-as:before {
+	content: "\EAA2";
+}
+
+.bowtie-power-button:before {
+	content: "\EAA3";
+}
+
+.bowtie-meta-task:before {
+	content: "\EAA4";
+}
+
+.bowtie-row:before {
+	content: "\EAA5";
+}
+
+.bowtie-row-child:before {
+	content: "\EAA6";
+}
+
+.bowtie-live-update-feed:before {
+	content: "\EAA7";
+}
+
+.bowtie-user-remove:before {
+	content: "\EAA8";
+}
+
+.bowtie-query:before {
+	content: "\EAA9";
+}
+
+.bowtie-import-from-file:before {
+	content: "\EAAB";
+}
+
+.bowtie-brand-azure:before {
+	content: "\EAAC";
+}
+
+.bowtie-select-no-items:before {
+	content: "\EAAD";
+}
+
+.bowtie-select-all-items:before {
+	content: "\EAAE";
+}
+
+.bowtie-select-inverse-items:before {
+	content: "\EAAF";
+}
+
+.bowtie-table:before {
+	content: "\EAB0";
+}
+
+.bowtie-table-storage-account:before {
+	content: "\EAB1";
+}
+
+.bowtie-table-queue:before {
+	content: "\EAB2";
+}
+
+.bowtie-table-blob:before {
+	content: "\EAB3";
 }
 
