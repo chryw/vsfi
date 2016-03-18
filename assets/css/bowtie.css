@@ -1370,24 +1370,12 @@
 	content: "\EAA4";
 }
 
-.bowtie-row:before {
-	content: "\EAA5";
-}
-
 .bowtie-row-child:before {
 	content: "\EAA6";
 }
 
-.bowtie-user-remove:before {
-	content: "\EAA8";
-}
-
 .bowtie-query:before {
 	content: "\EAA9";
-}
-
-.bowtie-import-from-file:before {
-	content: "\EAAB";
 }
 
 .bowtie-brand-azure:before {
@@ -1424,5 +1412,21 @@
 
 .bowtie-log-remove:before {
 	content: "\EAB4";
+}
+
+.bowtie-database-to-file:before {
+	content: "\EAB5";
+}
+
+.bowtie-file-to-database:before {
+	content: "\EAB6";
+}
+
+.bowtie-row-add:before {
+	content: "\EAB7";
+}
+
+.bowtie-row-remove:before {
+	content: "\EAB8";
 }
 
