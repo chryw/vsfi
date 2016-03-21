@@ -42,10 +42,6 @@
 	content: "\E002";
 }
 
-.bowtie-row-child:before {
-	content: "\E003";
-}
-
 .bowtie-query:before {
 	content: "\E004";
 }
@@ -84,10 +80,6 @@
 
 .bowtie-table-blob:before {
 	content: "\E00D";
-}
-
-.bowtie-log-remove:before {
-	content: "\E00E";
 }
 
 .bowtie-database-to-file:before {
@@ -1436,5 +1428,13 @@
 
 .bowtie-square:before {
 	content: "\EA4A";
+}
+
+.bowtie-row-child:before {
+	content: "\EA4B";
+}
+
+.bowtie-log-remove:before {
+	content: "\EA4C";
 }
 

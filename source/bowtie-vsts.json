@@ -3639,4 +3639,26 @@
 	"group": "",
 	"keywords": ["square"],
 	"usage": "check if it is same as stop-fill"
+}, {
+	"id": 332,
+	"name": "row-child",
+	"unicode": "EA4B",
+	"decimal": 59979,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "common",
+	"keywords": ["row", "child", "sub", "indent", "tree"],
+	"usage": "Used for creating a child node of the current node in a tree structure."
+}, {
+	"id": 333,
+	"name": "log-remove",
+	"unicode": "EA4C",
+	"decimal": 59980,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "work",
+	"keywords": ["log", "activity", "remove", "delete"],
+	"usage": "Used for removing activity entry on Kanban board."
 }]
