@@ -34,8 +34,84 @@
 }
 
 
+.bowtie-power-button:before {
+	content: "\E001";
+}
+
+.bowtie-meta-task:before {
+	content: "\E002";
+}
+
+.bowtie-row-child:before {
+	content: "\E003";
+}
+
+.bowtie-query:before {
+	content: "\E004";
+}
+
 .bowtie-arrow-import:before {
-	content: "\EAAA";
+	content: "\E005";
+}
+
+.bowtie-brand-azure:before {
+	content: "\E006";
+}
+
+.bowtie-select-no-items:before {
+	content: "\E007";
+}
+
+.bowtie-select-all-items:before {
+	content: "\E008";
+}
+
+.bowtie-select-inverse-items:before {
+	content: "\E009";
+}
+
+.bowtie-table:before {
+	content: "\E00A";
+}
+
+.bowtie-table-storage-account:before {
+	content: "\E00B";
+}
+
+.bowtie-table-queue:before {
+	content: "\E00C";
+}
+
+.bowtie-table-blob:before {
+	content: "\E00D";
+}
+
+.bowtie-log-remove:before {
+	content: "\E00E";
+}
+
+.bowtie-database-to-file:before {
+	content: "\E00F";
+}
+
+.bowtie-file-to-database:before {
+	content: "\E010";
+}
+
+.bowtie-table-to-file:before {
+	content: "\E011";
+}
+
+.bowtie-file-to-table:before {
+	content: "\E012";
+}
+
+.bowtie-checkbox-check-all:before {
+	content: "\E013";
+}
+
+.bowtie-checkbox-check-none:before {
+	content: "\E014";
 }
 
 .bowtie-arrow-up:before {
@@ -1360,73 +1436,5 @@
 
 .bowtie-square:before {
 	content: "\EA4A";
-}
-
-.bowtie-power-button:before {
-	content: "\EAA3";
-}
-
-.bowtie-meta-task:before {
-	content: "\EAA4";
-}
-
-.bowtie-row-child:before {
-	content: "\EAA6";
-}
-
-.bowtie-query:before {
-	content: "\EAA9";
-}
-
-.bowtie-brand-azure:before {
-	content: "\EAAC";
-}
-
-.bowtie-select-no-items:before {
-	content: "\EAAD";
-}
-
-.bowtie-select-all-items:before {
-	content: "\EAAE";
-}
-
-.bowtie-select-inverse-items:before {
-	content: "\EAAF";
-}
-
-.bowtie-table:before {
-	content: "\EAB0";
-}
-
-.bowtie-table-storage-account:before {
-	content: "\EAB1";
-}
-
-.bowtie-table-queue:before {
-	content: "\EAB2";
-}
-
-.bowtie-table-blob:before {
-	content: "\EAB3";
-}
-
-.bowtie-log-remove:before {
-	content: "\EAB4";
-}
-
-.bowtie-database-to-file:before {
-	content: "\EAB5";
-}
-
-.bowtie-file-to-database:before {
-	content: "\EAB6";
-}
-
-.bowtie-row-add:before {
-	content: "\EAB7";
-}
-
-.bowtie-row-remove:before {
-	content: "\EAB8";
 }
 
