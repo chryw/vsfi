@@ -1437,4 +1437,8 @@
 .bowtie-log-remove:before {
 	content: "\EA4C";
 }
+
+.bowtie-live-update-feed-off:before {
+	content: "\EA4D";
+}
 
