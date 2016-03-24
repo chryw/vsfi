@@ -1441,4 +1441,12 @@
 .bowtie-live-update-feed-off:before {
 	content: "\EA4D";
 }
+
+.bowtie-corner-resize:before {
+	content: "\EA4E";
+}
+
+.bowtie-link-remove:before {
+	content: "\EA4F";
+}
 
