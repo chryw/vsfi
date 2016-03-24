@@ -3673,7 +3673,7 @@
 	"keywords": ["live", "update", "feed", "signal", "broadcast", "radar", "off"],
 	"usage": "Used to indicate listen to Kanban board live updates is toggled off. Adding a slash is not the common toggle off pattern. It is only used in this case."
 }, {
-	"id": 0,
+	"id": 335,
 	"name": "corner-resize",
 	"unicode": "EA4E",
 	"decimal": 59982,
@@ -3684,7 +3684,7 @@
 	"keywords": ["resize", "grip", "handle"],
 	"usage": "Used for dialog, modal, or textarea resize handle."
 }, {
-	"id": 0,
+	"id": 336,
 	"name": "link-remove",
 	"unicode": "EA4F",
 	"decimal": 59983,
