@@ -22,18 +22,17 @@
   },
   "homepage": "https://github.com/chryw/vsfi",
   "dependencies": {
-    "gulp": "^3.9.0",
+    "lodash": "^3.10.1",
+    "node-gyp": "^3.0.3",
+    "gulp-concat": "^2.6.0",
     "gulp-consolidate": "^0.1.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-svgmin": "^1.2.1",
     "gulp-iconfont": "^5.0.0",
     "gulp-iconfont-css": "^2.0.0",
-    "gulp-rename": "^1.2.2",
-    "lodash": "^3.10.1",
-    "node-gyp": "^3.0.3"
+    "gulp-rename": "^1.2.2"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-foreach": "^0.1.0",
-    "gulp-svgmin": "^1.2.1"
+    "gulp": "^3.9.1"
   }
 }

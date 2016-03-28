@@ -3694,4 +3694,15 @@
 	"group": "editor",
 	"keywords": ["link", "hyperlink", "url", "remove"],
 	"usage": "Used for removing hyperlink."
+}, {
+	"id": 337,
+	"name": "personalize",
+	"unicode": "EA50",
+	"decimal": 59984,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "work",
+	"keywords": ["personalize", "customize", "design", "edit", "draw", "pen", "brush"],
+	"usage": "Used for customizing work item form."
 }]

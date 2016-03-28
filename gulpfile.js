@@ -33,6 +33,8 @@ gulp.task('iconfont', function() {
 			fontHeight: 448,
 			descent:    64,
 			fontName: fontName,
+			metadata: "Icon font for VSTS.",
+			version: "v1.1",
 			appendCodepoints: true,
       fontPath: '../fonts/',
 			formats: ['ttf', 'eot', 'woff', 'svg']

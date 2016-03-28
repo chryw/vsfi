@@ -42,7 +42,7 @@
 	content: "\E002";
 }
 
-.bowtie-query:before {
+.bowtie-query-datatable:before {
 	content: "\E004";
 }
 
@@ -104,6 +104,10 @@
 
 .bowtie-checkbox-check-none:before {
 	content: "\E014";
+}
+
+.bowtie-query:before {
+	content: "\E015";
 }
 
 .bowtie-arrow-up:before {
@@ -1448,5 +1452,9 @@
 
 .bowtie-link-remove:before {
 	content: "\EA4F";
+}
+
+.bowtie-personalize:before {
+	content: "\EA51";
 }
 
