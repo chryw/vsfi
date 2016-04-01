@@ -110,6 +110,106 @@
 	content: "\E015";
 }
 
+.bowtie-status-success-stack-1:before {
+	content: "\E016";
+}
+
+.bowtie-status-success-stack-2:before {
+	content: "\E017";
+}
+
+.bowtie-status-warning-stack-1:before {
+	content: "\E018";
+}
+
+.bowtie-status-warning-stack-2:before {
+	content: "\E019";
+}
+
+.bowtie-status-failure-stack-1:before {
+	content: "\E01A";
+}
+
+.bowtie-status-failure-stack-2:before {
+	content: "\E01B";
+}
+
+.bowtie-status-error-stack-1:before {
+	content: "\E01C";
+}
+
+.bowtie-status-error-stack-2:before {
+	content: "\E01D";
+}
+
+.bowtie-status-help-stack-1:before {
+	content: "\E01E";
+}
+
+.bowtie-status-help-stack-2:before {
+	content: "\E01F";
+}
+
+.bowtie-status-info-stack-1:before {
+	content: "\E020";
+}
+
+.bowtie-status-info-stack-2:before {
+	content: "\E021";
+}
+
+.bowtie-status-waiting-stack-1:before {
+	content: "\E022";
+}
+
+.bowtie-status-waiting-stack-2:before {
+	content: "\E023";
+}
+
+.bowtie-status-no-stack-1:before {
+	content: "\E024";
+}
+
+.bowtie-status-no-stack-2:before {
+	content: "\E025";
+}
+
+.bowtie-status-run-stack-1:before {
+	content: "\E026";
+}
+
+.bowtie-status-run-stack-2:before {
+	content: "\E027";
+}
+
+.bowtie-status-stop-stack-1:before {
+	content: "\E028";
+}
+
+.bowtie-status-stop-stack-2:before {
+	content: "\E029";
+}
+
+.bowtie-status-pause-stack-1:before {
+	content: "\E02A";
+}
+
+.bowtie-status-pause-stack-2:before {
+	content: "\E02B";
+}
+
+.bowtie-create-sparkle:before {
+	content: "\E02D";
+}
+
+.bowtie-parameter:before {
+	content: "\E02E";
+}
+
+.bowtie-step-shared-insert:before {
+	content: "\E02F";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
