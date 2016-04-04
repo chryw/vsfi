@@ -74,8 +74,8 @@
 							<li><span class="bowtie bowtie-synchronize bowtie-ani-spin"></span></li>
 							<li><span class="bowtie bowtie-spinner bowtie-ani-spin-pulse"></span></li>
 						</ul>
-								<h4>Status badge overlay with white halo</h4>
-								<p>TBD</p>
+						<h4>Status badge overlay with white halo</h4>
+						<p>TBD</p>
 					</div>
 					<hr>
 					<div class="row">
@@ -142,9 +142,15 @@
 			});
 			app.controller('MainController', ['$document', '$scope', '$http', 'copyToClipboard', function($document, $scope, $http, copyToClipboard) {
 				//load data from json
-				$scope.url = '/<%= fontName %>.json';
+				var request = {
+					method: 'GET',
+					url: '<%= fontName %>.json',
+					headers: {
+						'Content-Type': 'application/json'
+					}
+				};
 				$scope.icons = [];
-				$http.get($scope.url).success(function(data) {
+				$http(request).success(function(data) {
 					$scope.icons = data;
 				});
 

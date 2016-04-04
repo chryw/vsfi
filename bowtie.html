@@ -69,13 +69,13 @@
 						<p>For VSTS, the Bowtie icon font is already referenced in the core CSS. Here are the key CSS classes to be aware of: .bowtie-icon sets the font-family, size, color and line-height accordingly. Apply this style to the element you want to contain your
 							icon (typically an <code>&lt;i&gt;</code>, <code>&lt;span&gt;</code>, or <code>&lt;div&gt;</code>). Next you'll want to apply the content class for the icon you want. Use the below catalog to find the class names.</p>
 						<h4>Spinning animation</h4>
-						<p>You can apply spinning animation class to these icons:</p>
+						<p>You can apply spinning animation to these icons by adding "bowtie-ani-spin" or "bowtie-ani-spin-pulse" classes:</p>
 						<ul>
-							<li><span class="bowtie bowtie-synchronize bowtie-ani-spin"></span> bowtie-synchronize with <code>bowtie-ani-spin</code> class</li>
-							<li><span class="bowtie bowtie-spinner bowtie-ani-spin-pulse"></span> bowtie-spinner with <code>bowtie-ani-spin-pulse</code> class</li>
+							<li><span class="bowtie bowtie-synchronize bowtie-ani-spin"></span></li>
+							<li><span class="bowtie bowtie-spinner bowtie-ani-spin-pulse"></span></li>
 						</ul>
-								<h4>Status badge overlay with white halo</h4>
-								<p>TBD</p>
+						<h4>Status badge overlay with white halo</h4>
+						<p>TBD</p>
 					</div>
 					<hr>
 					<div class="row">
@@ -142,9 +142,15 @@
 			});
 			app.controller('MainController', ['$document', '$scope', '$http', 'copyToClipboard', function($document, $scope, $http, copyToClipboard) {
 				//load data from json
-				$scope.url = '/bowtie.json';
+				var request = {
+					method: 'GET',
+					url: 'bowtie.json',
+					headers: {
+						'Content-Type': 'application/json'
+					}
+				};
 				$scope.icons = [];
-				$http.get($scope.url).success(function(data) {
+				$http(request).success(function(data) {
 					$scope.icons = data;
 				});
 
