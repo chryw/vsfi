@@ -259,10 +259,6 @@
 	content: "\E02F";
 }
 
-.bowtie-spinner:before {
-	content: "\E030";
-}
-
 .bowtie-step-shared-add:before {
 	content: "\E031";
 }
@@ -1613,6 +1609,10 @@
 
 .bowtie-link-remove:before {
 	content: "\EA4F";
+}
+
+.bowtie-spinner:before {
+	content: "\EA50";
 }
 
 .bowtie-personalize:before {
