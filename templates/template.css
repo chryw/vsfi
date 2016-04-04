@@ -39,6 +39,49 @@
   text-align: center;
 }
 
+/* Spinning animation =========== */
+.<%= className %>-ani-spin {
+  webkit-animation: <%= className %>-ani-spin 2s infinite linear;
+  -moz-animation: <%= className %>-ani-spin 2s infinite linear;
+          animation: <%= className %>-ani-spin 2s infinite linear;
+}
+.<%= className %>-ani-spin-pulse {
+  -webkit-animation: <%= className %>-ani-spin 1s infinite steps(10);
+  -moz-animation: <%= className %>-ani-spin 1s infinite steps(10);
+          animation: <%= className %>-ani-spin 1s infinite steps(10);
+}
+@-webkit-keyframes <%= className %>-ani-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-moz-keyframes <%= className %>-ani-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes <%= className %>-ani-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
 <% _.each(glyphs, function(glyph) { %>
 .<%= className %>-<%= glyph.name %>:before {
 	content: "\<%= glyph.codepoint %>";

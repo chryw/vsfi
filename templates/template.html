@@ -1,125 +1,161 @@
 <html>
 
 <head>
-  <title>
-    <%= fontName %> icon font demo</title>
-  <link href="assets/css/<%= fontName %>.css" rel="stylesheet">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<title>
+		<%= fontName %> icon font demo</title>
+	<link href="assets/css/<%= fontName %>.css" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
-  <style>
-    body {
-      text-align: center;
-      font-size: initial;
-    }
+	<style>
+		body {
+			background-color: #fff;
+		}
 
-    body > h1 {
-      margin: 1em 0;
-    }
+		.icon-list span.name {
+			padding-left: 4px;
+			font-size: 12px;
+		}
 
-    .btn-zoom {
-      padding: .5em .5em .5em .5em;
-      border-radius: .5em;
-      background-color: #666699;
-      color: #ffffff;
-      cursor: pointer;
-    }
+		.icon-list {
+			columns: 3 200px;
+			-webkit-columns: 3 200px;
+			-moz-columns: 3 200px;
+		}
 
-    .btn-zoom:hover,
-    .btn-zoom:focus {
-      text-decoration: none;
-      color: #ffffff;
-      background-color: #8888BB;
-    }
+		#iconlist li .item {
+			padding: 4px;
+		}
 
-    .btn-zoom:active, .active {
-      background-color: #8888BB;
-    }
+		#iconlist li .item:hover {
+			cursor: pointer;
+			color: #fff;
+			background-color: #007acc;
+		}
 
-    .glyph {
-      list-style: none;
-    }
+		#iconlist .modal-content {
+			padding: 30px;
+		}
 
-    .glyph > li {
-      display: inline-block;
-      position: relative;
-      padding: .5em .5em .5em .5em;
-      margin: .5em;
-      border-radius: .5em;
-    }
+		#iconlist .modal-content .sizes .bowtie {
+			padding: 10px;
+		}
 
-    .glyph > li:hover {
-      cursor: pointer;
-      color: #fff;
-      background-color: #666699;
-    }
+		#iconlist .modal-content .metadata {
+			font-size: 12px;
+			color: #888;
+		}
 
-    .glyph > li .s {
-      display: block;
-      margin-top: .1em;
-      line-height: 0
-    }
-
-    .glyph-name {
-      font-size: .8em;
-      display: block
-    }
-
-    .glyph-codepoint {
-      font-family: monospace
-    }
-  </style>
+		#iconlist .modal-content .metadata span {
+			padding-right: 30px;
+		}
+	</style>
 </head>
 
-<body>
-  <h1>
-    <%= fontName %> icon font demo
-  </h1>
-  <a class="btn-zoom" data-zoom="1x">1x</a>
-  <a class="btn-zoom" data-zoom="2x">2x</a>
-  <a class="btn-zoom" data-zoom="3x">3x</a>
-  <a class="btn-zoom" data-zoom="4x">4x</a>
-  <a class="btn-zoom" data-zoom="5x">5x</a>
-  <ul class="glyph">
-    <% _.each(glyphs, function(glyph) { %>
-      <li>
-        <span class="<%= className %> <%= className %>-<%= glyph.name %>"></span>
-        <span class="glyph-name">
-          <%= className %>-<%= glyph.name %>
-        </span>
-        <span class="glyph-codepoint">
-          <%= glyph.codepoint %>
-        </span>
-      </li>
-      <% }); %>
-  </ul>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $(".btn-zoom").click(function() {
-        $(".btn-zoom").removeClass("active");
-        $(this).addClass("active");
-        var zoom = $(this).attr("data-zoom");
-        $(".<%= className %>").removeClass("<%= className %>-2x <%= className %>-3x <%= className %>-4x <%= className %>-5x");
-        switch (zoom) {
-          case "1x":
-            break;
-          case "2x":
-            $(".<%= className %>").addClass("<%= className %>-2x");
-            break;
-          case "3x":
-            $(".<%= className %>").addClass("<%= className %>-3x");
-            break;
-          case "4x":
-            $(".<%= className %>").addClass("<%= className %>-4x");
-            break;
-          case "5x":
-            $(".<%= className %>").addClass("<%= className %>-5x");
-            break;
-        }
-      });
-    });
-  </script>
+<body ng-app="app">
+	<div class="container" ng-controller="MainController as mainCtrl">
+		<div class="row">
+			<div class="text-center">
+				<h1>Bowtie icon font</h1>
+				<div class="text-left">
+					<div class="changelog">
+						<p>New icons:</p>
+						<ul class="list-unstyled icon-list">
+							<li ng-repeat="icon in icons | orderBy:'-id' | limitTo: 9"><span class="bowtie bowtie-{{icon.name}}"></span><span class="name" title="{{icon.name}}" aria-label="{{icon.name}}">bowtie-{{icon.name}} ({{icon.unicode}})</span></li>
+						</ul>
+					</div>
+					<br>
+					<div class="instruction">
+						<p>For VSTS, the Bowtie icon font is already referenced in the core CSS. Here are the key CSS classes to be aware of: .bowtie-icon sets the font-family, size, color and line-height accordingly. Apply this style to the element you want to contain your
+							icon (typically an <code>&lt;i&gt;</code>, <code>&lt;span&gt;</code>, or <code>&lt;div&gt;</code>). Next you'll want to apply the content class for the icon you want. Use the below catalog to find the class names.</p>
+						<h4>Spinning animation</h4>
+						<p>You can apply spinning animation to these icons by adding "bowtie-ani-spin" or "bowtie-ani-spin-pulse" classes:</p>
+						<ul>
+							<li><span class="bowtie bowtie-synchronize bowtie-ani-spin"></span></li>
+							<li><span class="bowtie bowtie-spinner bowtie-ani-spin-pulse"></span></li>
+						</ul>
+								<h4>Status badge overlay with white halo</h4>
+								<p>TBD</p>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 clearfix">
+							<input id="searchbox" class="search form-control" placeholder="Search" ng-model="query" />
+							<br />
+						</div>
+						<div class="well col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+							<ul class="list-unstyled icon-list" id="iconlist">
+								<li ng-repeat="icon in icons | orderBy:['decimal','-group'] | filter:query" data-metadata="{{icon}}">
+									<div class="item" data-toggle="modal" data-target="#modal{{icon.id}}">
+										<span class="bowtie bowtie-{{icon.name}}"></span><span class="name" aria-label="{{icon.name}}">bowtie-{{icon.name}}({{icon.unicode}})</span>
+									</div>
+									<div id="modal{{icon.id}}" class="modal fade" tabindex="-1" role="dialog">
+										<div class="modal-dialog modal-md">
+											<div class="modal-content">
+												<div class="sizes">
+													<span class="bowtie bowtie-{{icon.name}} bowtie-5x"></span>
+													<span class="bowtie bowtie-{{icon.name}} bowtie-4x"></span>
+													<span class="bowtie bowtie-{{icon.name}} bowtie-3x"></span>
+													<span class="bowtie bowtie-{{icon.name}} bowtie-2x"></span>
+													<span class="bowtie bowtie-{{icon.name}} bowtie-1x"></span>
+												</div>
+												<h3>bowtie-{{icon.name}}</h3>
+												<div class="input-group">
+													<input type="text" id="txtCopy{{icon.id}}" class="form-control" value="&lt;span class=&quot;bowtie-icon bowtie-{{icon.name}}&quot;&gt;&lt;/span&gt;" />
+													<span class="input-group-btn">
+        <button id="btnCopy{{icon.id}}" data-clipboard-target="#txtCopy{{icon.id}}" class="btn btn-secondary" type="button" ng-click="copyToClipboard($event)" data-toggle="tooltip"><span class="bowtie bowtie-edit-copy"></span>
+													</button>
+													</span>
+												</div>
+
+												<br>
+												<div class="metadata">
+													<p>
+														<span>Unicode: {{icon.unicode}}</span><span>Version: v{{icon.version}}</span>
+														<span>Group: {{icon.group}}</span>
+													</p>
+													<p>Usage: {{icon.usage}}</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script>
+		(function() {
+			var app = angular.module('app', []);
+			app.factory('copyToClipboard', function() {
+				return {
+					copy: function(btn) {
+						document.execCommand('copy', false, $($(btn).data('clipboard-target')).select());
+					}
+				};
+			});
+			app.controller('MainController', ['$document', '$scope', '$http', 'copyToClipboard', function($document, $scope, $http, copyToClipboard) {
+				//load data from json
+				$scope.url = '/<%= fontName %>.json';
+				$scope.icons = [];
+				$http.get($scope.url).success(function(data) {
+					$scope.icons = data;
+				});
+
+				//copy to clipboard
+				$scope.copyToClipboard = function() {
+					copyToClipboard.copy(event.currentTarget);
+				};
+			}]);
+		})();
+		//@ sourceURL=pen.js
+	</script>
 </body>
 
 </html>

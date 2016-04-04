@@ -39,6 +39,49 @@
   text-align: center;
 }
 
+/* Spinning animation =========== */
+.bowtie-ani-spin {
+  webkit-animation: bowtie-ani-spin 2s infinite linear;
+  -moz-animation: bowtie-ani-spin 2s infinite linear;
+          animation: bowtie-ani-spin 2s infinite linear;
+}
+.bowtie-ani-spin-pulse {
+  -webkit-animation: bowtie-ani-spin 1s infinite steps(10);
+  -moz-animation: bowtie-ani-spin 1s infinite steps(10);
+          animation: bowtie-ani-spin 1s infinite steps(10);
+}
+@-webkit-keyframes bowtie-ani-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-moz-keyframes bowtie-ani-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes bowtie-ani-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
 
 .bowtie-power-button:before {
 	content: "\E001";
@@ -214,6 +257,18 @@
 
 .bowtie-step-shared-insert:before {
 	content: "\E02F";
+}
+
+.bowtie-spinner:before {
+	content: "\E030";
+}
+
+.bowtie-step-shared-add:before {
+	content: "\E031";
+}
+
+.bowtie-step-insert:before {
+	content: "\E032";
 }
 
 .bowtie-arrow-up:before {
@@ -1563,4 +1618,3 @@
 .bowtie-personalize:before {
 	content: "\EA51";
 }
-
