@@ -251,20 +251,12 @@
 	content: "\E02D";
 }
 
-.bowtie-parameter:before {
-	content: "\E02E";
+.bowtie-process:before {
+	content: "\E033";
 }
 
-.bowtie-step-shared-insert:before {
-	content: "\E02F";
-}
-
-.bowtie-step-shared-add:before {
-	content: "\E031";
-}
-
-.bowtie-step-insert:before {
-	content: "\E032";
+.bowtie-process-meta-task:before {
+	content: "\E034";
 }
 
 .bowtie-arrow-up:before {
@@ -1617,4 +1609,20 @@
 
 .bowtie-personalize:before {
 	content: "\EA51";
+}
+
+.bowtie-parameter:before {
+	content: "\EA52";
+}
+
+.bowtie-step-insert:before {
+	content: "\EA53";
+}
+
+.bowtie-step-shared-add:before {
+	content: "\EA54";
+}
+
+.bowtie-step-shared-insert:before {
+	content: "\EA55";
 }

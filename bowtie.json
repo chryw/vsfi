@@ -3716,4 +3716,48 @@
 	"group": "work",
 	"keywords": ["personalize", "customize", "design", "edit", "draw", "pen", "brush"],
 	"usage": "Used for customizing work item form."
+}, {
+	"id": 339,
+	"name": "parameter",
+	"unicode": "EA52",
+	"decimal": 59986,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Test",
+	"keywords": ["parameter", "variable", "argument", "@", "at"],
+	"usage": "Used in Test hub for adding test step parameters."
+}, {
+	"id": 340,
+	"name": "step-insert",
+	"unicode": "EA53",
+	"decimal": 59987,
+	"version": "1.1",
+	"style": "bold",
+	"subset": "VSTS",
+	"group": "Test",
+	"keywords": ["step", "insert", "stairs", "arrow", "right"],
+	"usage": "Used in Test hub for adding test step."
+}, {
+	"id": 341,
+	"name": "step-shared-add",
+	"unicode": "EA54",
+	"decimal": 59988,
+	"version": "1.1",
+	"style": "bold",
+	"subset": "VSTS",
+	"group": "Test",
+	"keywords": ["step", "shared", "reuse", "multiple", "add", "plus", "stairs"],
+	"usage": "Used in Test hub for creating a new test step as shared step."
+}, {
+	"id": 342,
+	"name": "step-shared-insert",
+	"unicode": "EA55",
+	"decimal": 59989,
+	"version": "1.1",
+	"style": "bold",
+	"subset": "VSTS",
+	"group": "Test",
+	"keywords": ["step", "shared", "reuse", "multiple", "arrow", "right", "stairs"],
+	"usage": "Used in Test hub for inserting existing shared steps."
 }]
