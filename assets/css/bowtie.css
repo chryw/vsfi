@@ -259,6 +259,26 @@
 	content: "\E034";
 }
 
+.bowtie-timeline-delivery:before {
+	content: "\E035";
+}
+
+.bowtie-timeline-progress:before {
+	content: "\E036";
+}
+
+.bowtie-column-option-1:before {
+	content: "\E037";
+}
+
+.bowtie-column-option-2:before {
+	content: "\E038";
+}
+
+.bowtie-column-option-3:before {
+	content: "\E039";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
