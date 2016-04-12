@@ -251,14 +251,6 @@
 	content: "\E02D";
 }
 
-.bowtie-process:before {
-	content: "\E033";
-}
-
-.bowtie-process-meta-task:before {
-	content: "\E034";
-}
-
 .bowtie-timeline-delivery:before {
 	content: "\E035";
 }
@@ -273,10 +265,6 @@
 
 .bowtie-column-option-2:before {
 	content: "\E038";
-}
-
-.bowtie-column-option-3:before {
-	content: "\E039";
 }
 
 .bowtie-arrow-up:before {
@@ -1645,4 +1633,16 @@
 
 .bowtie-step-shared-insert:before {
 	content: "\EA55";
+}
+
+.bowtie-process:before {
+	content: "\EA56";
+}
+
+.bowtie-process-meta-task:before {
+	content: "\EA57";
+}
+
+.bowtie-column-option:before {
+	content: "\EA58";
 }

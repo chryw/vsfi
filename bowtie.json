@@ -6,7 +6,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "up"],
 	"usage": "Indicate direction, movement."
 }, {
@@ -17,7 +17,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "left", "back"],
 	"usage": "Indicate direction, movement."
 }, {
@@ -28,7 +28,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "down"],
 	"usage": "Indicate direction, movement."
 }, {
@@ -39,7 +39,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "right", "next"],
 	"usage": "Indicate direction, movement."
 }, {
@@ -50,7 +50,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow"],
 	"usage": "not used, created to align with other arrow icons"
 }, {
@@ -61,7 +61,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "increase"],
 	"usage": "Used inline with number label to indicate status trend - increase"
 }, {
@@ -72,7 +72,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow"],
 	"usage": "not used, created to align with other arrow icons"
 }, {
@@ -83,7 +83,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "decrease"],
 	"usage": "Use inline with number label to indicate status trend - decrease"
 }, {
@@ -92,10 +92,10 @@
 	"unicode": "E908",
 	"decimal": 59656,
 	"version": "1.0",
-	"style": "",
+	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
-	"keywords": [""],
+	"group": "Arrow",
+	"keywords": ["arrow", "export"],
 	"usage": ""
 }, {
 	"id": 10,
@@ -103,10 +103,10 @@
 	"unicode": "E909",
 	"decimal": 59657,
 	"version": "1.0",
-	"style": "",
+	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
-	"keywords": [""],
+	"group": "Arrow",
+	"keywords": ["arrow", "open"],
 	"usage": ""
 }, {
 	"id": 11,
@@ -116,7 +116,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["sort", "re-order"],
 	"usage": ""
 }, {
@@ -127,7 +127,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "up", "sort", "ascending"],
 	"usage": "intentional duplicate of arrow-up"
 }, {
@@ -138,7 +138,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "arrow",
+	"group": "Arrow",
 	"keywords": ["arrow", "down", "sort", "descending"],
 	"usage": "intentional duplicate of arrow-down"
 }, {
@@ -149,8 +149,8 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "arrow",
-	"keywords": [""],
+	"group": "Arrow",
+	"keywords": ["arrow", "switch", "exchange", "left", "right"],
 	"usage": ""
 }, {
 	"id": 15,
@@ -160,9 +160,9 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "arrow",
-	"keywords": [""],
-	"usage": ""
+	"group": "Arrow",
+	"keywords": ["arrow", "synchronize", "sync", "update", "upload", "download"],
+	"usage": "Used for synchronizing and data exchange, different from refresh"
 }, {
 	"id": 16,
 	"name": "transfer-download",
@@ -171,9 +171,9 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "arrow",
-	"keywords": [""],
-	"usage": ""
+	"group": "Arrow",
+	"keywords": ["download", "bottom", "arrow", "down"],
+	"usage": "Used for download or go to bottom"
 }, {
 	"id": 17,
 	"name": "transfer-upload",
@@ -182,9 +182,9 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "arrow",
-	"keywords": [""],
-	"usage": ""
+	"group": "Arrow",
+	"keywords": ["upload", "top", "arrow", "up"],
+	"usage": "Used for upload or go to top"
 }, {
 	"id": 18,
 	"name": "azure-api-management",
@@ -193,7 +193,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["cloud", "azure", "api", "node", "connect"],
 	"usage": ""
 }, {
@@ -204,7 +204,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["azure", "endpoint", "connect", "node"],
 	"usage": ""
 }, {
@@ -215,7 +215,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["android"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -226,7 +226,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["facebook"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -237,7 +237,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["git", "version", "control"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -248,7 +248,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["github"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -259,7 +259,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["maven"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -270,8 +270,8 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "brand",
-	"keywords": [""],
+	"group": "Brand",
+	"keywords": ["mtm", "microsoft", "test", "manager"],
 	"usage": ""
 }, {
 	"id": 26,
@@ -281,7 +281,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["npm"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -292,7 +292,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["nuget"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -303,7 +303,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["tfvc", "team", "foundation", "version", "control"],
 	"usage": "Feature icon for TFVC (Team Foundation Version Control). Not a logo."
 }, {
@@ -314,7 +314,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["twitter"],
 	"usage": "Use of 3rd party brand icons has to be evaluated and approved by LCA case-by-case."
 }, {
@@ -325,7 +325,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["visual", "studio"],
 	"usage": "Visual Studio logo mark."
 }, {
@@ -336,7 +336,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["windows"],
 	"usage": "Windows logo mark."
 }, {
@@ -347,7 +347,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["git"],
 	"usage": "intentional duplicate of brand-git"
 }, {
@@ -358,7 +358,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "brand",
+	"group": "Brand",
 	"keywords": ["visual", "studio"],
 	"usage": "intentional duplicate of brand-visualstudio"
 }, {
@@ -369,8 +369,8 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "brand",
-	"keywords": [""],
+	"group": "Brand",
+	"keywords": ["tfvc", "team", "foundation", "version", "control"],
 	"usage": "intentional duplicate of brand-tfvc"
 }, {
 	"id": 35,
@@ -380,7 +380,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "area"],
 	"usage": "Area chart type."
 }, {
@@ -391,7 +391,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "bar"],
 	"usage": "Bar chart type."
 }, {
@@ -402,7 +402,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "column"],
 	"usage": "Column chart type."
 }, {
@@ -413,7 +413,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "pie"],
 	"usage": "Pie chart type."
 }, {
@@ -424,7 +424,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "pivot"],
 	"usage": "Pivot chart type or concept for pivot"
 }, {
@@ -435,7 +435,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "stack", "area"],
 	"usage": "Stacked area chart type"
 }, {
@@ -446,7 +446,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "stack", "bar"],
 	"usage": "Stacked bar chart type"
 }, {
@@ -457,7 +457,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "chart",
+	"group": "Chart",
 	"keywords": ["chart", "stack", "line"],
 	"usage": "Stacked line chart type"
 }, {
@@ -469,7 +469,7 @@
 	"style": "light",
 	"subset": "VSTS",
 	"group": "command",
-	"keywords": [""],
+	"keywords": ["build", "queue", "add", "plus"],
 	"usage": "New Build queue. Combo icon not recommended. Use simple plus icon if possible."
 }, {
 	"id": 44,
@@ -491,7 +491,7 @@
 	"style": "light",
 	"subset": "VSTS",
 	"group": "command",
-	"keywords": ["install", "disk", "download", "setup"],
+	"keywords": ["install", "disk", "download", "setup", "arrow", "down"],
 	"usage": ""
 }, {
 	"id": 46,
@@ -501,7 +501,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "chat", "message", "conversation", "discussion"],
 	"usage": ""
 }, {
@@ -512,7 +512,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "add", "chat", "message", "conversation", "discussion"],
 	"usage": ""
 }, {
@@ -523,7 +523,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "chat", "message", "conversation", "discussion"],
 	"usage": ""
 }, {
@@ -534,7 +534,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "chat", "message", "conversation", "discussion", "content"],
 	"usage": ""
 }, {
@@ -545,7 +545,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "chat", "message", "conversation", "discussion", "next"],
 	"usage": ""
 }, {
@@ -556,7 +556,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "chat", "message", "conversation", "discussion"],
 	"usage": ""
 }, {
@@ -567,7 +567,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "chat", "message", "conversation", "discussion", "previous"],
 	"usage": ""
 }, {
@@ -578,7 +578,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "comment",
+	"group": "Comment",
 	"keywords": ["comment", "chat", "message", "conversation", "discussion", "urgent", "exclaimation", "alert", "attention"],
 	"usage": ""
 }, {
@@ -589,7 +589,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["flag", "alert", "notification"],
 	"usage": "Notification"
 }, {
@@ -600,7 +600,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["hand", "thumb", "up", "like", "approve"],
 	"usage": "The use of body parts is not recommended according to geopolitical guidelines. Use alternative design (up/down, smile/frown, vote count, etc.) if possible."
 }, {
@@ -611,7 +611,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["hand", "thumb", "down", "dislike", "disapprove"],
 	"usage": "The use of body parts is not recommended according to geopolitical guidelines. Use alternative design (up/down, smile/frown, vote count, etc.) if possible."
 }, {
@@ -620,10 +620,10 @@
 	"unicode": "E938",
 	"decimal": 59704,
 	"version": "1.0",
-	"style": "",
+	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
-	"keywords": [""],
+	"group": "Common",
+	"keywords": ["blur", "pixel", "image"],
 	"usage": ""
 }, {
 	"id": 58,
@@ -633,7 +633,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["build"],
 	"usage": "Used for build, compile."
 }, {
@@ -644,8 +644,8 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
-	"keywords": [""],
+	"group": "Common",
+	"keywords": ["build", "queue"],
 	"usage": "Used in Build hub to indicate queue."
 }, {
 	"id": 60,
@@ -655,7 +655,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["checkin", "upload", "move", "top"],
 	"usage": "Intentional duplicate of transfer-upload because checkin in is similar to upload, push."
 }, {
@@ -666,7 +666,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["calendar", "date", "schedule"],
 	"usage": "Used for generic calendar, date, deadline, schedule."
 }, {
@@ -677,7 +677,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["calendar", "date", "schedule"],
 	"usage": "Used for month calendar or date picker"
 }, {
@@ -688,8 +688,8 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
-	"keywords": [""],
+	"group": "Common",
+	"keywords": ["camera", "capture", "screen"],
 	"usage": ""
 }, {
 	"id": 64,
@@ -699,7 +699,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["copy", "duplicate", "clone"],
 	"usage": "Intentional duplicate"
 }, {
@@ -710,7 +710,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cloud", "remote", "online"],
 	"usage": ""
 }, {
@@ -721,7 +721,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cloud", "remote", "online"],
 	"usage": ""
 }, {
@@ -732,7 +732,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["copy", "clipboard", "text"],
 	"usage": ""
 }, {
@@ -743,7 +743,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["dashboard", "tile", "grid"],
 	"usage": ""
 }, {
@@ -754,7 +754,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["dashboard", "tile", "grid"],
 	"usage": ""
 }, {
@@ -765,7 +765,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["database", "data", "cylinder", "barrel"],
 	"usage": ""
 }, {
@@ -774,10 +774,10 @@
 	"unicode": "E946",
 	"decimal": 59718,
 	"version": "1.0",
-	"style": "",
+	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
-	"keywords": [""],
+	"group": "Build",
+	"keywords": ["deploy", "slot", "arrowup", "square"],
 	"usage": ""
 }, {
 	"id": 72,
@@ -785,10 +785,10 @@
 	"unicode": "E947",
 	"decimal": 59719,
 	"version": "1.0",
-	"style": "",
+	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
-	"keywords": [""],
+	"group": "Build",
+	"keywords": ["deploy", "slot", "arrowup", "square"],
 	"usage": ""
 }, {
 	"id": 73,
@@ -798,7 +798,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["pane", "detail", "layout", "panel"],
 	"usage": ""
 }, {
@@ -809,7 +809,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["edit", "pencil"],
 	"usage": ""
 }, {
@@ -820,7 +820,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["edit", "pencil"],
 	"usage": ""
 }, {
@@ -831,7 +831,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["copy", "duplicate", "clone"],
 	"usage": ""
 }, {
@@ -842,7 +842,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cut", "scissors"],
 	"usage": ""
 }, {
@@ -853,7 +853,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["list", "bullet"],
 	"usage": ""
 }, {
@@ -864,7 +864,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["paste", "clipboard"],
 	"usage": ""
 }, {
@@ -875,7 +875,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["delete", "destroy"],
 	"usage": "used in context menu or toolbar for Delete command, matching Add command."
 }, {
@@ -886,7 +886,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["remove", "minus", "line"],
 	"usage": "replace with math-minus-light. Intentional duplicate"
 }, {
@@ -897,7 +897,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["arrow", "redo"],
 	"usage": ""
 }, {
@@ -908,7 +908,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["arrow", "undo", "revert"],
 	"usage": ""
 }, {
@@ -919,7 +919,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["rename", "textbox", "cursor"],
 	"usage": ""
 }, {
@@ -930,7 +930,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["paperclip", "attach"],
 	"usage": "Used for attachment."
 }, {
@@ -941,7 +941,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["link", "hyperlink", "url"],
 	"usage": ""
 }, {
@@ -952,7 +952,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -963,7 +963,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -974,7 +974,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -985,7 +985,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["smiley", "face", "emoji", "unhappy", "negative", "sad"],
 	"usage": ""
 }, {
@@ -996,7 +996,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["smiley", "face", "emoji", "happy", "positive", "smile"],
 	"usage": ""
 }, {
@@ -1007,7 +1007,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["folder"],
 	"usage": ""
 }, {
@@ -1018,7 +1018,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["image", "picture", "photo"],
 	"usage": ""
 }, {
@@ -1029,7 +1029,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["package", "gift", "box"],
 	"usage": ""
 }, {
@@ -1040,7 +1040,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["package", "gift", "box"],
 	"usage": ""
 }, {
@@ -1051,7 +1051,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["heart", "love"],
 	"usage": ""
 }, {
@@ -1062,7 +1062,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["heart", "love"],
 	"usage": ""
 }, {
@@ -1073,7 +1073,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["heart", "pulse", "ekg", "health", "monitor"],
 	"usage": ""
 }, {
@@ -1084,7 +1084,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["heart", "pulse", "ekg", "health", "monitor"],
 	"usage": ""
 }, {
@@ -1095,7 +1095,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["envelope", "message", "mail"],
 	"usage": "used for read mail"
 }, {
@@ -1106,7 +1106,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["envelope", "message", "mail"],
 	"usage": "used for unread mail"
 }, {
@@ -1117,7 +1117,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["line", "minus", "remove"],
 	"usage": ""
 }, {
@@ -1128,7 +1128,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["line", "minus", "remove"],
 	"usage": ""
 }, {
@@ -1139,7 +1139,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["box", "line", "minus", "remove", "minimize"],
 	"usage": ""
 }, {
@@ -1150,7 +1150,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["box", "line", "minus", "remove", "minimize"],
 	"usage": ""
 }, {
@@ -1161,7 +1161,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["circle", "line", "minus", "remove"],
 	"usage": ""
 }, {
@@ -1172,7 +1172,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["circle", "line", "minus", "remove"],
 	"usage": ""
 }, {
@@ -1183,7 +1183,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cross", "x", "close", "multiply"],
 	"usage": ""
 }, {
@@ -1194,7 +1194,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cross", "x", "close", "multiply"],
 	"usage": ""
 }, {
@@ -1205,7 +1205,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cross", "x", "close", "multiply", "box"],
 	"usage": ""
 }, {
@@ -1216,7 +1216,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cross", "x", "close", "multiply", "box"],
 	"usage": ""
 }, {
@@ -1227,7 +1227,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["cross", "x", "close", "multiply", "box"],
 	"usage": ""
 }, {
@@ -1238,7 +1238,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plus", "add"],
 	"usage": ""
 }, {
@@ -1249,7 +1249,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plus", "add"],
 	"usage": ""
 }, {
@@ -1260,7 +1260,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plus", "add", "box"],
 	"usage": ""
 }, {
@@ -1271,7 +1271,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plus", "add", "box"],
 	"usage": ""
 }, {
@@ -1282,7 +1282,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plus", "add", "circle"],
 	"usage": ""
 }, {
@@ -1293,7 +1293,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plus", "add", "circle"],
 	"usage": ""
 }, {
@@ -1304,7 +1304,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plus", "add"],
 	"usage": "intentional duplicate"
 }, {
@@ -1315,7 +1315,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["check", "checkmark"],
 	"usage": "Check, approve. Use bold version when it is small to match other bold icons in a list. Usually apply sementic color positive on this icon."
 }, {
@@ -1326,7 +1326,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["check", "checkmark"],
 	"usage": "Check, approve. Use light version for large size, match other light icons if in a list."
 }, {
@@ -1337,7 +1337,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["feed", "rss"],
 	"usage": ""
 }, {
@@ -1348,7 +1348,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["network", "tower", "signal", "wave", "broadcast"],
 	"usage": ""
 }, {
@@ -1370,7 +1370,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plug", "connect"],
 	"usage": ""
 }, {
@@ -1381,7 +1381,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["plug", "connect"],
 	"usage": ""
 }, {
@@ -1392,7 +1392,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["policy", "ribbon"],
 	"usage": ""
 }, {
@@ -1403,7 +1403,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1414,7 +1414,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["recycle"],
 	"usage": ""
 }, {
@@ -1425,7 +1425,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1436,7 +1436,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["save", "floppy", "disk"],
 	"usage": ""
 }, {
@@ -1447,7 +1447,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1458,7 +1458,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1469,7 +1469,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1480,7 +1480,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["search", "find", "lookup", "magnifier"],
 	"usage": ""
 }, {
@@ -1491,7 +1491,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["filter", "funnel"],
 	"usage": ""
 }, {
@@ -1502,7 +1502,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["filter", "funnel"],
 	"usage": ""
 }, {
@@ -1513,7 +1513,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["security", "warning", "alert", "shield", "exclaimation"],
 	"usage": ""
 }, {
@@ -1524,7 +1524,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["access", "security", "key"],
 	"usage": ""
 }, {
@@ -1535,7 +1535,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["access", "security", "lock", "permission"],
 	"usage": ""
 }, {
@@ -1546,7 +1546,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["access", "security", "lock", "permission"],
 	"usage": ""
 }, {
@@ -1557,7 +1557,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["access", "security", "lock", "permission", "unlock"],
 	"usage": ""
 }, {
@@ -1568,7 +1568,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["access", "security", "lock", "permission", "unlock"],
 	"usage": ""
 }, {
@@ -1579,7 +1579,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["settings", "gear"],
 	"usage": ""
 }, {
@@ -1590,7 +1590,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1601,7 +1601,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["settings", "wrench", "property"],
 	"usage": ""
 }, {
@@ -1612,7 +1612,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1623,7 +1623,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["share"],
 	"usage": ""
 }, {
@@ -1634,7 +1634,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["store", "shop"],
 	"usage": ""
 }, {
@@ -1645,7 +1645,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["store", "shop", "on-prem", "local", "server", "intranet"],
 	"usage": ""
 }, {
@@ -1656,7 +1656,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1667,7 +1667,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1678,7 +1678,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1689,7 +1689,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1700,7 +1700,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1711,7 +1711,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1722,7 +1722,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1733,7 +1733,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1744,7 +1744,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1755,7 +1755,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["live", "update", "feed", "signal", "broadcast", "radar"],
 	"usage": "Used in Kanban board for toggle listen to live update."
 }, {
@@ -1766,7 +1766,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["checkbox", "checked", "check", "checkmark"],
 	"usage": "Checkbox checked."
 }, {
@@ -1777,7 +1777,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["checkbox", "box", "square"],
 	"usage": "Checkebox empty. Note that this box alignment is different from stop icon. This is only used for checkbox."
 }, {
@@ -1788,7 +1788,7 @@
 	"version": "1.0",
 	"style": "small",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "up", "expand", "collpase"],
 	"usage": "Small version used for collapse/expand panels."
 }, {
@@ -1799,7 +1799,7 @@
 	"version": "1.0",
 	"style": "small",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "left", "expand", "collpase"],
 	"usage": "Small version used for collapse/expand panels."
 }, {
@@ -1810,7 +1810,7 @@
 	"version": "1.0",
 	"style": "small",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "down", "expand", "collpase", "dropdown"],
 	"usage": "Small version used for collapse/expand panels."
 }, {
@@ -1821,7 +1821,7 @@
 	"version": "1.0",
 	"style": "small",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "right", "expand", "collpase"],
 	"usage": "Small version used for collapse/expand panels."
 }, {
@@ -1832,7 +1832,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "up", "expand", "collpase"],
 	"usage": "Big version used for dialog split button dropup."
 }, {
@@ -1843,7 +1843,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "left", "expand", "collpase"],
 	"usage": "Created to match the other big chevron icons."
 }, {
@@ -1854,7 +1854,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "down", "expand", "collpase", "dropdown"],
 	"usage": "Big version used for dialog split button dropdown."
 }, {
@@ -1865,7 +1865,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["chevron", "right", "expand", "collpase"],
 	"usage": "Created to match the other big chevron icons."
 }, {
@@ -1876,7 +1876,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1887,7 +1887,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1898,7 +1898,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1909,7 +1909,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1920,7 +1920,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1931,7 +1931,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1942,7 +1942,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1953,7 +1953,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -1964,7 +1964,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["fold", "less", "collapse"],
 	"usage": ""
 }, {
@@ -1975,7 +1975,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["fold", "more", "expand"],
 	"usage": ""
 }, {
@@ -1986,7 +1986,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["ellipsis", "trim", "more", "overflow"],
 	"usage": ""
 }, {
@@ -1997,7 +1997,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["ellipsis", "trim", "more", "overflow"],
 	"usage": ""
 }, {
@@ -2008,7 +2008,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["star", "favorite", "rating"],
 	"usage": ""
 }, {
@@ -2019,7 +2019,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["star", "favorite", "rating"],
 	"usage": ""
 }, {
@@ -2030,7 +2030,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["star", "favorite", "rating", "half"],
 	"usage": ""
 }, {
@@ -2041,7 +2041,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["pushpin", "pin"],
 	"usage": ""
 }, {
@@ -2052,7 +2052,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["pushpin", "pin"],
 	"usage": ""
 }, {
@@ -2063,7 +2063,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["pushpin", "pin"],
 	"usage": ""
 }, {
@@ -2074,7 +2074,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["pushpin", "pin"],
 	"usage": ""
 }, {
@@ -2085,7 +2085,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["pushpin", "pin"],
 	"usage": ""
 }, {
@@ -2096,7 +2096,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["pushpin", "pin"],
 	"usage": ""
 }, {
@@ -2107,7 +2107,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["radio", "button", "choice", "circle"],
 	"usage": ""
 }, {
@@ -2118,7 +2118,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["radio", "button", "choice", "circle"],
 	"usage": ""
 }, {
@@ -2129,7 +2129,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2140,7 +2140,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["separator", "divider", "pipe", "line"],
 	"usage": ""
 }, {
@@ -2151,7 +2151,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2162,7 +2162,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2173,7 +2173,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2184,7 +2184,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2195,7 +2195,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2206,7 +2206,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2217,7 +2217,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2228,7 +2228,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2239,7 +2239,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2250,7 +2250,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2261,7 +2261,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2272,7 +2272,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2283,7 +2283,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2294,7 +2294,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["navigate", "external"],
 	"usage": ""
 }, {
@@ -2305,7 +2305,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2316,7 +2316,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2327,7 +2327,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "bold"],
 	"usage": ""
 }, {
@@ -2338,7 +2338,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "font", "italic"],
 	"usage": ""
 }, {
@@ -2349,7 +2349,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "font", "underline"],
 	"usage": ""
 }, {
@@ -2360,7 +2360,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "font", "color"],
 	"usage": ""
 }, {
@@ -2371,7 +2371,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "font", "size"],
 	"usage": ""
 }, {
@@ -2382,7 +2382,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "clear", "erase"],
 	"usage": ""
 }, {
@@ -2393,7 +2393,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "text", "indent", "decrease"],
 	"usage": ""
 }, {
@@ -2404,7 +2404,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "text", "indent", "increase"],
 	"usage": ""
 }, {
@@ -2415,7 +2415,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "list", "ordered", "number"],
 	"usage": ""
 }, {
@@ -2426,7 +2426,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["format", "list", "unordered", "bullet"],
 	"usage": ""
 }, {
@@ -2437,7 +2437,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": ["file"],
 	"usage": ""
 }, {
@@ -2448,7 +2448,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2459,7 +2459,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": ["file", "code"],
 	"usage": ""
 }, {
@@ -2470,7 +2470,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": ["file", "comment"],
 	"usage": ""
 }, {
@@ -2481,7 +2481,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": ["file", "text", "content", "code"],
 	"usage": ""
 }, {
@@ -2492,7 +2492,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": ["file", "image"],
 	"usage": ""
 }, {
@@ -2503,7 +2503,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": ["file", "preview", "search", "lookup"],
 	"usage": ""
 }, {
@@ -2514,7 +2514,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "file",
+	"group": "File",
 	"keywords": ["file", "external", "symlink", "shortcut"],
 	"usage": ""
 }, {
@@ -2525,7 +2525,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": ["media", "play"],
 	"usage": "check if it is same as play"
 }, {
@@ -2536,7 +2536,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": ["media", "play"],
 	"usage": "check if it is same as play-fill"
 }, {
@@ -2547,7 +2547,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2558,7 +2558,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2569,7 +2569,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2580,7 +2580,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2591,7 +2591,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2602,7 +2602,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2613,7 +2613,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2624,7 +2624,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2635,7 +2635,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2646,7 +2646,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2657,7 +2657,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2668,7 +2668,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2679,7 +2679,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2690,7 +2690,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2701,7 +2701,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2712,7 +2712,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2723,7 +2723,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2734,7 +2734,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "media",
+	"group": "Media",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2745,7 +2745,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["menu", "hamburger", "line"],
 	"usage": ""
 }, {
@@ -2756,7 +2756,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["close"],
 	"usage": "used for close. Do not use for delete or remove."
 }, {
@@ -2767,7 +2767,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["navigate", "back", "left", "previous", "circle", "arrow"],
 	"usage": ""
 }, {
@@ -2778,7 +2778,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["navigate", "back", "left", "previous", "circle", "arrow"],
 	"usage": ""
 }, {
@@ -2789,7 +2789,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["navigate", "forward", "right", "next", "circle", "arrow"],
 	"usage": ""
 }, {
@@ -2800,7 +2800,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["navigate", "forward", "right", "next", "circle", "arrow"],
 	"usage": ""
 }, {
@@ -2811,7 +2811,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["history", "time", "version", "time", "clock", "arrow"],
 	"usage": ""
 }, {
@@ -2822,7 +2822,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["refresh", "reload", "arrow"],
 	"usage": ""
 }, {
@@ -2833,7 +2833,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "navigation",
+	"group": "Navigation",
 	"keywords": ["refresh", "reload", "arrow"],
 	"usage": "intentional duplicate"
 }, {
@@ -2844,7 +2844,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": ["status", "error", "alert", "invalid", "problem", "circle", "exclaimation"],
 	"usage": ""
 }, {
@@ -2855,7 +2855,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": ["status", "error", "alert", "invalid", "problem", "circle", "exclaimation"],
 	"usage": ""
 }, {
@@ -2866,7 +2866,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": ["status", "critical", "failure", "fatal", "circle", "cross", "x"],
 	"usage": ""
 }, {
@@ -2877,7 +2877,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": ["status", "critical", "failure", "fatal", "circle", "cross", "x"],
 	"usage": ""
 }, {
@@ -2888,7 +2888,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2899,7 +2899,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2910,7 +2910,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2921,7 +2921,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2932,7 +2932,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2943,7 +2943,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2954,7 +2954,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2965,7 +2965,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2976,7 +2976,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2987,7 +2987,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -2998,7 +2998,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3009,7 +3009,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3020,7 +3020,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3031,7 +3031,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3042,7 +3042,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3053,7 +3053,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3064,7 +3064,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3075,7 +3075,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3086,7 +3086,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "status",
+	"group": "Status",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3097,7 +3097,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3108,7 +3108,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3119,7 +3119,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3130,7 +3130,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3141,7 +3141,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3152,7 +3152,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3163,7 +3163,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3174,7 +3174,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3185,7 +3185,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3196,7 +3196,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3207,7 +3207,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3218,7 +3218,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3229,7 +3229,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3240,7 +3240,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3251,7 +3251,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3262,7 +3262,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "test",
+	"group": "Test",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3273,7 +3273,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["image", "diff", "compare", "side-by-side"],
 	"usage": ""
 }, {
@@ -3284,7 +3284,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["image", "diff", "compare", "overlay"],
 	"usage": ""
 }, {
@@ -3295,7 +3295,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["image", "diff", "compare", "pixel"],
 	"usage": ""
 }, {
@@ -3306,7 +3306,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["code", "diff", "compare", "inline"],
 	"usage": ""
 }, {
@@ -3317,7 +3317,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["code", "diff", "compare", "side-by-side"],
 	"usage": ""
 }, {
@@ -3328,7 +3328,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["repository", "repo", "git"],
 	"usage": ""
 }, {
@@ -3339,7 +3339,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["repository", "repo"],
 	"usage": ""
 }, {
@@ -3350,7 +3350,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["repository", "repo", "git"],
 	"usage": ""
 }, {
@@ -3361,7 +3361,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3372,7 +3372,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["folder", "git", "submodule"],
 	"usage": ""
 }, {
@@ -3383,7 +3383,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3394,7 +3394,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": ["repository", "repo", "tfvc", "team", "foundation", "version", "control"],
 	"usage": ""
 }, {
@@ -3405,7 +3405,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3416,7 +3416,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3427,7 +3427,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3438,7 +3438,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3449,7 +3449,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3460,7 +3460,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3471,7 +3471,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3482,7 +3482,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "version control",
+	"group": "Version Control",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3493,7 +3493,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3504,7 +3504,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": ["recycle", "bin", "restore", "undo"],
 	"usage": ""
 }, {
@@ -3515,7 +3515,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3526,7 +3526,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3537,7 +3537,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3548,7 +3548,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3559,7 +3559,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3570,7 +3570,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3581,7 +3581,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3592,7 +3592,7 @@
 	"version": "1.0",
 	"style": "",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": [""],
 	"usage": ""
 }, {
@@ -3603,7 +3603,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": ["template", "watermark", "fill", "box", "form"],
 	"usage": "Used in context menu for Auto fill template form command."
 }, {
@@ -3614,7 +3614,7 @@
 	"version": "1.0",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": ["recycle", "bin"],
 	"usage": ""
 }, {
@@ -3625,7 +3625,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "",
+	"group": "misc",
 	"keywords": ["dot", "circle"],
 	"usage": "check if it is same as record-fill"
 }, {
@@ -3636,7 +3636,7 @@
 	"version": "1.0",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "",
+	"group": "misc",
 	"keywords": ["square"],
 	"usage": "check if it is same as stop-fill"
 }, {
@@ -3647,7 +3647,7 @@
 	"version": "1.1",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "common",
+	"group": "Common",
 	"keywords": ["row", "child", "sub", "indent", "tree"],
 	"usage": "Used for creating a child node of the current node in a tree structure."
 }, {
@@ -3658,7 +3658,7 @@
 	"version": "1.1",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": ["log", "activity", "remove", "delete"],
 	"usage": "Used for removing activity entry on Kanban board."
 }, {
@@ -3669,7 +3669,7 @@
 	"version": "1.1",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": ["live", "update", "feed", "signal", "broadcast", "radar", "off"],
 	"usage": "Used to indicate listen to Kanban board live updates is toggled off. Adding a slash is not the common toggle off pattern. It is only used in this case."
 }, {
@@ -3680,7 +3680,7 @@
 	"version": "1.1",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["resize", "grip", "handle"],
 	"usage": "Used for dialog, modal, or textarea resize handle."
 }, {
@@ -3691,7 +3691,7 @@
 	"version": "1.1",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "editor",
+	"group": "Editor",
 	"keywords": ["link", "hyperlink", "url", "remove"],
 	"usage": "Used for removing hyperlink."
 }, {
@@ -3702,7 +3702,7 @@
 	"version": "1.1",
 	"style": "bold",
 	"subset": "VSTS",
-	"group": "control",
+	"group": "Control",
 	"keywords": ["loading", "spinner", "wait", "dots", "loop", "spin"],
 	"usage": "Add bowtie-ani-spin-pulse class for animation."
 }, {
@@ -3713,7 +3713,7 @@
 	"version": "1.1",
 	"style": "light",
 	"subset": "VSTS",
-	"group": "work",
+	"group": "Work",
 	"keywords": ["personalize", "customize", "design", "edit", "draw", "pen", "brush"],
 	"usage": "Used for customizing work item form."
 }, {
@@ -3760,4 +3760,37 @@
 	"group": "Test",
 	"keywords": ["step", "shared", "reuse", "multiple", "arrow", "right", "stairs"],
 	"usage": "Used in Test hub for inserting existing shared steps."
+}, {
+	"id": 343,
+	"name": "process",
+	"unicode": "EA56",
+	"decimal": 59990,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Build",
+	"keywords": ["process", "task", "gear", "automation"],
+	"usage": "Used for build, deployment tasks."
+}, {
+	"id": 344,
+	"name": "process-meta-task",
+	"unicode": "EA57",
+	"decimal": 59991,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Build",
+	"keywords": ["process", "task", "gear", "automation", "box", "container", "group", "reusable"],
+	"usage": "Used for build, deployment tasks."
+}, {
+	"id": 345,
+	"name": "column-option",
+	"unicode": "EA58",
+	"decimal": 59992,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Common",
+	"keywords": ["column", "option", "settings", "gear"],
+	"usage": "Used for a group of reusable build, deployment tasks."
 }]
