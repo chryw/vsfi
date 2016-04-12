@@ -1646,3 +1646,15 @@
 .bowtie-column-option:before {
 	content: "\EA58";
 }
+
+.bowtie-globe:before {
+	content: "\EA59";
+}
+
+.bowtie-locale-timezone:before {
+	content: "\EA5A";
+}
+
+.bowtie-locale-language:before {
+	content: "\EA5B";
+}

@@ -3793,4 +3793,37 @@
 	"group": "Common",
 	"keywords": ["column", "option", "settings", "gear"],
 	"usage": "Used for a group of reusable build, deployment tasks."
+}, {
+	"id": 346,
+	"name": "globe",
+	"unicode": "EA59",
+	"decimal": 59993,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Common",
+	"keywords": ["web", "globe", "country", "region", "world"],
+	"usage": "Used for web or website. Also used for region or country on user profile page."
+}, {
+	"id": 347,
+	"name": "locale-language",
+	"unicode": "EA5A",
+	"decimal": 59994,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Profile",
+	"keywords": ["web", "globe", "country", "region", "world", "locale", "language", "letter", "character"],
+	"usage": "Used for language preference on user profile page."
+}, {
+	"id": 348,
+	"name": "locale-timezone",
+	"unicode": "EA5B",
+	"decimal": 59995,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Profile",
+	"keywords": ["web", "globe", "country", "region", "world", "timezone", "time", "clock"],
+	"usage": "Used for timezone preference on user profile page."
 }]
