@@ -3826,4 +3826,26 @@
 	"group": "Profile",
 	"keywords": ["web", "globe", "country", "region", "world", "timezone", "time", "clock"],
 	"usage": "Used for timezone preference on user profile page."
+}, {
+	"id": 349,
+	"name": "feedback-positive-outline",
+	"unicode": "EA5C",
+	"decimal": 59996,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Common",
+	"keywords": ["feedback", "positive", "smile"],
+	"usage": "Used in dropdown menu on white background."
+}, {
+	"id": 350,
+	"name": "feedback-negative-outline",
+	"unicode": "EA5D",
+	"decimal": 59997,
+	"version": "1.1",
+	"style": "light",
+	"subset": "VSTS",
+	"group": "Common",
+	"keywords": ["feedback", "negative", "sad"],
+	"usage": "Used in dropdown menu on white background."
 }]

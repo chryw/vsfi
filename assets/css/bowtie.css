@@ -1658,3 +1658,11 @@
 .bowtie-locale-language:before {
 	content: "\EA5B";
 }
+
+.bowtie-feedback-positive-outline:before {
+	content: "\EA5C";
+}
+
+.bowtie-feedback-negative-outline:before {
+	content: "\EA5D";
+}
