@@ -267,6 +267,10 @@
 	content: "\E038";
 }
 
+.bowtie-brand-vsts:before {
+	content: "\E039";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
