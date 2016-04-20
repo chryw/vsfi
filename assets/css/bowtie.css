@@ -1670,3 +1670,7 @@
 .bowtie-feedback-negative-outline:before {
 	content: "\EA5D";
 }
+
+.bowtie-contact-card:before {
+	content: "\EA5E";
+}
