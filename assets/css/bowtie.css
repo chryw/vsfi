@@ -267,10 +267,6 @@
 	content: "\E038";
 }
 
-.bowtie-brand-vsts:before {
-	content: "\E039";
-}
-
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
@@ -1673,4 +1669,8 @@
 
 .bowtie-contact-card:before {
 	content: "\EA5E";
+}
+
+.bowtie-brand-vsts:before {
+	content: "\EA60";
 }

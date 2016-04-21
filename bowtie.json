@@ -3859,4 +3859,15 @@
     "group": "Common",
     "keywords": ["contact", "info", "card", "email", "user", "profile"],
     "usage": "Used for contact card."
+}, {
+    "id": 353,
+    "name": "brand-vsts",
+    "unicode": "EA60",
+    "decimal": 60000,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Brand",
+    "keywords": ["vsts", "brand", "logo"],
+    "usage": "VSTS product icon."
 }]
