@@ -3881,4 +3881,125 @@
     "group": "Brand",
     "keywords": ["vsts", "brand", "logo"],
     "usage": "VSTS product icon."
+}, {
+    "id": 354,
+    "name": "status-success-sm",
+    "unicode": "EA61",
+    "decimal": 60001,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "success", "complete", "ok", "pass", "positive", "good", "checkmark"],
+    "usage": "This is a smaller version of bowtie-status-success. It is used for stacking with bowtie-dot."
+}, {
+    "id": 355,
+    "name": "status-warning-sm",
+    "unicode": "EA62",
+    "decimal": 60002,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "warning", "problem", "attention", "exclaimation"],
+    "usage": "This is a smaller version of bowtie-status-warning. It is used for stacking with bowtie-triangle."
+}, {
+    "id": 356,
+    "name": "status-info-sm",
+    "unicode": "EA63",
+    "decimal": 60003,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "information", "letter", "i"],
+    "usage": "This is a smaller version of bowtie-status-info. It is used for stacking with bowtie-dot."
+}, {
+    "id": 357,
+    "name": "status-failure-sm",
+    "unicode": "EA64",
+    "decimal": 60004,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "failure", "negative", "critical", "problem", "fatal", "error"],
+    "usage": "This is a smaller version of bowtie-status-failure. It is used for stacking with bowtie-dot."
+}, {
+    "id": 358,
+    "name": "status-error-sm",
+    "unicode": "EA65",
+    "decimal": 60005,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "error", "alert", "invalid", "problem", "circle", "exclaimation"],
+    "usage": "This is a smaller version of bowtie-status-error. It is used for stacking with bowtie-dot."
+}, {
+    "id": 359,
+    "name": "status-run-sm",
+    "unicode": "EA66",
+    "decimal": 60006,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "run", "play", "execute", "in", "progress", "triangle"],
+    "usage": "This is a smaller version of bowtie-status-run. It is used for stacking with bowtie-dot."
+}, {
+    "id": 360,
+    "name": "status-help-sm",
+    "unicode": "EA67",
+    "decimal": 60007,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "help", "question"],
+    "usage": "This is a smaller version of bowtie-status-help. It is used for stacking with bowtie-dot."
+}, {
+    "id": 361,
+    "name": "status-stop-sm",
+    "unicode": "EA68",
+    "decimal": 60008,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "stop", "square"],
+    "usage": "This is a smaller version of bowtie-status-stop. It is used for stacking with bowtie-dot."
+}, {
+    "id": 362,
+    "name": "status-pause-sm",
+    "unicode": "EA69",
+    "decimal": 60009,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "pause"],
+    "usage": "This is a smaller version of bowtie-status-success. It is used for stacking with bowtie-dot."
+}, {
+    "id": 363,
+    "name": "status-waiting-fill-sm",
+    "unicode": "EA6A",
+    "decimal": 60010,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "waiting", "clock", "time", "pending", "queue"],
+    "usage": "This is a smaller version of bowtie-status-waiting-fill. It is used for stacking with bowtie-dot."
+}, {
+    "id": 364,
+    "name": "status-no-fill-sm",
+    "unicode": "EA6B",
+    "decimal": 60011,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["status", "no", "block", "mute", "unavailable"],
+    "usage": "This is a smaller version of bowtie-status-no-fill. It is used for stacking with bowtie-dot."
 }]

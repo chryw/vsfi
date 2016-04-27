@@ -159,90 +159,6 @@
 	content: "\E015";
 }
 
-.bowtie-status-success-stack-1:before {
-	content: "\E016";
-}
-
-.bowtie-status-success-stack-2:before {
-	content: "\E017";
-}
-
-.bowtie-status-warning-stack-2:before {
-	content: "\E019";
-}
-
-.bowtie-status-failure-stack-1:before {
-	content: "\E01A";
-}
-
-.bowtie-status-failure-stack-2:before {
-	content: "\E01B";
-}
-
-.bowtie-status-error-stack-1:before {
-	content: "\E01C";
-}
-
-.bowtie-status-error-stack-2:before {
-	content: "\E01D";
-}
-
-.bowtie-status-help-stack-1:before {
-	content: "\E01E";
-}
-
-.bowtie-status-help-stack-2:before {
-	content: "\E01F";
-}
-
-.bowtie-status-info-stack-1:before {
-	content: "\E020";
-}
-
-.bowtie-status-info-stack-2:before {
-	content: "\E021";
-}
-
-.bowtie-status-waiting-stack-1:before {
-	content: "\E022";
-}
-
-.bowtie-status-waiting-stack-2:before {
-	content: "\E023";
-}
-
-.bowtie-status-no-stack-1:before {
-	content: "\E024";
-}
-
-.bowtie-status-no-stack-2:before {
-	content: "\E025";
-}
-
-.bowtie-status-run-stack-1:before {
-	content: "\E026";
-}
-
-.bowtie-status-run-stack-2:before {
-	content: "\E027";
-}
-
-.bowtie-status-stop-stack-1:before {
-	content: "\E028";
-}
-
-.bowtie-status-stop-stack-2:before {
-	content: "\E029";
-}
-
-.bowtie-status-pause-stack-1:before {
-	content: "\E02A";
-}
-
-.bowtie-status-pause-stack-2:before {
-	content: "\E02B";
-}
-
 .bowtie-create-sparkle:before {
 	content: "\E02D";
 }
@@ -1665,4 +1581,48 @@
 
 .bowtie-brand-vsts:before {
 	content: "\EA60";
+}
+
+.bowtie-status-success-sm:before {
+	content: "\EA61";
+}
+
+.bowtie-status-warning-sm:before {
+	content: "\EA62";
+}
+
+.bowtie-status-info-sm:before {
+	content: "\EA63";
+}
+
+.bowtie-status-failure-sm:before {
+	content: "\EA64";
+}
+
+.bowtie-status-error-sm:before {
+	content: "\EA65";
+}
+
+.bowtie-status-run-sm:before {
+	content: "\EA66";
+}
+
+.bowtie-status-help-sm:before {
+	content: "\EA67";
+}
+
+.bowtie-status-stop-sm:before {
+	content: "\EA68";
+}
+
+.bowtie-status-pause-sm:before {
+	content: "\EA69";
+}
+
+.bowtie-status-waiting-fill-sm:before {
+	content: "\EA6A";
+}
+
+.bowtie-status-no-fill-sm:before {
+	content: "\EA6B";
 }

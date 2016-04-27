@@ -49,6 +49,112 @@
 		#iconlist .modal-content .metadata span {
 			padding-right: 30px;
 		}
+
+		.cw-list-inline {
+			list-style: none;
+			padding: 0;
+		}
+
+		.cw-list-inline li {
+			display: inline-block;
+		}
+
+		.bowtie-stack {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			width: 1em;
+			height: 1em;
+			line-height: 1em;
+		}
+
+		.bowtie-stack .bowtie {
+			position: absolute;
+			left: 0;
+			width: 100%;
+			text-align: center;
+		}
+
+		.cw-avatar {
+			position: relative;
+			width: 30px;
+			height: 30px;
+			vertical-align: middle;
+			background-color: #ccc;
+		}
+
+		.cw-avatar > .bowtie {
+			position: absolute;
+			top: 10px;
+			left: 4px;
+			font-size: 2em;
+			color: #fff;
+		}
+
+		.cw-avatar .status-badge {
+			display: block;
+			position: absolute;
+			right: -2px;
+			bottom: -2px;
+			z-index: 2;
+		}
+
+		.cw-avatar .status-badge .bowtie {
+			font-size: 16px;
+		}
+
+		.cw-toolbar-item {
+			position: relative;
+			width: 28px;
+			height: 24px;
+		}
+
+		.cw-toolbar-item:hover,
+		.cw-toolbar-item:active,
+		.cw-toolbar-item:focus {
+			background-color: #C9E7E7;
+			cursor: pointer;
+		}
+
+		.cw-toolbar-item:hover .bowtie-stack >:nth-child(1),
+		.cw-toolbar-item:active .bowtie-stack >:nth-child(1),
+		.cw-toolbar-item:focus .bowtie-stack >:nth-child(1) {
+			color: #C9E7E7;
+		}
+
+		.cw-toolbar-item > .bowtie {
+			position: absolute;
+			top: 5px;
+			left: 3px;
+		}
+
+		.cw-toolbar-item .status-badge {
+			display: block;
+			position: absolute;
+			z-index: 2;
+			bottom: 4px;
+			right: 4px;
+		}
+
+		.white {
+			color: #fff;
+		}
+
+		.success {
+			color: #339933;
+		}
+
+		.warning {
+			color: #FFCC00;
+		}
+
+		.info {
+			color: #1BA1E2;
+		}
+
+		.fail {
+			color: #DA0A00;
+		}
 	</style>
 </head>
 
@@ -70,98 +176,260 @@
 							icon (typically an <code>&lt;i&gt;</code>, <code>&lt;span&gt;</code>, or <code>&lt;div&gt;</code>). Next you'll want to apply the content class for the icon you want. Use the below catalog to find the class names.</p>
 						<h4>Spinning animation</h4>
 						<p>You can apply spinning animation to these icons by adding "bowtie-ani-spin" or "bowtie-ani-spin-pulse" classes:</p>
-						<ul>
-							<li><span class="bowtie bowtie-synchronize bowtie-ani-spin"></span></li>
-							<li><span class="bowtie bowtie-spinner bowtie-ani-spin-pulse"></span></li>
-						</ul>
-						<h4>Status badge overlay with white halo</h4>
-						<p>TBD</p>
-					</div>
-					<hr>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 clearfix">
-							<input id="searchbox" class="search form-control" placeholder="Search" ng-model="query" />
-							<br />
-						</div>
-						<div class="well col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
-							<ul class="list-unstyled icon-list" id="iconlist">
-								<li ng-repeat="icon in icons | orderBy:['decimal','-group'] | filter:query" data-metadata="{{icon}}">
-									<div class="item" data-toggle="modal" data-target="#modal{{icon.id}}">
-										<span class="bowtie bowtie-{{icon.name}}"></span><span class="name" aria-label="{{icon.name}}">bowtie-{{icon.name}}({{icon.unicode}})</span>
-									</div>
-									<div id="modal{{icon.id}}" class="modal fade" tabindex="-1" role="dialog">
-										<div class="modal-dialog modal-md">
-											<div class="modal-content">
-												<div class="sizes">
-													<span class="bowtie bowtie-{{icon.name}} bowtie-5x"></span>
-													<span class="bowtie bowtie-{{icon.name}} bowtie-4x"></span>
-													<span class="bowtie bowtie-{{icon.name}} bowtie-3x"></span>
-													<span class="bowtie bowtie-{{icon.name}} bowtie-2x"></span>
-													<span class="bowtie bowtie-{{icon.name}} bowtie-1x"></span>
-												</div>
-												<h3>bowtie-{{icon.name}}</h3>
-												<div class="input-group">
-													<input type="text" id="txtCopy{{icon.id}}" class="form-control" value="&lt;span class=&quot;bowtie-icon bowtie-{{icon.name}}&quot;&gt;&lt;/span&gt;" />
-													<span class="input-group-btn">
-        <button id="btnCopy{{icon.id}}" data-clipboard-target="#txtCopy{{icon.id}}" class="btn btn-secondary" type="button" ng-click="copyToClipboard($event)" data-toggle="tooltip"><span class="bowtie bowtie-edit-copy"></span>
-													</button>
-													</span>
-												</div>
+							<p><span class="name">Apply <code>bowtie-ani-spin</code> class for the <span class="bowtie bowtie-synchronize"></span> <code>bowtie-syncrhronize</code> icon for smooth spin animation - <span class="bowtie bowtie-synchronize bowtie-ani-spin"></span></p>
+							<p> <span class="name">Apply <code>bowtie-ani-spin-pulse</code> class for the <span class="bowtie bowtie-spinner"></span> <code>bowtie-spinner</code> icon for stepped spin animation - <span class="bowtie bowtie-spinner bowtie-ani-spin-pulse"></p>
 
-												<br>
-												<div class="metadata">
-													<p>
-														<span>Unicode: {{icon.unicode}}</span><span>Version: v{{icon.version}}</span>
-														<span>Group: {{icon.group}}</span>
-													</p>
-													<p>Usage: {{icon.usage}}</p>
-												</div>
-											</div>
-										</div>
+						<h4>Status badge overlay with white halo</h4>
+						<p>A few UI areas may need status icons as badges to another base icon. To make a status icon badge, you need to stack a smaller version status icon (e.g. <span class="bowtie bowtie-status-success-sm"></span><code>bowtie-status-success-sm</code> or <span class="bowtie bowtie-status-warning-sm"></span><code>bowtie-status-warning-sm</code>)
+							on top of a full sized solid background shape icon (<span class="bowtie bowtie-dot"></span><code>bowtie-dot</code> or <span class="bowtie bowtie-triangle"></span><code>bowtie-triangle</code>). Apply the container's background color to the solid background
+							shape icon so that it creates a visual "gap" between the base icon and the stacked status icon. You will also need to manually position the stacked status icons, usually at the bottom right corner of the base icon. See example: </p>
+
+						<div class="wrapper">
+							<ul class="cw-list-inline">
+								<li>
+									<div class="cw-avatar">
+										<span class="bowtie bowtie-user"></span>
+										<span class="status-badge">
+    <span class="bowtie bowtie-stack">
+      <span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-success-sm success"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-avatar">
+										<span class="bowtie bowtie-user"></span>
+										<span class="status-badge">
+    <span class="bowtie bowtie-stack">
+      <span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-failure-sm fail"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-avatar">
+										<span class="bowtie bowtie-user"></span>
+										<span class="status-badge">
+    <span class="bowtie bowtie-stack">
+      <span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-waiting-fill-sm warning"></span>
+										</span>
+										</span>
 									</div>
 								</li>
 							</ul>
+							<ul class="cw-list-inline">
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-success-sm success"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-triangle white"></span>
+										<span class="bowtie bowtie-status-warning-sm warning"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-failure-sm fail"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-error-sm fail"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-help-sm info"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-info-sm info"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-waiting-fill-sm warning"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-no-fill-sm fail"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-run-sm success"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-stop-sm fail"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<div class="cw-toolbar-item">
+										<span class="bowtie bowtie-test-fill"></span>
+										<span class="status-badge">
+							<span class="bowtie-stack">
+							<span class="bowtie bowtie-dot white"></span>
+										<span class="bowtie bowtie-status-pause-sm info"></span>
+										</span>
+										</span>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3 clearfix">
+								<input id="searchbox" class="search form-control" placeholder="Search" ng-model="query" />
+								<br />
+							</div>
+							<div class="well col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+								<ul class="list-unstyled icon-list" id="iconlist">
+									<li ng-repeat="icon in icons | orderBy:['decimal','-group'] | filter:query" data-metadata="{{icon}}">
+										<div class="item" data-toggle="modal" data-target="#modal{{icon.id}}">
+											<span class="bowtie bowtie-{{icon.name}}"></span><span class="name" aria-label="{{icon.name}}">bowtie-{{icon.name}}({{icon.unicode}})</span>
+										</div>
+										<div id="modal{{icon.id}}" class="modal fade" tabindex="-1" role="dialog">
+											<div class="modal-dialog modal-md">
+												<div class="modal-content">
+													<div class="sizes">
+														<span class="bowtie bowtie-{{icon.name}} bowtie-5x"></span>
+														<span class="bowtie bowtie-{{icon.name}} bowtie-4x"></span>
+														<span class="bowtie bowtie-{{icon.name}} bowtie-3x"></span>
+														<span class="bowtie bowtie-{{icon.name}} bowtie-2x"></span>
+														<span class="bowtie bowtie-{{icon.name}} bowtie-1x"></span>
+													</div>
+													<h3>bowtie-{{icon.name}}</h3>
+													<div class="input-group">
+														<input type="text" id="txtCopy{{icon.id}}" class="form-control" value="&lt;span class=&quot;bowtie-icon bowtie-{{icon.name}}&quot;&gt;&lt;/span&gt;" />
+														<span class="input-group-btn">
+        <button id="btnCopy{{icon.id}}" data-clipboard-target="#txtCopy{{icon.id}}" class="btn btn-secondary" type="button" ng-click="copyToClipboard($event)" data-toggle="tooltip"><span class="bowtie bowtie-edit-copy"></span>
+														</button>
+														</span>
+													</div>
+
+													<br>
+													<div class="metadata">
+														<p>
+															<span>Unicode: {{icon.unicode}}</span><span>Version: v{{icon.version}}</span>
+															<span>Group: {{icon.group}}</span>
+														</p>
+														<p>Usage: {{icon.usage}}</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script>
-		(function() {
-			var app = angular.module('app', []);
-			app.factory('copyToClipboard', function() {
-				return {
-					copy: function(btn) {
-						document.execCommand('copy', false, $($(btn).data('clipboard-target')).select());
-					}
-				};
-			});
-			app.controller('MainController', ['$document', '$scope', '$http', 'copyToClipboard', function($document, $scope, $http, copyToClipboard) {
-				//load data from json
-				var request = {
-					method: 'GET',
-					url: 'bowtie.json',
-					headers: {
-						'Content-Type': 'application/json'
-					}
-				};
-				$scope.icons = [];
-				$http(request).success(function(data) {
-					$scope.icons = data;
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script>
+			(function() {
+				var app = angular.module('app', []);
+				app.factory('copyToClipboard', function() {
+					return {
+						copy: function(btn) {
+							document.execCommand('copy', false, $($(btn).data('clipboard-target')).select());
+						}
+					};
 				});
+				app.controller('MainController', ['$document', '$scope', '$http', 'copyToClipboard', function($document, $scope, $http, copyToClipboard) {
+					//load data from json
+					var request = {
+						method: 'GET',
+						url: 'bowtie.json',
+						headers: {
+							'Content-Type': 'application/json'
+						}
+					};
+					$scope.icons = [];
+					$http(request).success(function(data) {
+						$scope.icons = data;
+					});
 
-				//copy to clipboard
-				$scope.copyToClipboard = function() {
-					copyToClipboard.copy(event.currentTarget);
-				};
-			}]);
-		})();
-		//@ sourceURL=pen.js
-	</script>
+					//copy to clipboard
+					$scope.copyToClipboard = function() {
+						copyToClipboard.copy(event.currentTarget);
+					};
+				}]);
+			})();
+			//@ sourceURL=pen.js
+		</script>
 </body>
 
 </html>
