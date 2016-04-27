@@ -3627,7 +3627,7 @@
     "subset": "VSTS",
     "group": "misc",
     "keywords": ["dot", "circle"],
-    "usage": "check if it is same as record-fill"
+    "usage": "Used for stacking icons as background."
 }, {
     "id": 331,
     "name": "square",
@@ -3638,7 +3638,7 @@
     "subset": "VSTS",
     "group": "misc",
     "keywords": ["square"],
-    "usage": "check if it is same as stop-fill"
+    "usage": "Used for stacking icons as background."
 }, {
     "id": 332,
     "name": "row-child",
@@ -3859,6 +3859,17 @@
     "group": "Common",
     "keywords": ["contact", "info", "card", "email", "user", "profile"],
     "usage": "Used for contact card."
+}, {
+    "id": 352,
+    "name": "triangle",
+    "unicode": "EA5F",
+    "decimal": 59999,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Utility",
+    "keywords": ["triangle"],
+    "usage": "Used for stacking icons as background."
 }, {
     "id": 353,
     "name": "brand-vsts",

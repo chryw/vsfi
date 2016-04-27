@@ -167,10 +167,6 @@
 	content: "\E017";
 }
 
-.bowtie-status-warning-stack-1:before {
-	content: "\E018";
-}
-
 .bowtie-status-warning-stack-2:before {
 	content: "\E019";
 }
@@ -257,14 +253,6 @@
 
 .bowtie-timeline-progress:before {
 	content: "\E036";
-}
-
-.bowtie-column-option-1:before {
-	content: "\E037";
-}
-
-.bowtie-column-option-2:before {
-	content: "\E038";
 }
 
 .bowtie-arrow-up:before {
@@ -1669,6 +1657,10 @@
 
 .bowtie-contact-card:before {
 	content: "\EA5E";
+}
+
+.bowtie-triangle:before {
+	content: "\EA5F";
 }
 
 .bowtie-brand-vsts:before {
