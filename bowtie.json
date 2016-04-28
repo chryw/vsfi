@@ -4002,4 +4002,15 @@
     "group": "Status",
     "keywords": ["status", "no", "block", "mute", "unavailable"],
     "usage": "This is a smaller version of bowtie-status-no-fill. It is used for stacking with bowtie-dot."
+}, {
+    "id": 365,
+    "name": "assessment-group",
+    "unicode": "EA6C",
+    "decimal": 60012,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Compliance",
+    "keywords": ["assessment", "group", "compliance"],
+    "usage": "Used in treeview in Compliance hub to represent assessment type node."
 }]

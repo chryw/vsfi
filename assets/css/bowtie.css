@@ -1626,3 +1626,7 @@
 .bowtie-status-no-fill-sm:before {
 	content: "\EA6B";
 }
+
+.bowtie-assessment-group:before {
+	content: "\EA6C";
+}
