@@ -115,10 +115,6 @@
 	content: "\E009";
 }
 
-.bowtie-table:before {
-	content: "\E00A";
-}
-
 .bowtie-table-storage-account:before {
 	content: "\E00B";
 }
@@ -161,14 +157,6 @@
 
 .bowtie-create-sparkle:before {
 	content: "\E02D";
-}
-
-.bowtie-timeline-delivery:before {
-	content: "\E035";
-}
-
-.bowtie-timeline-progress:before {
-	content: "\E036";
 }
 
 .bowtie-arrow-up:before {
@@ -1629,4 +1617,16 @@
 
 .bowtie-assessment-group:before {
 	content: "\EA6C";
+}
+
+.bowtie-table:before {
+	content: "\EA6D";
+}
+
+.bowtie-timeline-delivery:before {
+	content: "\EA6E";
+}
+
+.bowtie-timeline-progress:before {
+	content: "\EA6F";
 }

@@ -4013,4 +4013,37 @@
     "group": "Compliance",
     "keywords": ["assessment", "group", "compliance"],
     "usage": "Used in treeview in Compliance hub to represent assessment type node."
+}, {
+    "id": 366,
+    "name": "table",
+    "unicode": "EA6D",
+    "decimal": 60013,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["table", "database", "matrix"],
+    "usage": "Used for database table, matrix or views that look like a data table."
+}, {
+    "id": 367,
+    "name": "timeline-delivery",
+    "unicode": "EA6E",
+    "decimal": 60014,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["timeline", "delivery", "schedule", "kanban", "card"],
+    "usage": "Used to indicate delivery card style backlog timeline view."
+}, {
+    "id": 368,
+    "name": "timeline-progress",
+    "unicode": "EA6F",
+    "decimal": 60015,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["timeline", "progress", "date", "row", "line", "bar"],
+    "usage": "Used to indicate progress bar style backlog timeline view."
 }]
