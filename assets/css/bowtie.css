@@ -155,8 +155,152 @@
 	content: "\E015";
 }
 
-.bowtie-create-sparkle:before {
+.bowtie-script:before {
+	content: "\E01A";
+}
+
+.bowtie-brand-powershell:before {
+	content: "\E01B";
+}
+
+.bowtie-default-executable:before {
+	content: "\E01C";
+}
+
+.bowtie-file-stack:before {
+	content: "\E01D";
+}
+
+.bowtie-brand-json:before {
+	content: "\E01E";
+}
+
+.bowtie-coffee-cup:before {
+	content: "\E01F";
+}
+
+.bowtie-file-type-less:before {
+	content: "\E020";
+}
+
+.bowtie-file-type-markup:before {
+	content: "\E021";
+}
+
+.bowtie-file-type-md:before {
+	content: "\E022";
+}
+
+.bowtie-file-type-powershell:before {
+	content: "\E023";
+}
+
+.bowtie-application-window:before {
+	content: "\E024";
+}
+
+.bowtie-file-type-pyproj:before {
+	content: "\E025";
+}
+
+.bowtie-file-type-python:before {
+	content: "\E026";
+}
+
+.bowtie-file-type-sass:before {
+	content: "\E027";
+}
+
+.bowtie-file-type-sln:before {
+	content: "\E028";
+}
+
+.bowtie-file-type-sql:before {
+	content: "\E029";
+}
+
+.bowtie-file-type-xml:before {
+	content: "\E02A";
+}
+
+.bowtie-file-type-vcxproj:before {
+	content: "\E02B";
+}
+
+.bowtie-file-type-vbproj:before {
+	content: "\E02C";
+}
+
+.bowtie-file-type-vb:before {
 	content: "\E02D";
+}
+
+.bowtie-file-type-typescript:before {
+	content: "\E02E";
+}
+
+.bowtie-file-type-jsproj:before {
+	content: "\E02F";
+}
+
+.bowtie-file-type-aspx:before {
+	content: "\E030";
+}
+
+.bowtie-file-type-cmd:before {
+	content: "\E031";
+}
+
+.bowtie-file-type-coffeescript:before {
+	content: "\E032";
+}
+
+.bowtie-file-type-cpp:before {
+	content: "\E033";
+}
+
+.bowtie-file-type-cs:before {
+	content: "\E034";
+}
+
+.bowtie-file-type-csproj:before {
+	content: "\E035";
+}
+
+.bowtie-file-type-css:before {
+	content: "\E036";
+}
+
+.bowtie-file-type-fsproj:before {
+	content: "\E037";
+}
+
+.bowtie-file-type-html:before {
+	content: "\E038";
+}
+
+.bowtie-file-type-jade:before {
+	content: "\E039";
+}
+
+.bowtie-file-type-js:before {
+	content: "\E03A";
+}
+
+.bowtie-file-type-json:before {
+	content: "\E03B";
+}
+
+.bowtie-file-type-fs:before {
+	content: "\E03C";
+}
+
+.bowtie-file-type-java:before {
+	content: "\E03D";
+}
+
+.bowtie-file-type-pug:before {
+	content: "\E03E";
 }
 
 .bowtie-arrow-up:before {
