@@ -1,16 +1,18 @@
 // -------------------------------
 // Define all required Node and Gulp packages
 // -------------------------------
-var gulp = require("gulp");
+var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
 var runTimestamp = Math.round(Date.now() / 1000);
 var consolidate = require('gulp-consolidate');
-var rename = require("gulp-rename");
-var foreach = require("gulp-foreach");
-var concat = require("gulp-concat");
-var svgmin = require("gulp-svgmin");
+var rename = require('gulp-rename');
+var foreach = require('gulp-foreach');
+var concat = require('gulp-concat');
+var svgmin = require('gulp-svgmin');
+var fs = require('fs');
 var fontName = 'bowtie';
-var svgsourcefolder = 'assets/svgs/bowtie/';
+var svgsourcefolder = 'source/svgs/bowtie/';
+
 
 //optimize all svg files by trimming whitespaces and empty tags
 //Note: running this task will modify all svg files
@@ -33,10 +35,10 @@ gulp.task('iconfont', function() {
 			fontHeight: 448,
 			descent:    64,
 			fontName: fontName,
-			metadata: "Icon font for VSTS.",
-			version: "v1.1",
+			metadata: 'Icon font for VSTS.',
+			version: 'v1.1',
 			appendCodepoints: true,
-      fontPath: '../fonts/',
+      fontPath: '../../dist/fonts/',
 			formats: ['ttf', 'eot', 'woff', 'svg']
 		}))
 		// automatically assign a unicode value to the icon
@@ -57,17 +59,21 @@ gulp.task('iconfont', function() {
 			glyphs.forEach(function(glyph, idx, arr) {
 				arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
 			});
-			gulp.src('templates/template.css') // a template css file, used to generate the css stylesheet
+			gulp.src('source/templates/template_'+ fontName + '.css') // a template css file, used to generate the css stylesheet
 				.pipe(consolidate('lodash', options))
 				.pipe(rename(fontName + '.css'))
-				.pipe(gulp.dest('assets/css'));
-			gulp.src('templates/template.html')
+				.pipe(gulp.dest('dist/css'));
+			gulp.src('source/templates/template_'+ fontName + '.html')
 				.pipe(consolidate('lodash', options))
 				.pipe(rename(fontName + '.html'))
-				.pipe(gulp.dest('.'));
+				.pipe(gulp.dest('dist/'));
 			// -------------------------------
 			// END additional stuff to generate an scss file with all the font characters inside it
 			// -------------------------------
 		})
-		.pipe(gulp.dest('assets/fonts')); // where to save the generated font files
+		.pipe(gulp.dest('dist/fonts')); // where to save the generated font files
+
+		//copy metadata json file from source to dist
+		gulp.src('source/'+ fontName + '.json')
+		.pipe(gulp.dest('dist'));
 });

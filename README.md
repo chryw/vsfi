@@ -1,6 +1,4 @@
-# vsfi
-### Icon font generator
-Original Bowtie icons (https://github.com/jimlamb/Bowtie) by @jimlamb
+# Icon Font generator for VSTS
 
 ### Prerequisites
 - nodejs 4.1+
@@ -9,13 +7,13 @@ Original Bowtie icons (https://github.com/jimlamb/Bowtie) by @jimlamb
 ### Use
 - clone repo
 - npm install
-- put *.svg format icons in assets/icons/ folder
+- put *.svg format icons in source/svgs folder
 - edit templates as needed
-- edit gulp task name, icon name, file path, etc. in gulpfile.js as needed
+- edit gulpfile.js as needed
 - run gulp task
+- asset files are generated in dist folder
 
-[Preview Bowtie icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/bowtie.html)
-
-[Preview VSCOM icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vscom.html)
-
-[Preview social icons](http://htmlpreview.github.io/?https://github.com/chryw/vsfi/blob/master/vssocial.html)
+### Known Issues
+- Instructions on the demo html page are still draft
+- The given template sets the group selector class to be the same as the font name **bowtie**, while in the actual product they use *bowtie-icon* as the group selector class. If you use the given assets in your own projects, please use **bowtie** as group selector class. For example:
+>     <span class="bowtie bowtie-arrow-up"></span>

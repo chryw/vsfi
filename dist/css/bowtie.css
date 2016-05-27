@@ -155,30 +155,6 @@
 	content: "\E015";
 }
 
-.bowtie-brand-powershell:before {
-	content: "\E01B";
-}
-
-.bowtie-brand-json:before {
-	content: "\E01E";
-}
-
-.bowtie-coffee-cup:before {
-	content: "\E01F";
-}
-
-.bowtie-file-type-markup:before {
-	content: "\E021";
-}
-
-.bowtie-file-type-jade:before {
-	content: "\E039";
-}
-
-.bowtie-file-type-pug:before {
-	content: "\E03E";
-}
-
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
