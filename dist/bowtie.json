@@ -4398,4 +4398,15 @@
     "group": "Code",
     "keywords": ["file", "template", "preprocessor", "dotted", "line"],
     "usage": "Used for templating preprocessor file type like .jade, .haml, etc."
+}, {
+    "id": 401,
+    "name": "split",
+    "unicode": "EA90",
+    "decimal": 60048,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Arrow",
+    "keywords": ["split", "arrow"],
+    "usage": "Used for splitting work item."
 }]

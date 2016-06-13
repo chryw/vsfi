@@ -155,6 +155,14 @@
 	content: "\E015";
 }
 
+.bowtie-test-plan:before {
+	content: "\E01A";
+}
+
+.bowtie-folder-test:before {
+	content: "\E01B";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
@@ -1753,4 +1761,8 @@
 
 .bowtie-file-type-template:before {
 	content: "\EA8F";
+}
+
+.bowtie-split:before {
+	content: "\EA90";
 }
