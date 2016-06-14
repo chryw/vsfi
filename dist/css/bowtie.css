@@ -1766,3 +1766,7 @@
 .bowtie-split:before {
 	content: "\EA90";
 }
+
+.bowtie-image-action-log:before {
+	content: "\EA91";
+}

@@ -4409,4 +4409,15 @@
     "group": "Arrow",
     "keywords": ["split", "arrow"],
     "usage": "Used for splitting work item."
+}, {
+    "id": 402,
+    "name": "image-action-log",
+    "unicode": "EA91",
+    "decimal": 60049,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Test",
+    "keywords": ["image", "picture", "action", "crosshair", "target"],
+    "usage": "Used for capturing user actions in the form of an image action log, in TCM Web Runner."
 }]
