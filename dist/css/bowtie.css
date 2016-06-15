@@ -1770,3 +1770,11 @@
 .bowtie-image-action-log:before {
 	content: "\EA91";
 }
+
+.bowtie-shield:before {
+	content: "\EA92";
+}
+
+.bowtie-shield-fill:before {
+	content: "\EA93";
+}

@@ -4420,4 +4420,26 @@
     "group": "Test",
     "keywords": ["image", "picture", "action", "crosshair", "target"],
     "usage": "Used for capturing user actions in the form of an image action log, in TCM Web Runner."
+}, {
+    "id": 403,
+    "name": "shield",
+    "unicode": "EA92",
+    "decimal": 60050,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["shield"],
+    "usage": "Used in version control view of branches."
+}, {
+    "id": 404,
+    "name": "shield-fill",
+    "unicode": "EA93",
+    "decimal": 60051,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["shield"],
+    "usage": "Used in version control view of branches."
 }]
