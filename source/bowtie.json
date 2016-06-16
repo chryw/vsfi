@@ -1514,8 +1514,8 @@
     "style": "bold",
     "subset": "VSTS",
     "group": "Common",
-    "keywords": ["security", "warning", "alert", "shield", "exclaimation"],
-    "usage": ""
+    "keywords": ["security", "shield"],
+    "usage": "Duplicates of bowtie-sheild-fill. Used for VC view of branches."
 }, {
     "id": 139,
     "name": "security-access",
@@ -3625,7 +3625,7 @@
     "version": "1.0",
     "style": "bold",
     "subset": "VSTS",
-    "group": "misc",
+    "group": "Utility",
     "keywords": ["dot", "circle"],
     "usage": "Used for stacking icons as background."
 }, {
@@ -3636,7 +3636,7 @@
     "version": "1.0",
     "style": "bold",
     "subset": "VSTS",
-    "group": "misc",
+    "group": "Utility",
     "keywords": ["square"],
     "usage": "Used for stacking icons as background."
 }, {
