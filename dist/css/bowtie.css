@@ -95,10 +95,6 @@
 	content: "\E004";
 }
 
-.bowtie-arrow-import:before {
-	content: "\E005";
-}
-
 .bowtie-brand-azure:before {
 	content: "\E006";
 }
@@ -1777,4 +1773,20 @@
 
 .bowtie-shield-fill:before {
 	content: "\EA93";
+}
+
+.bowtie-tfvc-fork:before {
+	content: "\EA94";
+}
+
+.bowtie-status-run-box:before {
+	content: "\EA95";
+}
+
+.bowtie-arrow-import:before {
+	content: "\EA96";
+}
+
+.bowtie-new-team-project:before {
+	content: "\EA97";
 }

@@ -4442,4 +4442,48 @@
     "group": "Common",
     "keywords": ["shield"],
     "usage": "Used in version control view of branches."
+}, {
+    "id": 405,
+    "name": "tfvc-fork",
+    "unicode": "EA94",
+    "decimal": 60052,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Version Control",
+    "keywords": ["fork"],
+    "usage": "Used in VC view for git fork. Name is tfvc just because the other VC icons are like that."
+}, {
+    "id": 406,
+    "name": "status-run-box",
+    "unicode": "EA95",
+    "decimal": 60053,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Status",
+    "keywords": ["run", "in", "progress"],
+    "usage": "Used in build view to indicate build is running in progress."
+}, {
+    "id": 407,
+    "name": "arrow-import",
+    "unicode": "EA96",
+    "decimal": 60054,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Arrow",
+    "keywords": ["arrow", "import"],
+    "usage": "Import"
+}, {
+    "id": 408,
+    "name": "new-team-project",
+    "unicode": "EA97",
+    "decimal": 60055,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["new", "add", "project", "folder", "plus", "chevron"],
+    "usage": "Add new team project."
 }]
