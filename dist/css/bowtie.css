@@ -1790,3 +1790,15 @@
 .bowtie-new-team-project:before {
 	content: "\EA97";
 }
+
+.bowtie-package-feed-mix:before {
+	content: "\EA98";
+}
+
+.bowtie-package-feed-remote:before {
+	content: "\EA99";
+}
+
+.bowtie-package-feed-local:before {
+	content: "\EA9A";
+}
