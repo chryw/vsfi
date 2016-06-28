@@ -4519,4 +4519,15 @@
     "group": "Package",
     "keywords": ["package", "feed", "local", "box", "square"],
     "usage": "Used in Package hub treeview to represent package feed is a local folder."
+}, {
+    "id": 412,
+    "name": "work-item-bar-outline",
+    "unicode": "EA9B",
+    "decimal": 60059,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["work", "item", "bar"],
+    "usage": "Used in Work hub backlog tree view to represent work items."
 }]

@@ -1802,3 +1802,7 @@
 .bowtie-package-feed-local:before {
 	content: "\EA9A";
 }
+
+.bowtie-work-item-bar-outline:before {
+	content: "\EA9B";
+}

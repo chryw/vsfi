@@ -1298,6 +1298,9 @@
     <glyph glyph-name="package-feed-local"
       unicode="&#xEA9A;"
       horiz-adv-x="448" d=" M320 -64H0V256H320V-64zM32 -32H288V224H32V-32zM256 192H64V0H256V192z" />
+    <glyph glyph-name="work-item-bar-outline"
+      unicode="&#xEA9B;"
+      horiz-adv-x="448" d=" M160 352V-32H288V352H160zM256 0H192V320H256V0z" />
   </font>
 </defs>
 </svg>
