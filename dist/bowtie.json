@@ -4486,4 +4486,37 @@
     "group": "Common",
     "keywords": ["new", "add", "project", "folder", "plus", "chevron"],
     "usage": "Add new team project."
+}, {
+    "id": 409,
+    "name": "package-feed-mix",
+    "unicode": "EA98",
+    "decimal": 60056,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Package",
+    "keywords": ["package", "feed", "mix", "box", "square"],
+    "usage": "Used in Package hub treeview to represent aggregated package feed that includes both remote and local feeds."
+}, {
+    "id": 410,
+    "name": "package-feed-remote",
+    "unicode": "EA99",
+    "decimal": 60057,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Package",
+    "keywords": ["package", "feed", "remote", "signal", "reference", "wave", "virtual", "box", "square"],
+    "usage": "Used in Package hub treeview to represent package feed is a reference to remote repo."
+}, {
+    "id": 411,
+    "name": "package-feed-local",
+    "unicode": "EA9A",
+    "decimal": 60058,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Package",
+    "keywords": ["package", "feed", "local", "box", "square"],
+    "usage": "Used in Package hub treeview to represent package feed is a local folder."
 }]
