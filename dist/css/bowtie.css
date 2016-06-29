@@ -1806,3 +1806,11 @@
 .bowtie-work-item-bar-outline:before {
 	content: "\EA9B";
 }
+
+.bowtie-sort-asc:before {
+	content: "\EA9C";
+}
+
+.bowtie-sort-desc:before {
+	content: "\EA9D";
+}

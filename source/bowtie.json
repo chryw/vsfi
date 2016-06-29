@@ -4530,4 +4530,26 @@
     "group": "Work",
     "keywords": ["work", "item", "bar"],
     "usage": "Used in Work hub backlog tree view to represent work items."
+}, {
+    "id": 413,
+    "name": "sort-asc",
+    "unicode": "EA9C",
+    "decimal": 60060,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["sort", "alphabetically", "ascending", "arrow", "down", "letter"],
+    "usage": "Used in ListView control sorting funcionality."
+}, {
+    "id": 414,
+    "name": "sort-desc",
+    "unicode": "EA9D",
+    "decimal": 60061,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["sort", "alphabetically", "descending", "arrow", "down", "letter"],
+    "usage": "Used in ListView control sorting funcionality."
 }]
