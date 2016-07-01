@@ -33,6 +33,9 @@
     "gulp-rename": "^1.2.2"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-raster": "^0.1.0",
+    "merge-stream": "^1.0.0"
   }
 }

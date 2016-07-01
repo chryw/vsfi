@@ -159,6 +159,74 @@
 	content: "\E01B";
 }
 
+.bowtie-work-item-bar-template-1:before {
+	content: "\E01C";
+}
+
+.bowtie-work-item-bar-template-2:before {
+	content: "\E01D";
+}
+
+.bowtie-work-item-bar-template-3:before {
+	content: "\E01E";
+}
+
+.bowtie-work-item-bar-template-4:before {
+	content: "\E01F";
+}
+
+.bowtie-work-item-bar-template-5:before {
+	content: "\E020";
+}
+
+.bowtie-work-item-bar-template-6:before {
+	content: "\E021";
+}
+
+.bowtie-work-item-bar-template-7:before {
+	content: "\E022";
+}
+
+.bowtie-work-item-bar-template-8:before {
+	content: "\E023";
+}
+
+.bowtie-work-item-bar-template-9:before {
+	content: "\E024";
+}
+
+.bowtie-work-item-bar-template-10:before {
+	content: "\E025";
+}
+
+.bowtie-work-item-bar-badge-1:before {
+	content: "\E026";
+}
+
+.bowtie-work-item-bar-badge-2:before {
+	content: "\E027";
+}
+
+.bowtie-work-item-bar-badge-3:before {
+	content: "\E028";
+}
+
+.bowtie-work-item-bar-template-11:before {
+	content: "\E029";
+}
+
+.bowtie-work-item-bar-badge-4:before {
+	content: "\E02A";
+}
+
+.bowtie-work-item-bar-badge-5:before {
+	content: "\E02B";
+}
+
+.bowtie-work-item-bar-template-12:before {
+	content: "\E02C";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }

@@ -8,12 +8,15 @@ var consolidate = require('gulp-consolidate');
 var rename = require('gulp-rename');
 var foreach = require('gulp-foreach');
 var concat = require('gulp-concat');
+var merge = require('merge-stream');
 var svgmin = require('gulp-svgmin');
 var fs = require('fs');
+var cheerio = require('gulp-cheerio');
+var raster = require('gulp-raster');
 var fontName = 'bowtie';
 var svgsourcefolder = 'source/svgs/bowtie/';
 
-
+gulp.task('default',['iconfont']);
 //optimize all svg files by trimming whitespaces and empty tags
 //Note: running this task will modify all svg files
 //even if there is no more room to compress.
@@ -25,6 +28,51 @@ gulp.task('svgmin',function(){
 		.pipe(concat(file.path))
 	}))
 	.pipe(gulp.dest(svgsourcefolder));
+});
+
+//export png
+gulp.task('png', function(){
+	var cheerioOptions = {
+		run: function ($) {
+			//set width and height to prevent raster generating wrong dimensions
+			$('svg')
+			.attr({
+				width: 14,
+				height: 14
+			});
+			//set icons to be default color
+			$('path')
+			.attr({
+				fill: "#444444"
+			});
+			//added a transparent box to preserve padding
+			$('path')
+			.after('<rect fill="#fff" fill-opacity="0" width="448" height="448"/>');
+		}
+	};
+	var png1x = gulp.src([svgsourcefolder + '*.svg'])
+	.pipe(cheerio(cheerioOptions))
+	.pipe(raster({
+		format: 'png'
+	}))
+	.pipe(rename({
+		extname:'.png'
+	}))
+	.pipe(gulp.dest('dist/png'));
+
+	var png2x = gulp.src([svgsourcefolder + '*.svg'])
+	.pipe(cheerio(cheerioOptions))
+	.pipe(raster({
+		format: 'png',
+		scale: 2
+	}))
+	.pipe(rename({
+		extname:'.png',
+		suffix: '-2x'
+	}))
+	.pipe(gulp.dest('dist/png'));
+
+	return merge(png1x, png2x);
 });
 
 //generate iconfont, stylesheet and demo page.
