@@ -4552,4 +4552,70 @@
     "group": "Common",
     "keywords": ["sort", "alphabetically", "descending", "arrow", "down", "letter"],
     "usage": "Used in ListView control sorting funcionality."
+}, {
+    "id": 415,
+    "name": "plug-disconnected",
+    "unicode": "EA9E",
+    "decimal": 60062,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["plug", "disconnected", "unplug", "offline"],
+    "usage": "Indicate connection status."
+}, {
+    "id": 416,
+    "name": "plug-connected",
+    "unicode": "EA9F",
+    "decimal": 60063,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["plug", "connected", "plugged", "online"],
+    "usage": "Indicate connection status."
+}, {
+    "id": 417,
+    "name": "plug-disconnected-fill",
+    "unicode": "EAA0",
+    "decimal": 60064,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["plug", "disconnected", "unplug", "offline"],
+    "usage": "Indicate connection status."
+}, {
+    "id": 418,
+    "name": "plug-connected-fill",
+    "unicode": "EAA1",
+    "decimal": 60065,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["plug", "connected", "plugged", "online"],
+    "usage": "Indicate connection status."
+}, {
+    "id": 419,
+    "name": "sync-user",
+    "unicode": "EAA2",
+    "decimal": 60066,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["sync", "update", "user"],
+    "usage": "Used in Backlog capacity editor for adding missing team members."
+}, {
+    "id": 420,
+    "name": "clear-filter",
+    "unicode": "EAA3",
+    "decimal": 60067,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["clear", "remove", "delete", "cancel", "filter", "funnel"],
+    "usage": "Used in Code hub to clear applied filters."
 }]

@@ -1881,3 +1881,27 @@
 .bowtie-sort-desc:before {
 	content: "\EA9D";
 }
+
+.bowtie-plug-disconnected:before {
+	content: "\EA9E";
+}
+
+.bowtie-plug-connected:before {
+	content: "\EA9F";
+}
+
+.bowtie-plug-disconnected-fill:before {
+	content: "\EAA0";
+}
+
+.bowtie-plug-connected-fill:before {
+	content: "\EAA1";
+}
+
+.bowtie-sync-user:before {
+	content: "\EAA2";
+}
+
+.bowtie-clear-filter:before {
+	content: "\EAA3";
+}
