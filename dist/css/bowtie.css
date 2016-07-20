@@ -1905,3 +1905,16 @@
 .bowtie-clear-filter:before {
 	content: "\EAA3";
 }
+
+.bowtie-watch-eye-off:before {
+	content: "\EAA4";
+}
+
+.bowtie-shopping-cart:before {
+	content: "\EAA5";
+}
+
+.bowtie-shopping-cart-fill:before {
+	content: "\EAA6";
+}
+

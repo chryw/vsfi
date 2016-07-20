@@ -4618,4 +4618,37 @@
     "group": "Code",
     "keywords": ["clear", "remove", "delete", "cancel", "filter", "funnel"],
     "usage": "Used in Code hub to clear applied filters."
+}, {
+    "id": 421,
+    "name": "watch-eye-off",
+    "unicode": "EAA4",
+    "decimal": 60068,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["watch", "eye", "follow", "off", "slash"],
+    "usage": "Used for turning off follow on an work item."
+}, {
+    "id": 422,
+    "name": "shopping-cart",
+    "unicode": "EAA5",
+    "decimal": 60069,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSCOM",
+    "group": "Common",
+    "keywords": ["shop", "cart", "buy", "purchase", "store"],
+    "usage": "Use this version when shopping cart needs two states: empty and filled"
+}, {
+    "id": 423,
+    "name": "shopping-cart-fill",
+    "unicode": "EAA6",
+    "decimal": 60070,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSCOM",
+    "group": "Common",
+    "keywords": ["shop", "cart", "buy", "purchase", "store"],
+    "usage": "Use this version when shopping cart needs two states: empty and filled"
 }]

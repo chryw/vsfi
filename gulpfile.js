@@ -15,8 +15,44 @@ const fs = require('fs');
 const cheerio = require('gulp-cheerio');
 const raster = require('gulp-raster');
 const fontName = 'bowtie';
+let optionsDefault = {
+    run: function($) {
+        //set width and height to prevent raster generating wrong dimensions
+        $('svg')
+            .attr({
+                width: 14,
+                height: 14
+            });
+        //set icons to be default color
+        $('path')
+            .attr({
+                fill: "#444444"
+            });
+        //added a transparent box to preserve padding
+        $('path')
+            .after('<rect fill="#fff" fill-opacity="0" width="448" height="448"/>');
+    }
+};
+let optionsWhite = {
+    run: function($) {
+        //set width and height to prevent raster generating wrong dimensions
+        $('svg')
+            .attr({
+                width: 14,
+                height: 14
+            });
+        //set icons to be default color
+        $('path')
+            .attr({
+                fill: "#ffffff"
+            });
+        //added a transparent box to preserve padding
+        $('path')
+            .after('<rect fill="#fff" fill-opacity="0" width="448" height="448"/>');
+    }
+};
 
-gulp.task('default', ['iconfont']);
+gulp.task('default', ['iconfont', 'png']);
 //optimize all svg files by trimming whitespaces and empty tags
 //Note: running this task will modify all svg files
 //even if there is no more room to compress.
@@ -32,26 +68,8 @@ gulp.task('svgmin', function() {
 
 //export png
 gulp.task('png', function() {
-    let cheerioOptions = {
-        run: function($) {
-            //set width and height to prevent raster generating wrong dimensions
-            $('svg')
-                .attr({
-                    width: 14,
-                    height: 14
-                });
-            //set icons to be default color
-            $('path')
-                .attr({
-                    fill: "#444444"
-                });
-            //added a transparent box to preserve padding
-            $('path')
-                .after('<rect fill="#fff" fill-opacity="0" width="448" height="448"/>');
-        }
-    };
-    let png1x = gulp.src(['source/svgs/bowtie/*.svg'])
-        .pipe(cheerio(cheerioOptions))
+    let png = gulp.src(['source/svgs/bowtie/*.svg'])
+        .pipe(cheerio(optionsDefault))
         .pipe(raster({
             format: 'png'
         }))
@@ -60,8 +78,26 @@ gulp.task('png', function() {
         }))
         .pipe(gulp.dest('dist/png'));
 
-    var png2x = gulp.src(['source/svgs/bowtie/*.svg'])
-        .pipe(cheerio(cheerioOptions))
+
+    return png;
+});
+gulp.task('pngWhite', function() {
+    let pngWhite = gulp.src(['source/svgs/bowtie/*.svg'])
+        .pipe(cheerio(optionsWhite))
+        .pipe(raster({
+            format: 'png'
+        }))
+        .pipe(rename({
+            extname: '.png',
+            suffix: '-white'
+        }))
+        .pipe(gulp.dest('dist/png'));
+    return pngWhite;
+});
+
+gulp.task('png2x', function() {
+    let png2x = gulp.src(['source/svgs/bowtie/*.svg'])
+        .pipe(cheerio(optionsDefault))
         .pipe(raster({
             format: 'png',
             scale: 2
@@ -71,8 +107,22 @@ gulp.task('png', function() {
             suffix: '-2x'
         }))
         .pipe(gulp.dest('dist/png'));
+    return png2x;
+});
 
-    return merge(png1x, png2x);
+gulp.task('pngWhite2x', function() {
+    let pngWhite2x = gulp.src(['source/svgs/bowtie/*.svg'])
+        .pipe(cheerio(optionsWhite))
+        .pipe(raster({
+            format: 'png',
+            scale: 2
+        }))
+        .pipe(rename({
+            extname: '.png',
+            suffix: '-white-2x'
+        }))
+        .pipe(gulp.dest('dist/png'));
+    return pngWhite2x;
 });
 
 //generate iconfont, stylesheet and demo page.
