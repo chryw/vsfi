@@ -4651,4 +4651,15 @@
     "group": "Common",
     "keywords": ["shop", "cart", "buy", "purchase", "store"],
     "usage": "Use this version when shopping cart needs two states: empty and filled"
+}, {
+    "id": 424,
+    "name": "update-queue",
+    "unicode": "EAA7",
+    "decimal": 60071,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["update", "pull", "request", "version", "control", "queue"],
+    "usage": "Used to represent multiple updates to a branch."
 }]

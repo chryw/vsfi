@@ -1917,4 +1917,8 @@
 .bowtie-shopping-cart-fill:before {
 	content: "\EAA6";
 }
+
+.bowtie-update-queue:before {
+	content: "\EAA7";
+}
 
