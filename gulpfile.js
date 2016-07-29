@@ -63,7 +63,7 @@ gulp.task('svgmin', function() {
                 .pipe(svgmin())
                 .pipe(concat(file.path))
         }))
-        .pipe(gulp.dest(svgsourcefolder));
+        .pipe(gulp.dest('source/svgs/bowtie/'));
 });
 
 //export png

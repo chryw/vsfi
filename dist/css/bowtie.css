@@ -226,6 +226,18 @@
 	content: "\E02C";
 }
 
+.bowtie-timeline-matrix:before {
+	content: "\E02D";
+}
+
+.bowtie-backlog-board:before {
+	content: "\E02E";
+}
+
+.bowtie-backlog-list:before {
+	content: "\E02F";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
@@ -1920,5 +1932,9 @@
 
 .bowtie-update-queue:before {
 	content: "\EAA7";
+}
+
+.bowtie-add-team:before {
+	content: "\EAA8";
 }
 

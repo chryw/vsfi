@@ -11,8 +11,8 @@
     "usage": "Indicate direction, movement."
 }, {
     "id": 2,
-    "name": "arrow-left",
     "unicode": "E901",
+    "name": "arrow-left",
     "decimal": 59649,
     "version": "1.0",
     "style": "light",
@@ -4662,4 +4662,15 @@
     "group": "Code",
     "keywords": ["update", "pull", "request", "version", "control", "queue"],
     "usage": "Used to represent multiple updates to a branch."
+}, {
+    "id": 425,
+    "name": "add-team",
+    "unicode": "EAA8",
+    "decimal": 60072,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["add", "team", "user", "member"],
+    "usage": "Used in capacity view to add missing team member."
 }]
