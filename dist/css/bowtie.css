@@ -238,6 +238,10 @@
 	content: "\E02F";
 }
 
+.bowtie-update-queue:before {
+	content: "\E030";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
@@ -1930,7 +1934,7 @@
 	content: "\EAA6";
 }
 
-.bowtie-update-queue:before {
+.bowtie-control-panel:before {
 	content: "\EAA7";
 }
 
