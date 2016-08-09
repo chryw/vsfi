@@ -226,10 +226,6 @@
 	content: "\E02C";
 }
 
-.bowtie-timeline-matrix:before {
-	content: "\E02D";
-}
-
 .bowtie-update-queue:before {
 	content: "\E030";
 }
@@ -1960,5 +1956,9 @@
 
 .bowtie-query-list:before {
 	content: "\EAAE";
+}
+
+.bowtie-timeline-matrix:before {
+	content: "\EAAF";
 }
 

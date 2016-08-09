@@ -4739,4 +4739,15 @@
     "group": "Work",
     "keywords": ["query", "list"],
     "usage": "Used on Queries tab."
+}, {
+    "id": 432,
+    "name": "timeline-matrix",
+    "unicode": "EAAF",
+    "decimal": 60079,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["timeline", "delivery", "schedule", "matrix"],
+    "usage": "Used to indicate matix style backlog timeline view."
 }]
