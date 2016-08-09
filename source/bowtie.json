@@ -4673,4 +4673,70 @@
     "group": "Work",
     "keywords": ["add", "team", "user", "member"],
     "usage": "Used in capacity view to add missing team member."
+}, {
+    "id": 426,
+    "name": "unpin",
+    "unicode": "EAA9",
+    "decimal": 60073,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["pin", "unpin", "remove"],
+    "usage": "Used for unpin command. Do not use for not-pinned/pinned toggle."
+}, {
+    "id": 427,
+    "name": "unpin-fill",
+    "unicode": "EAAA",
+    "decimal": 60074,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Common",
+    "keywords": ["pin", "unpin", "remove"],
+    "usage": "Used for unpin command. Do not use for not-pinned/pinned toggle."
+}, {
+    "id": 428,
+    "name": "backlog",
+    "unicode": "EAAB",
+    "decimal": 60075,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["backlog", "board", "kanban", "card"],
+    "usage": "Used on Backlogs tab."
+}, {
+    "id": 429,
+    "name": "backlog-view-list",
+    "unicode": "EAAC",
+    "decimal": 60076,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["view", "list"],
+    "usage": "Common list view, often used together with grid view."
+}, {
+    "id": 430,
+    "name": "plan",
+    "unicode": "EAAD",
+    "decimal": 60077,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["plan", "schedule", "timeline"],
+    "usage": "Used on Plans tab."
+}, {
+    "id": 431,
+    "name": "query-list",
+    "unicode": "EAAE",
+    "decimal": 60078,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["query", "list"],
+    "usage": "Used on Queries tab."
 }]

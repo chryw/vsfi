@@ -82,7 +82,7 @@ gulp.task('png', function() {
     return png;
 });
 gulp.task('pngWhite', function() {
-    let pngWhite = gulp.src(['source/svgs/bowtie/uE015-query.svg'])
+    let pngWhite = gulp.src(['source/svgs/bowtie/*.svg'])
         .pipe(cheerio(optionsWhite))
         .pipe(raster({
             format: 'png'

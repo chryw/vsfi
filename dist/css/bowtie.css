@@ -146,7 +146,7 @@
 	content: "\E014";
 }
 
-.bowtie-query:before {
+.bowtie-query-view:before {
 	content: "\E015";
 }
 
@@ -230,16 +230,12 @@
 	content: "\E02D";
 }
 
-.bowtie-backlog-board:before {
-	content: "\E02E";
-}
-
-.bowtie-backlog-list:before {
-	content: "\E02F";
-}
-
 .bowtie-update-queue:before {
 	content: "\E030";
+}
+
+.bowtie-query:before {
+	content: "\E031";
 }
 
 .bowtie-arrow-up:before {
@@ -1940,5 +1936,29 @@
 
 .bowtie-add-team:before {
 	content: "\EAA8";
+}
+
+.bowtie-unpin:before {
+	content: "\EAA9";
+}
+
+.bowtie-unpin-fill:before {
+	content: "\EAAA";
+}
+
+.bowtie-backlog:before {
+	content: "\EAAB";
+}
+
+.bowtie-backlog-view-list:before {
+	content: "\EAAC";
+}
+
+.bowtie-plan:before {
+	content: "\EAAD";
+}
+
+.bowtie-query-list:before {
+	content: "\EAAE";
 }
 
