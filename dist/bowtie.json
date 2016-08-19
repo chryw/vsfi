@@ -4750,4 +4750,15 @@
     "group": "Work",
     "keywords": ["timeline", "delivery", "schedule", "matrix"],
     "usage": "Used to indicate matix style backlog timeline view."
+}, {
+    "id": 433,
+    "name": "team-favorite",
+    "unicode": "EAB0",
+    "decimal": 60080,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["team", "favorite", "user", "people", "star"],
+    "usage": "Used in Work hub Query page for team favorite queries."
 }]

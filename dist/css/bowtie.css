@@ -1961,4 +1961,8 @@
 .bowtie-timeline-matrix:before {
 	content: "\EAAF";
 }
+
+.bowtie-team-favorite:before {
+	content: "\EAB0";
+}
 
