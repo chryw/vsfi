@@ -234,6 +234,18 @@
 	content: "\E031";
 }
 
+.bowtie-lg-cloud-cli:before {
+	content: "\E032";
+}
+
+.bowtie-cloud-cli-fill:before {
+	content: "\E033";
+}
+
+.bowtie-cloud-cli:before {
+	content: "\E034";
+}
+
 .bowtie-arrow-up:before {
 	content: "\E900";
 }
@@ -1964,5 +1976,9 @@
 
 .bowtie-team-favorite:before {
 	content: "\EAB0";
+}
+
+.bowtie-test-impact-fill:before {
+	content: "\EAB1";
 }
 
