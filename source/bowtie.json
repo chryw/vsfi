@@ -4783,4 +4783,15 @@
     "group": "Build",
     "keywords": ["task", "group", "list"],
     "usage": "Used in Release hub for task group."
+}, {
+    "id": 436,
+    "name": "engineering-group",
+    "unicode": "EAB3",
+    "decimal": 60083,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Compliance",
+    "keywords": ["engineering", "group", "loop", "organization", "chart", "schema"],
+    "usage": "Used in Compliance hub for Engineering Group node dropdown."
 }]

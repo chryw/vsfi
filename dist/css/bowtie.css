@@ -1985,4 +1985,8 @@
 .bowtie-task-group:before {
 	content: "\EAB2";
 }
+
+.bowtie-engineering-group:before {
+	content: "\EAB3";
+}
 
