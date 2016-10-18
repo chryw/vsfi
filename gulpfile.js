@@ -26,7 +26,7 @@ let optionsDefault = {
         //set icons to be default color
         $('path')
             .attr({
-                fill: "#444444"
+                fill: "#222222"
             });
         //added a transparent box to preserve padding
         $('path')

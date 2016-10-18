@@ -1989,4 +1989,12 @@
 .bowtie-engineering-group:before {
 	content: "\EAB3";
 }
+
+.bowtie-briefcase:before {
+	content: "\EAB4";
+}
+
+.bowtie-variable-group:before {
+	content: "\EAB5";
+}
 
