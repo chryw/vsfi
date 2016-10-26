@@ -4816,4 +4816,15 @@
     "group": "Test",
     "keywords": ["variable", "group", "parameter", "x", "letter", "brackets"],
     "usage": "Variable group is a group of configuration variables which can be used in deployments across build and release."
+}, {
+    "id": 439,
+    "name": "full-history",
+    "unicode": "EAB6",
+    "decimal": 60086,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["history", "list", "full", "all", "clock", "arrow", "time"],
+    "usage": "To show full history of a file."
 }]

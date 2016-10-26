@@ -1997,4 +1997,16 @@
 .bowtie-variable-group:before {
 	content: "\EAB5";
 }
+
+.bowtie-full-history:before {
+	content: "\EAB6";
+}
+
+.bowtie-scope-template:before {
+	content: "\EAB7";
+}
+
+.bowtie-assessment-group-template:before {
+	content: "\EAB8";
+}
 
