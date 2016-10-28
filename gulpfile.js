@@ -126,7 +126,7 @@ gulp.task('pngWhite2x', function() {
 });
 
 //generate iconfont, stylesheet and demo page.
-gulp.task('iconfont', function() {
+gulp.task('iconfont', ['svgmin'], function() {
     gulp.src(['source/svgs/bowtie/*.svg']) // the location of all the svg files to be created into the font
         .pipe(iconfont({
             normalize: true,
