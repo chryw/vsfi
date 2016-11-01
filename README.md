@@ -15,6 +15,3 @@
 
 ### Known Issues
 - Instructions on the demo html page are still draft
-- The given template sets the group selector class to be the same as the font name **bowtie**, while in the actual product they use *bowtie-icon* as the group selector class. If you use the given assets in your own projects, please use **bowtie** as group selector class. For example:
-
->     <span class="bowtie bowtie-arrow-up"></span>

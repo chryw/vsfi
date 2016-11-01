@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "bowtie";
-  src: url('../fonts/bowtie.eot');
-  src: url('../fonts/bowtie.eot?#iefix') format('eot'),
-    url('../fonts/bowtie.woff') format('woff'),
-    url('../fonts/bowtie.ttf') format('truetype'),
-    url('../fonts/bowtie.svg#bowtie') format('svg');
+  font-family: "Bowtie";
+  src: url('../fonts/Bowtie.eot');
+  src: url('../fonts/Bowtie.eot?#iefix') format('eot'),
+    url('../fonts/Bowtie.woff') format('woff'),
+    url('../fonts/Bowtie.ttf') format('truetype'),
+    url('../fonts/Bowtie.svg#Bowtie') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 .bowtie {
-  font-family: "bowtie";
+  font-family: "Bowtie";
   speak: none;
   display: inline-block;
   font-style: normal;
