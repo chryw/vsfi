@@ -23,7 +23,7 @@ let runTimestamp = Math.round(Date.now() / 1000);
 //     fontHeight: 1000,
 //     descent: 64,
 //     fontName: fontName,
-//     metadata: 'MDL2 icon font for glimpse',
+//     metadata: 'Icon font for glimpse',
 //     version: `v1.0.${runTimestamp}`,
 //     appendCodepoints: true,
 //     fontPath: '../../dist/fonts/',
