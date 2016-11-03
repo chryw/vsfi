@@ -241,4 +241,124 @@
 .glps-brand-ie:before {
 	content: "\E028";
 }
+
+.glps-document:before {
+	content: "\E029";
+}
+
+.glps-clear:before {
+	content: "\E02A";
+}
+
+.glps-clear-md:before {
+	content: "\E02B";
+}
+
+.glps-bug:before {
+	content: "\E02C";
+}
+
+.glps-refresh:before {
+	content: "\E02D";
+}
+
+.glps-list-flat:before {
+	content: "\E02E";
+}
+
+.glps-list-grouped:before {
+	content: "\E02F";
+}
+
+.glps-group-relationship:before {
+	content: "\E030";
+}
+
+.glps-sync:before {
+	content: "\E031";
+}
+
+.glps-mail:before {
+	content: "\E032";
+}
+
+.glps-triangle-up:before {
+	content: "\E033";
+}
+
+.glps-triangle-down:before {
+	content: "\E034";
+}
+
+.glps-triangle-right:before {
+	content: "\E035";
+}
+
+.glps-triangle-left:before {
+	content: "\E036";
+}
+
+.glps-edit:before {
+	content: "\E037";
+}
+
+.glps-copy:before {
+	content: "\E038";
+}
+
+.glps-paste:before {
+	content: "\E039";
+}
+
+.glps-print:before {
+	content: "\E03A";
+}
+
+.glps-caret-hollow:before {
+	content: "\E03B";
+}
+
+.glps-caret-solid:before {
+	content: "\E03C";
+}
+
+.glps-loading:before {
+	content: "\E03D";
+}
+
+.glps-user:before {
+	content: "\E03E";
+}
+
+.glps-checkbox-unchecked-sm:before {
+	content: "\E03F";
+}
+
+.glps-checkbox-checked-sm:before {
+	content: "\E040";
+}
+
+.glps-checkbox-interminate-sm:before {
+	content: "\E041";
+}
+
+.glps-message:before {
+	content: "\E042";
+}
+
+.glps-up:before {
+	content: "\E043";
+}
+
+.glps-down:before {
+	content: "\E044";
+}
+
+.glps-left:before {
+	content: "\E045";
+}
+
+.glps-right:before {
+	content: "\E046";
+}
 

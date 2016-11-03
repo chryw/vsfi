@@ -20,8 +20,8 @@ let runTimestamp = Math.round(Date.now() / 1000);
 //glimpse options
 // let iconFontOptions = {
 //     normalize: true,
-//     fontHeight: 1000,
 //     descent: 64,
+//     fontHeight: 1000,
 //     fontName: fontName,
 //     metadata: 'Icon font for glimpse',
 //     version: `v1.0.${runTimestamp}`,
