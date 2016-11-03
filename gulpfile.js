@@ -88,7 +88,7 @@ let optionsWhite = {
 };
 
 //default
-gulp.task('default', ['iconfont', 'png']);
+gulp.task('default', ['iconfont']);
 
 //optimize all svg files by trimming whitespaces and empty tags
 //Note: running this task will modify all svg files

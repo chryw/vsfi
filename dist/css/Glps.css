@@ -234,11 +234,11 @@
 	content: "\E026";
 }
 
-.glps-brand-edge:before {
+.glps-mark-server-sm:before {
 	content: "\E027";
 }
 
-.glps-brand-ie:before {
+.glps-mark-client-sm:before {
 	content: "\E028";
 }
 
