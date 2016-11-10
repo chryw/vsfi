@@ -1658,50 +1658,6 @@
 	content: "\EA60";
 }
 
-.bowtie-status-success-sm:before {
-	content: "\EA61";
-}
-
-.bowtie-status-warning-sm:before {
-	content: "\EA62";
-}
-
-.bowtie-status-info-sm:before {
-	content: "\EA63";
-}
-
-.bowtie-status-failure-sm:before {
-	content: "\EA64";
-}
-
-.bowtie-status-error-sm:before {
-	content: "\EA65";
-}
-
-.bowtie-status-run-sm:before {
-	content: "\EA66";
-}
-
-.bowtie-status-help-sm:before {
-	content: "\EA67";
-}
-
-.bowtie-status-stop-sm:before {
-	content: "\EA68";
-}
-
-.bowtie-status-pause-sm:before {
-	content: "\EA69";
-}
-
-.bowtie-status-waiting-fill-sm:before {
-	content: "\EA6A";
-}
-
-.bowtie-status-no-fill-sm:before {
-	content: "\EA6B";
-}
-
 .bowtie-assessment-group:before {
 	content: "\EA6C";
 }
