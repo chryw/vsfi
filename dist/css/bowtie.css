@@ -1494,6 +1494,10 @@
 	content: "\EA60";
 }
 
+.bowtie-set-actions:before {
+	content: "\EA61";
+}
+
 .bowtie-assessment-group:before {
 	content: "\EA6C";
 }
