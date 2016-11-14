@@ -3893,6 +3893,17 @@
     "keywords": ["action", "rule", "trigger", "lightning", "bolt", "event"],
     "usage": "Used for managing rules in Work hub."
 }, {
+    "id": 355,
+    "name": "packages",
+    "unicode": "EA62",
+    "decimal": 60002,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Build",
+    "keywords": ["package", "collection", "group", "registry", "box", "repository"],
+    "usage": "Used to indicate a collection of packages."
+}, {
     "id": 365,
     "name": "assessment-group",
     "unicode": "EA6C",

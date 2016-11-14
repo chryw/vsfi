@@ -1498,6 +1498,10 @@
 	content: "\EA61";
 }
 
+.bowtie-packages:before {
+	content: "\EA62";
+}
+
 .bowtie-assessment-group:before {
 	content: "\EA6C";
 }
