@@ -4761,4 +4761,125 @@
     "group": "Compliance",
     "keywords": ["assessment", "group", "compliance", "template", "document"],
     "usage": "Used in Compliance hub for Baseline child node in treeview."
+}, {
+    "id": 442,
+    "name": "status-success-sm",
+    "unicode": "EAB9",
+    "decimal": 60089,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 443,
+    "name": "status-warning-sm",
+    "unicode": "EABA",
+    "decimal": 60090,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 444,
+    "name": "status-info-sm",
+    "unicode": "EABB",
+    "decimal": 60091,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 445,
+    "name": "status-failure-sm",
+    "unicode": "EABC",
+    "decimal": 60092,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 446,
+    "name": "status-error-sm",
+    "unicode": "EABD",
+    "decimal": 60093,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 447,
+    "name": "status-run-sm",
+    "unicode": "EABE",
+    "decimal": 60094,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 448,
+    "name": "status-help-sm",
+    "unicode": "EABF",
+    "decimal": 60095,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 449,
+    "name": "status-stop-sm",
+    "unicode": "EAC0",
+    "decimal": 60096,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 450,
+    "name": "status-pause-sm",
+    "unicode": "EAC1",
+    "decimal": 60097,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 451,
+    "name": "status-waiting-fill-sm",
+    "unicode": "EAC2",
+    "decimal": 60098,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
+}, {
+    "id": 452,
+    "name": "status-no-fill-sm",
+    "unicode": "EAC3",
+    "decimal": 60099,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": "Temporary solution for badging."
 }]

@@ -1813,4 +1813,48 @@
 .bowtie-assessment-group-template:before {
 	content: "\EAB8";
 }
+
+.bowtie-status-success-sm:before {
+	content: "\EAB9";
+}
+
+.bowtie-status-warning-sm:before {
+	content: "\EABA";
+}
+
+.bowtie-status-info-sm:before {
+	content: "\EABB";
+}
+
+.bowtie-status-failure-sm:before {
+	content: "\EABC";
+}
+
+.bowtie-status-error-sm:before {
+	content: "\EABD";
+}
+
+.bowtie-status-run-sm:before {
+	content: "\EABE";
+}
+
+.bowtie-status-help-sm:before {
+	content: "\EABF";
+}
+
+.bowtie-status-stop-sm:before {
+	content: "\EAC0";
+}
+
+.bowtie-status-pause-sm:before {
+	content: "\EAC1";
+}
+
+.bowtie-status-waiting-fill-sm:before {
+	content: "\EAC2";
+}
+
+.bowtie-status-no-fill-sm:before {
+	content: "\EAC3";
+}
 
