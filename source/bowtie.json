@@ -3915,6 +3915,39 @@
     "keywords": ["search", "branch", "version", "control", "magnifying", "glass"],
     "usage": "Search within a branch."
 }, {
+    "id": 357,
+    "name": "file-type-settings",
+    "unicode": "EA64",
+    "decimal": 60004,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["file", "settings", "configuration", "system", "gears", "document"],
+    "usage": "Used for *.dll file type"
+}, {
+    "id": 358,
+    "name": "file-type-pdb",
+    "unicode": "EA65",
+    "decimal": 60005,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["file", "pdb", "document", "dot"],
+    "usage": "Used for *.pdb file type"
+}, {
+    "id": 359,
+    "name": "file-type-zip",
+    "unicode": "EA66",
+    "decimal": 60006,
+    "version": "1.1",
+    "style": "bold",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["file", "zip", "compressed", "package"],
+    "usage": "Used for compressed file types such as zip, tar, tarz, etc."
+}, {
     "id": 365,
     "name": "assessment-group",
     "unicode": "EA6C",

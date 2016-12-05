@@ -1506,6 +1506,18 @@
 	content: "\EA63";
 }
 
+.bowtie-file-type-settings:before {
+	content: "\EA64";
+}
+
+.bowtie-file-type-pdb:before {
+	content: "\EA65";
+}
+
+.bowtie-file-type-zip:before {
+	content: "\EA66";
+}
+
 .bowtie-assessment-group:before {
 	content: "\EA6C";
 }
