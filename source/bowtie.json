@@ -3948,6 +3948,17 @@
     "keywords": ["file", "zip", "compressed", "package"],
     "usage": "Used for compressed file types such as zip, tar, tarz, etc."
 }, {
+    "id": 360,
+    "name": "build-issue",
+    "unicode": "EA67",
+    "decimal": 60007,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["build", "issue", "problem", "alert", "bug", "exclamation"],
+    "usage": "Used as link type indicating there is bug created from build result."
+}, {
     "id": 365,
     "name": "assessment-group",
     "unicode": "EA6C",

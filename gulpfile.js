@@ -6,6 +6,7 @@ const gulp = require('gulp');
 const iconfont = require('gulp-iconfont');
 const consolidate = require('gulp-consolidate');
 const rename = require('gulp-rename');
+const replace = require('gulp-replace');
 const foreach = require('gulp-foreach');
 const concat = require('gulp-concat');
 const merge = require('merge-stream');
@@ -189,9 +190,11 @@ gulp.task('iconfont', ['svgmin'], function() {
             gulp.src('templates/template.css') // a template css file, used to generate the css stylesheet
                 .pipe(consolidate('lodash', options))
                 .pipe(rename(fontName + '.css'))
+                .pipe(replace('@@hash',`1.0.${runTimestamp}`))
                 .pipe(gulp.dest('dist/css'));
             gulp.src('templates/template_' + fontName + '.html')
                 .pipe(consolidate('lodash', options))
+                .pipe(replace('@@hash',`1.0.${runTimestamp}`))
                 .pipe(rename(fontName + '.html'))
                 .pipe(gulp.dest('dist/'));
             // -------------------------------
