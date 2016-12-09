@@ -4926,4 +4926,48 @@
     "group": "",
     "keywords": [""],
     "usage": "Temporary solution for badging."
+}, {
+    "id": 453,
+    "name": "",
+    "unicode": "EAC4",
+    "decimal": 60100,
+    "version": "1.1",
+    "style": "",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": ""
+}, {
+    "id": 454,
+    "name": "0",
+    "unicode": "EAC5",
+    "decimal": 60101,
+    "version": "1.1",
+    "style": "",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": ""
+}, {
+    "id": 455,
+    "name": "0",
+    "unicode": "EAC6",
+    "decimal": 60102,
+    "version": "1.1",
+    "style": "",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": ""
+}, {
+    "id": 456,
+    "name": "0",
+    "unicode": "EAC7",
+    "decimal": 60103,
+    "version": "1.1",
+    "style": "",
+    "subset": "",
+    "group": "",
+    "keywords": [""],
+    "usage": ""
 }]
