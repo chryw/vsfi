@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bowtie";
-  src: url('../fonts/Bowtie.eot?v=1.0.1481253470');
-  src: url('../fonts/Bowtie.eot?#iefix&&v=1.0.1481253470') format('eot'),
-    url('../fonts/Bowtie.woff?v=1.0.1481253470') format('woff'),
-    url('../fonts/Bowtie.ttf?v=1.0.1481253470') format('truetype'),
-    url('../fonts/Bowtie.svg#Bowtie?v=1.0.1481253470') format('svg');
+  src: url('../fonts/Bowtie.eot?v=1.0.1482278140');
+  src: url('../fonts/Bowtie.eot?#iefix&&v=1.0.1482278140') format('eot'),
+    url('../fonts/Bowtie.woff?v=1.0.1482278140') format('woff'),
+    url('../fonts/Bowtie.ttf?v=1.0.1482278140') format('truetype'),
+    url('../fonts/Bowtie.svg#Bowtie?v=1.0.1482278140') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1528,6 +1528,14 @@
 
 .bowtie-user-pending:before {
 	content: "\EA69";
+}
+
+.bowtie-notification:before {
+	content: "\EA6A";
+}
+
+.bowtie-notification-off:before {
+	content: "\EA6B";
 }
 
 .bowtie-assessment-group:before {

@@ -3959,6 +3959,50 @@
     "keywords": ["build", "issue", "problem", "alert", "bug", "exclamation"],
     "usage": "Used as link type indicating there is bug created from build result."
 }, {
+    "id": 361,
+    "name": "user-pause",
+    "unicode": "EA68",
+    "decimal": 60008,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["user", "pause", "manual", "intervention", "halt"],
+    "usage": "Used for deployment HALT status when manual intervention is needed."
+}, {
+    "id": 362,
+    "name": "user-pending",
+    "unicode": "EA69",
+    "decimal": 60009,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Code",
+    "keywords": ["user", "pending", "time", "clock", "halt"],
+    "usage": "Used for deployment HALT status when user approval is needed."
+}, {
+    "id": 363,
+    "name": "notification",
+    "unicode": "EA6A",
+    "decimal": 60010,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["notification", "bell", "ring"],
+    "usage": "Turn on to receive notification."
+}, {
+    "id": 364,
+    "name": "notification-off",
+    "unicode": "EA6B",
+    "decimal": 60011,
+    "version": "1.1",
+    "style": "light",
+    "subset": "VSTS",
+    "group": "Work",
+    "keywords": ["notification", "bell", "ring", "off", "slash"],
+    "usage": "Turn off to stop receiving notification."
+}, {
     "id": 365,
     "name": "assessment-group",
     "unicode": "EA6C",
@@ -4926,48 +4970,4 @@
     "group": "",
     "keywords": [""],
     "usage": "Temporary solution for badging."
-}, {
-    "id": 453,
-    "name": "",
-    "unicode": "EAC4",
-    "decimal": 60100,
-    "version": "1.1",
-    "style": "",
-    "subset": "",
-    "group": "",
-    "keywords": [""],
-    "usage": ""
-}, {
-    "id": 454,
-    "name": "0",
-    "unicode": "EAC5",
-    "decimal": 60101,
-    "version": "1.1",
-    "style": "",
-    "subset": "",
-    "group": "",
-    "keywords": [""],
-    "usage": ""
-}, {
-    "id": 455,
-    "name": "0",
-    "unicode": "EAC6",
-    "decimal": 60102,
-    "version": "1.1",
-    "style": "",
-    "subset": "",
-    "group": "",
-    "keywords": [""],
-    "usage": ""
-}, {
-    "id": 456,
-    "name": "0",
-    "unicode": "EAC7",
-    "decimal": 60103,
-    "version": "1.1",
-    "style": "",
-    "subset": "",
-    "group": "",
-    "keywords": [""],
-    "usage": ""
 }]
