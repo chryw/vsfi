@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bowtie";
-  src: url('../fonts/Bowtie.eot?v=1.0.1482428696');
-  src: url('../fonts/Bowtie.eot?#iefix&&v=1.0.1482428696') format('eot'),
-    url('../fonts/Bowtie.woff?v=1.0.1482428696') format('woff'),
-    url('../fonts/Bowtie.ttf?v=1.0.1482428696') format('truetype'),
-    url('../fonts/Bowtie.svg#Bowtie?v=1.0.1482428696') format('svg');
+  src: url('../fonts/Bowtie.eot?v=1.0.1484074376');
+  src: url('../fonts/Bowtie.eot?#iefix&&v=1.0.1484074376') format('eot'),
+    url('../fonts/Bowtie.woff?v=1.0.1484074376') format('woff'),
+    url('../fonts/Bowtie.ttf?v=1.0.1484074376') format('truetype'),
+    url('../fonts/Bowtie.svg#Bowtie?v=1.0.1484074376') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1844,49 +1844,5 @@
 
 .bowtie-assessment-group-template:before {
 	content: "\EAB8";
-}
-
-.bowtie-status-success-sm:before {
-	content: "\EAB9";
-}
-
-.bowtie-status-warning-sm:before {
-	content: "\EABA";
-}
-
-.bowtie-status-info-sm:before {
-	content: "\EABB";
-}
-
-.bowtie-status-failure-sm:before {
-	content: "\EABC";
-}
-
-.bowtie-status-error-sm:before {
-	content: "\EABD";
-}
-
-.bowtie-status-run-sm:before {
-	content: "\EABE";
-}
-
-.bowtie-status-help-sm:before {
-	content: "\EABF";
-}
-
-.bowtie-status-stop-sm:before {
-	content: "\EAC0";
-}
-
-.bowtie-status-pause-sm:before {
-	content: "\EAC1";
-}
-
-.bowtie-status-waiting-fill-sm:before {
-	content: "\EAC2";
-}
-
-.bowtie-status-no-fill-sm:before {
-	content: "\EAC3";
 }
 
