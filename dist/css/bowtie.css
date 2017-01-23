@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bowtie";
-  src: url('../fonts/Bowtie.eot?v=1.0.1484074921');
-  src: url('../fonts/Bowtie.eot?#iefix&&v=1.0.1484074921') format('eot'),
-    url('../fonts/Bowtie.woff?v=1.0.1484074921') format('woff'),
-    url('../fonts/Bowtie.ttf?v=1.0.1484074921') format('truetype'),
-    url('../fonts/Bowtie.svg#Bowtie?v=1.0.1484074921') format('svg');
+  src: url('../fonts/Bowtie.eot?v=1.0.1485199559');
+  src: url('../fonts/Bowtie.eot?#iefix&&v=1.0.1485199559') format('eot'),
+    url('../fonts/Bowtie.woff?v=1.0.1485199559') format('woff'),
+    url('../fonts/Bowtie.ttf?v=1.0.1485199559') format('truetype'),
+    url('../fonts/Bowtie.svg#Bowtie?v=1.0.1485199559') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1848,5 +1848,13 @@
 
 .bowtie-send-fill:before {
 	content: "\EAB9";
+}
+
+.bowtie-draft:before {
+	content: "\EABA";
+}
+
+.bowtie-construction:before {
+	content: "\EABB";
 }
 

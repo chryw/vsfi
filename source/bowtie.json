@@ -439,5 +439,7 @@
 {"id":439,"name":"full-history","unicode":"EAB6","decimal":60086,"version":"1.1","style":"light","subset":"VSTS","group":"Code","keywords":["history","list","full","all","clock","arrow","time"],"usage":"To show full history of a file."},
 {"id":440,"name":"scope-template","unicode":"EAB7","decimal":60087,"version":"1.1","style":"light","subset":"VSTS","group":"Compliance","keywords":["scope","template","baseline","compliance","document"],"usage":"Used in Compliance hub for Baseline parent node in treeview."},
 {"id":441,"name":"assessment-group-template","unicode":"EAB8","decimal":60088,"version":"1.1","style":"light","subset":"VSTS","group":"Compliance","keywords":["assessment","group","compliance","template","document"],"usage":"Used in Compliance hub for Baseline child node in treeview."},
-{"id":442,"name":"send-fill","unicode":"EAB9","decimal":60089,"version":"1.1","style":"bold","subset":"VSTS","group":"Common","keywords":["send","message","submit"],"usage":"Used for submitting a form on mobile or small space areas."}
+{"id":442,"name":"send-fill","unicode":"EAB9","decimal":60089,"version":"1.1","style":"bold","subset":"VSTS","group":"Common","keywords":["send","message","submit"],"usage":"Used for submitting a form on mobile or small space areas."},
+{"id":443,"name":"draft","unicode":"EABA","decimal":60090,"version":"1.1","style":"","subset":"VSTS","group":"Build","keywords":["draft","edit","file","pencil"],"usage":""},
+{"id":444,"name":"construction","unicode":"EABB","decimal":60091,"version":"1.1","style":"","subset":"VSTS","group":"Common","keywords":["under","construction","work","in","progress"],"usage":""}
 ]
