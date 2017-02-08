@@ -27,7 +27,6 @@ let iconFontOptions = {
     metadata: 'Bowtie icon font for VSTS',
     version: `v1.0.${runTimestamp}`,
     appendCodepoints: true,
-    fontPath: '../../dist/fonts/',
     formats: ['ttf', 'eot', 'woff', 'svg'],
     minsize: 14,
     maxsize: 448
@@ -157,8 +156,7 @@ gulp.task('iconfont', ['svgmin'], function() {
         // automatically assign a unicode value to the icon
         .on('glyphs', function(glyphs) {
             let options = {
-                fontName: fontName,
-                fontPath: '../fonts/', // set path to font (from your CSS file if relative)
+                fontName: fontName, // set path to font (from your CSS file if relative)
                 className: fontName.toLowerCase(), // set class name in your CSS
                 glyphs: glyphs.map(function(glyph) {
                     // this line is needed because gulp-iconfont has changed the api from 2.0
@@ -178,19 +176,19 @@ gulp.task('iconfont', ['svgmin'], function() {
                 .pipe(consolidate('lodash', options))
                 .pipe(rename(fontName.toLowerCase() + '-codepen.css'))
                 .pipe(replace('@@hash',`1.0.${runTimestamp}`))
-                .pipe(gulp.dest('dist/'));
+                .pipe(gulp.dest('dist'));
             gulp.src('templates/template-codepen.html')
                 .pipe(consolidate('lodash', options))
                 .pipe(replace('@@hash',`1.0.${runTimestamp}`))
                 .pipe(rename(fontName.toLowerCase() + '-codepen.html'))
-                .pipe(gulp.dest('dist/'));
+                .pipe(gulp.dest('dist'));
 
             //generate scss for vsts
             gulp.src('templates/template-vsts.scss')
                 .pipe(consolidate('lodash', options))
                 .pipe(rename('_IconsCommon.scss'))
                 .pipe(replace('@@hash',`1.0.${runTimestamp}`))
-                .pipe(gulp.dest('dist/'));
+                .pipe(gulp.dest('dist'));
         })
-        .pipe(gulp.dest('dist/fonts')); // where to save the generated font files
+        .pipe(gulp.dest('dist')); // where to save the generated font files
 });
