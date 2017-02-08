@@ -15,23 +15,8 @@ const fs = require('fs');
 const cheerio = require('gulp-cheerio');
 const raster = require('gulp-raster');
 const fontName = 'Bowtie';
-const svgsrc = 'source/svgs/bowtie/*.svg';
+const svgsrc = 'source/svgs/*.svg';
 let runTimestamp = Math.round(Date.now() / 1000);
-
-//glimpse options
-// let iconFontOptions = {
-//     normalize: true,
-//     descent: 64,
-//     fontHeight: 1000,
-//     fontName: fontName,
-//     metadata: 'Icon font for glimpse',
-//     version: `v1.0.${runTimestamp}`,
-//     appendCodepoints: true,
-//     fontPath: '../../dist/fonts/',
-//     formats: ['ttf', 'eot', 'woff', 'svg'],
-//     minsize: 16,
-//     maxsize: 1000
-// };
 
 // bowtie options
 let iconFontOptions = {
@@ -60,7 +45,7 @@ let optionsDefault = {
         //set icons to be default color
         $('path')
             .attr({
-                fill: "#222222"
+                fill: "#222"
             });
         //added a transparent box to preserve padding
         $('path')
@@ -80,7 +65,7 @@ let optionsWhite = {
         //set icons to be default color
         $('path')
             .attr({
-                fill: "#ffffff"
+                fill: "#fff"
             });
         //added a transparent box to preserve padding
         $('path')
@@ -114,7 +99,7 @@ gulp.task('png', function() {
         .pipe(rename({
             extname: '.png'
         }))
-        .pipe(gulp.dest(`dist/png/${fontName}`));
+        .pipe(gulp.dest(`dist/png/${fontName}.toLowerCase()`));
     return png;
 });
 
@@ -145,7 +130,7 @@ gulp.task('png2x', function() {
             extname: '.png',
             suffix: '-2x'
         }))
-        .pipe(gulp.dest(`dist/png/${fontName}`));
+        .pipe(gulp.dest(`dist/png/${fontName}.toLowerCase()`));
     return png2x;
 });
 
@@ -161,7 +146,7 @@ gulp.task('pngwhite2x', function() {
             extname: '.png',
             suffix: '-white-2x'
         }))
-        .pipe(gulp.dest(`dist/png/${fontName}`));
+        .pipe(gulp.dest(`dist/png/${fontName}.toLowerCase()`));
     return pngWhite2x;
 });
 
@@ -187,19 +172,25 @@ gulp.task('iconfont', ['svgmin'], function() {
             glyphs.forEach(function(glyph, idx, arr) {
                 arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
             });
-            gulp.src('templates/template.css') // a template css file, used to generate the css stylesheet
+
+            //generate codepen version for guideline site
+            gulp.src('templates/template-codepen.css')
                 .pipe(consolidate('lodash', options))
-                .pipe(rename(fontName + '.css'))
+                .pipe(rename(fontName.toLowerCase() + '-codepen.css'))
                 .pipe(replace('@@hash',`1.0.${runTimestamp}`))
-                .pipe(gulp.dest('dist/css'));
-            gulp.src('templates/template_' + fontName + '.html')
-                .pipe(consolidate('lodash', options))
-                .pipe(replace('@@hash',`1.0.${runTimestamp}`))
-                .pipe(rename(fontName + '.html'))
                 .pipe(gulp.dest('dist/'));
-            // -------------------------------
-            // END additional stuff to generate an scss file with all the font characters inside it
-            // -------------------------------
+            gulp.src('templates/template-codepen.html')
+                .pipe(consolidate('lodash', options))
+                .pipe(replace('@@hash',`1.0.${runTimestamp}`))
+                .pipe(rename(fontName.toLowerCase() + '-codepen.html'))
+                .pipe(gulp.dest('dist/'));
+
+            //generate scss for vsts
+            gulp.src('templates/template-vsts.scss')
+                .pipe(consolidate('lodash', options))
+                .pipe(rename('_IconsCommon.scss'))
+                .pipe(replace('@@hash',`1.0.${runTimestamp}`))
+                .pipe(gulp.dest('dist/'));
         })
         .pipe(gulp.dest('dist/fonts')); // where to save the generated font files
 });

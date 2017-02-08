@@ -1,0 +1,69 @@
+// IMPORTANT - AUTO GENERATED:
+// This file is auto-generated from the bowtie repository
+// To re-generate, git clone https://mseng.visualstudio.com/DevDivDesign/_git/bowtie
+// and run `gulp`. The result will be copied to the assets directory.
+
+/// <reference path="../_BowtieCommon.scss" />
+
+$icon-map: (
+    <%= glyphs.map(function(g) { return "\"" + className + "-" + g.name + "\": \"" + g.codepoint + "\"" }).join(",\r\n    ") %>
+);
+
+// SASS makes it really difficult to add backslashes to a string, so we use this hack.
+@function add-backslash($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+@function get-icon-code($icon-name) {
+    @if (str-slice($icon-name, 0, <%= fontName.length + 1 %>) != "<%= fontName.toLowerCase() %>-") {
+        $icon-name: "<%= fontName.toLowerCase() %>-" + $icon-name;
+    }
+    @return add-backslash(map-get($icon-map, $icon-name));
+}
+
+@mixin bow-icon-font {
+    font-family: "Bowtie";
+    font-size: $bow-font-size;
+    speak: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    line-height: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin bow-icon($icon-name, $selector: null) {
+    @if ($selector == null) {
+        @include bow-icon-font;
+
+        @include bow-icon-content($icon-name);
+
+        // Add extra styles if specified
+        @content;
+    }
+    @else {
+        #{$selector} {
+            @include bow-icon-font;
+
+            @include bow-icon-content($icon-name);
+
+            // Add extra styles if specified
+            @content;
+        }
+    }
+}
+
+@mixin bow-icon-content($icon-name) {
+    @if ($icon-name != null) {
+        &::before {
+            content: get-icon-code($icon-name);
+        }
+    }
+}
+
+@import "_IconColorsCommon.scss";

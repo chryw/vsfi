@@ -1,0 +1,2788 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 1em;
+            line-height: 1.5;
+            margin: 1em;
+            color: #222222;
+            font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, Verdana;
+        }
+
+        i {
+            display: inline-block;
+            min-width: 20px;
+            text-align: center;
+            font-size: 14px;
+            -webkit-font-smoothing: none;
+        }
+
+        .fs1 {
+            width: 100%;
+            margin-top: 70px;
+            -webkit-columns: 3 200px;
+            -moz-columns: 3 200px;
+            columns: 3 200px;
+            -webkit-column-gap: 4em;
+            -moz-column-gap: 4em;
+            column-gap: 4em;
+        }
+
+        .mls {
+            margin-left: .25em;
+            font-size: 12px;
+        }
+
+        .header {
+          width: 100%;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 999;
+          background-color: #eaeaea;
+        }
+
+        .search {
+            display: block;
+            max-width: 300px;
+            padding: 1em;
+        }
+
+        input[type="text"] {
+            display: inline-block;
+            outline: 0;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #dedede;
+            padding: 0 8px;
+            height: 32px;
+        }
+
+        input[type="text"]:hover {
+            border-color: #b6b6b6;
+        }
+
+        input[type="text"]:focus,
+        input[type="text"]:active {
+            border-color: #0075d4;
+        }
+
+        input[type="text"]::selection {
+            background-color: #dcebfc;
+        }
+
+         ::-webkit-input-placeholder {
+            /* WebKit, Blink, Edge */
+            font-style: italic;
+        }
+
+         :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            font-style: italic;
+        }
+
+         ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            font-style: italic;
+        }
+
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            font-style: italic;
+        }
+    </style>
+    <!-- for local preview only -->
+    <link rel="stylesheet" href="bowtie-codepen.css?v=1.0.1486577990" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="search">
+            <input type="text" id="search" placeholder="Search..." onkeyup="search()" />
+        </div>
+    </div>
+
+    <div class="fs1" id="iconList">
+        
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-up">
+      </i>
+                <span class="mls"> bowtie-arrow-up (E900)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-left">
+      </i>
+                <span class="mls"> bowtie-arrow-left (E901)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-down">
+      </i>
+                <span class="mls"> bowtie-arrow-down (E902)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-right">
+      </i>
+                <span class="mls"> bowtie-arrow-right (E903)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-up-left">
+      </i>
+                <span class="mls"> bowtie-arrow-up-left (E904)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-up-right">
+      </i>
+                <span class="mls"> bowtie-arrow-up-right (E905)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-down-left">
+      </i>
+                <span class="mls"> bowtie-arrow-down-left (E906)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-down-right">
+      </i>
+                <span class="mls"> bowtie-arrow-down-right (E907)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-export">
+      </i>
+                <span class="mls"> bowtie-arrow-export (E908)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-open">
+      </i>
+                <span class="mls"> bowtie-arrow-open (E909)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-sort">
+      </i>
+                <span class="mls"> bowtie-sort (E90A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-sort-ascending">
+      </i>
+                <span class="mls"> bowtie-sort-ascending (E90B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-sort-descending">
+      </i>
+                <span class="mls"> bowtie-sort-descending (E90C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-switch">
+      </i>
+                <span class="mls"> bowtie-switch (E90D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-synchronize">
+      </i>
+                <span class="mls"> bowtie-synchronize (E90E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-transfer-download">
+      </i>
+                <span class="mls"> bowtie-transfer-download (E90F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-transfer-upload">
+      </i>
+                <span class="mls"> bowtie-transfer-upload (E910)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-azure-api-management">
+      </i>
+                <span class="mls"> bowtie-azure-api-management (E911)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-azure-service-endpoint">
+      </i>
+                <span class="mls"> bowtie-azure-service-endpoint (E912)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-android">
+      </i>
+                <span class="mls"> bowtie-brand-android (E913)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-facebook">
+      </i>
+                <span class="mls"> bowtie-brand-facebook (E914)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-git">
+      </i>
+                <span class="mls"> bowtie-brand-git (E915)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-github">
+      </i>
+                <span class="mls"> bowtie-brand-github (E916)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-maven">
+      </i>
+                <span class="mls"> bowtie-brand-maven (E917)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-mtm">
+      </i>
+                <span class="mls"> bowtie-brand-mtm (E918)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-npm">
+      </i>
+                <span class="mls"> bowtie-brand-npm (E919)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-nuget">
+      </i>
+                <span class="mls"> bowtie-brand-nuget (E91A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-tfvc">
+      </i>
+                <span class="mls"> bowtie-brand-tfvc (E91B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-twitter">
+      </i>
+                <span class="mls"> bowtie-brand-twitter (E91C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-visualstudio">
+      </i>
+                <span class="mls"> bowtie-brand-visualstudio (E91D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-windows">
+      </i>
+                <span class="mls"> bowtie-brand-windows (E91E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-git">
+      </i>
+                <span class="mls"> bowtie-git (E91F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-logo-visual-studio">
+      </i>
+                <span class="mls"> bowtie-logo-visual-studio (E920)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-repo">
+      </i>
+                <span class="mls"> bowtie-tfvc-repo (E921)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-area">
+      </i>
+                <span class="mls"> bowtie-chart-area (E922)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-bar">
+      </i>
+                <span class="mls"> bowtie-chart-bar (E923)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-column">
+      </i>
+                <span class="mls"> bowtie-chart-column (E924)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-pie">
+      </i>
+                <span class="mls"> bowtie-chart-pie (E925)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-pivot">
+      </i>
+                <span class="mls"> bowtie-chart-pivot (E926)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-stacked-area">
+      </i>
+                <span class="mls"> bowtie-chart-stacked-area (E927)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-stacked-bar">
+      </i>
+                <span class="mls"> bowtie-chart-stacked-bar (E928)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chart-stacked-line">
+      </i>
+                <span class="mls"> bowtie-chart-stacked-line (E929)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-build-queue-new">
+      </i>
+                <span class="mls"> bowtie-build-queue-new (E92A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-clone-to-desktop">
+      </i>
+                <span class="mls"> bowtie-clone-to-desktop (E92B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-install">
+      </i>
+                <span class="mls"> bowtie-install (E92C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment">
+      </i>
+                <span class="mls"> bowtie-comment (E92D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment-add">
+      </i>
+                <span class="mls"> bowtie-comment-add (E92E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment-discussion">
+      </i>
+                <span class="mls"> bowtie-comment-discussion (E92F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment-lines">
+      </i>
+                <span class="mls"> bowtie-comment-lines (E930)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment-next">
+      </i>
+                <span class="mls"> bowtie-comment-next (E931)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment-outline">
+      </i>
+                <span class="mls"> bowtie-comment-outline (E932)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment-previous">
+      </i>
+                <span class="mls"> bowtie-comment-previous (E933)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-comment-urgent">
+      </i>
+                <span class="mls"> bowtie-comment-urgent (E934)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-alert">
+      </i>
+                <span class="mls"> bowtie-alert (E935)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-approve">
+      </i>
+                <span class="mls"> bowtie-approve (E936)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-approve-disapprove">
+      </i>
+                <span class="mls"> bowtie-approve-disapprove (E937)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-blur">
+      </i>
+                <span class="mls"> bowtie-blur (E938)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-build">
+      </i>
+                <span class="mls"> bowtie-build (E939)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-build-queue">
+      </i>
+                <span class="mls"> bowtie-build-queue (E93A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-build-reason-checkin-shelveset">
+      </i>
+                <span class="mls"> bowtie-build-reason-checkin-shelveset (E93B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-calendar">
+      </i>
+                <span class="mls"> bowtie-calendar (E93C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-calendar-month">
+      </i>
+                <span class="mls"> bowtie-calendar-month (E93D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-camera">
+      </i>
+                <span class="mls"> bowtie-camera (E93E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-clone">
+      </i>
+                <span class="mls"> bowtie-clone (E93F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-cloud">
+      </i>
+                <span class="mls"> bowtie-cloud (E940)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-cloud-fill">
+      </i>
+                <span class="mls"> bowtie-cloud-fill (E941)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-copy-to-clipboard">
+      </i>
+                <span class="mls"> bowtie-copy-to-clipboard (E942)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-dashboard">
+      </i>
+                <span class="mls"> bowtie-dashboard (E943)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-dashboard-fill">
+      </i>
+                <span class="mls"> bowtie-dashboard-fill (E944)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-database">
+      </i>
+                <span class="mls"> bowtie-database (E945)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-deploy">
+      </i>
+                <span class="mls"> bowtie-deploy (E946)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-redeploy">
+      </i>
+                <span class="mls"> bowtie-redeploy (E947)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-details-pane">
+      </i>
+                <span class="mls"> bowtie-details-pane (E948)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit">
+      </i>
+                <span class="mls"> bowtie-edit (E949)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-outline">
+      </i>
+                <span class="mls"> bowtie-edit-outline (E94A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-copy">
+      </i>
+                <span class="mls"> bowtie-edit-copy (E94B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-cut">
+      </i>
+                <span class="mls"> bowtie-edit-cut (E94C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-editor-list-bullet">
+      </i>
+                <span class="mls"> bowtie-editor-list-bullet (E94D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-paste">
+      </i>
+                <span class="mls"> bowtie-edit-paste (E94E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-delete">
+      </i>
+                <span class="mls"> bowtie-edit-delete (E94F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-remove">
+      </i>
+                <span class="mls"> bowtie-edit-remove (E950)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-redo">
+      </i>
+                <span class="mls"> bowtie-edit-redo (E951)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-undo">
+      </i>
+                <span class="mls"> bowtie-edit-undo (E952)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-edit-rename">
+      </i>
+                <span class="mls"> bowtie-edit-rename (E953)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-attach">
+      </i>
+                <span class="mls"> bowtie-attach (E954)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-link">
+      </i>
+                <span class="mls"> bowtie-link (E955)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-server">
+      </i>
+                <span class="mls"> bowtie-server (E956)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-environment">
+      </i>
+                <span class="mls"> bowtie-environment (E957)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-devices">
+      </i>
+                <span class="mls"> bowtie-devices (E958)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-feedback-negative">
+      </i>
+                <span class="mls"> bowtie-feedback-negative (E959)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-feedback-positive">
+      </i>
+                <span class="mls"> bowtie-feedback-positive (E95A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-folder">
+      </i>
+                <span class="mls"> bowtie-folder (E95B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-image">
+      </i>
+                <span class="mls"> bowtie-image (E95C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-package">
+      </i>
+                <span class="mls"> bowtie-package (E95D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-package-fill">
+      </i>
+                <span class="mls"> bowtie-package-fill (E95E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-heart">
+      </i>
+                <span class="mls"> bowtie-heart (E95F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-heart-fill">
+      </i>
+                <span class="mls"> bowtie-heart-fill (E960)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-heartbeat">
+      </i>
+                <span class="mls"> bowtie-heartbeat (E961)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-heartbeat-fill">
+      </i>
+                <span class="mls"> bowtie-heartbeat-fill (E962)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-mail-message">
+      </i>
+                <span class="mls"> bowtie-mail-message (E963)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-mail-message-fill">
+      </i>
+                <span class="mls"> bowtie-mail-message-fill (E964)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-minus">
+      </i>
+                <span class="mls"> bowtie-math-minus (E965)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-minus-light">
+      </i>
+                <span class="mls"> bowtie-math-minus-light (E966)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-minus-box-light">
+      </i>
+                <span class="mls"> bowtie-math-minus-box-light (E967)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-minus-box">
+      </i>
+                <span class="mls"> bowtie-math-minus-box (E968)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-minus-circle-outline">
+      </i>
+                <span class="mls"> bowtie-math-minus-circle-outline (E969)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-minus-circle">
+      </i>
+                <span class="mls"> bowtie-math-minus-circle (E96A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-multiply">
+      </i>
+                <span class="mls"> bowtie-math-multiply (E96B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-multiply-light">
+      </i>
+                <span class="mls"> bowtie-math-multiply-light (E96C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-multiply-box-light">
+      </i>
+                <span class="mls"> bowtie-math-multiply-box-light (E96D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-multiply-box">
+      </i>
+                <span class="mls"> bowtie-math-multiply-box (E96E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-multiply-box-outline">
+      </i>
+                <span class="mls"> bowtie-math-multiply-box-outline (E96F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-plus">
+      </i>
+                <span class="mls"> bowtie-math-plus (E970)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-plus-light">
+      </i>
+                <span class="mls"> bowtie-math-plus-light (E971)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-plus-box-light">
+      </i>
+                <span class="mls"> bowtie-math-plus-box-light (E972)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-plus-box">
+      </i>
+                <span class="mls"> bowtie-math-plus-box (E973)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-plus-circle-outline">
+      </i>
+                <span class="mls"> bowtie-math-plus-circle-outline (E974)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-plus-circle">
+      </i>
+                <span class="mls"> bowtie-math-plus-circle (E975)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-math-plus-heavy">
+      </i>
+                <span class="mls"> bowtie-math-plus-heavy (E976)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-check">
+      </i>
+                <span class="mls"> bowtie-check (E977)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-check-light">
+      </i>
+                <span class="mls"> bowtie-check-light (E978)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-feed">
+      </i>
+                <span class="mls"> bowtie-feed (E979)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-network-tower">
+      </i>
+                <span class="mls"> bowtie-network-tower (E97A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-connect-to-feed">
+      </i>
+                <span class="mls"> bowtie-connect-to-feed (E97B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-plug">
+      </i>
+                <span class="mls"> bowtie-plug (E97C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-plug-outline">
+      </i>
+                <span class="mls"> bowtie-plug-outline (E97D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-policy">
+      </i>
+                <span class="mls"> bowtie-policy (E97E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-print">
+      </i>
+                <span class="mls"> bowtie-print (E97F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-recycle">
+      </i>
+                <span class="mls"> bowtie-recycle (E980)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-robot">
+      </i>
+                <span class="mls"> bowtie-robot (E981)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-save">
+      </i>
+                <span class="mls"> bowtie-save (E982)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-save-all">
+      </i>
+                <span class="mls"> bowtie-save-all (E983)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-save-as">
+      </i>
+                <span class="mls"> bowtie-save-as (E984)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-save-close">
+      </i>
+                <span class="mls"> bowtie-save-close (E985)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-search">
+      </i>
+                <span class="mls"> bowtie-search (E986)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-search-filter">
+      </i>
+                <span class="mls"> bowtie-search-filter (E987)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-search-filter-fill">
+      </i>
+                <span class="mls"> bowtie-search-filter-fill (E988)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-security">
+      </i>
+                <span class="mls"> bowtie-security (E989)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-security-access">
+      </i>
+                <span class="mls"> bowtie-security-access (E98A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-security-lock">
+      </i>
+                <span class="mls"> bowtie-security-lock (E98B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-security-lock-fill">
+      </i>
+                <span class="mls"> bowtie-security-lock-fill (E98C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-security-unlock">
+      </i>
+                <span class="mls"> bowtie-security-unlock (E98D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-security-unlock-fill">
+      </i>
+                <span class="mls"> bowtie-security-unlock-fill (E98E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-settings-gear">
+      </i>
+                <span class="mls"> bowtie-settings-gear (E98F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-settings-gear-outline">
+      </i>
+                <span class="mls"> bowtie-settings-gear-outline (E990)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-settings-wrench">
+      </i>
+                <span class="mls"> bowtie-settings-wrench (E991)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-trash">
+      </i>
+                <span class="mls"> bowtie-trash (E992)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-share">
+      </i>
+                <span class="mls"> bowtie-share (E993)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-shop">
+      </i>
+                <span class="mls"> bowtie-shop (E994)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-shop-server">
+      </i>
+                <span class="mls"> bowtie-shop-server (E995)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tag">
+      </i>
+                <span class="mls"> bowtie-tag (E996)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tag-fill">
+      </i>
+                <span class="mls"> bowtie-tag-fill (E997)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-user">
+      </i>
+                <span class="mls"> bowtie-user (E998)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-users">
+      </i>
+                <span class="mls"> bowtie-users (E999)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-variable">
+      </i>
+                <span class="mls"> bowtie-variable (E99A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-video">
+      </i>
+                <span class="mls"> bowtie-video (E99B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-view-grid">
+      </i>
+                <span class="mls"> bowtie-view-grid (E99C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-watch-eye">
+      </i>
+                <span class="mls"> bowtie-watch-eye (E99D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-watch-eye-fill">
+      </i>
+                <span class="mls"> bowtie-watch-eye-fill (E99E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-live-update-feed">
+      </i>
+                <span class="mls"> bowtie-live-update-feed (E99F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-checkbox">
+      </i>
+                <span class="mls"> bowtie-checkbox (E9A0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-checkbox-empty">
+      </i>
+                <span class="mls"> bowtie-checkbox-empty (E9A1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-up">
+      </i>
+                <span class="mls"> bowtie-chevron-up (E9A2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-left">
+      </i>
+                <span class="mls"> bowtie-chevron-left (E9A3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-down">
+      </i>
+                <span class="mls"> bowtie-chevron-down (E9A4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-right">
+      </i>
+                <span class="mls"> bowtie-chevron-right (E9A5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-up-light">
+      </i>
+                <span class="mls"> bowtie-chevron-up-light (E9A6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-left-light">
+      </i>
+                <span class="mls"> bowtie-chevron-left-light (E9A7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-down-light">
+      </i>
+                <span class="mls"> bowtie-chevron-down-light (E9A8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-right-light">
+      </i>
+                <span class="mls"> bowtie-chevron-right-light (E9A9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-up-all">
+      </i>
+                <span class="mls"> bowtie-chevron-up-all (E9AA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-left-all">
+      </i>
+                <span class="mls"> bowtie-chevron-left-all (E9AB)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-down-all">
+      </i>
+                <span class="mls"> bowtie-chevron-down-all (E9AC)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-right-all">
+      </i>
+                <span class="mls"> bowtie-chevron-right-all (E9AD)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-up-end">
+      </i>
+                <span class="mls"> bowtie-chevron-up-end (E9AE)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-left-end">
+      </i>
+                <span class="mls"> bowtie-chevron-left-end (E9AF)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-down-end">
+      </i>
+                <span class="mls"> bowtie-chevron-down-end (E9B0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-chevron-right-end">
+      </i>
+                <span class="mls"> bowtie-chevron-right-end (E9B1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-fold-less">
+      </i>
+                <span class="mls"> bowtie-fold-less (E9B2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-fold-more">
+      </i>
+                <span class="mls"> bowtie-fold-more (E9B3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-ellipsis">
+      </i>
+                <span class="mls"> bowtie-ellipsis (E9B4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-ellipsis-vertical">
+      </i>
+                <span class="mls"> bowtie-ellipsis-vertical (E9B5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-favorite">
+      </i>
+                <span class="mls"> bowtie-favorite (E9B6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-favorite-outline">
+      </i>
+                <span class="mls"> bowtie-favorite-outline (E9B7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-star-half">
+      </i>
+                <span class="mls"> bowtie-star-half (E9B8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pin">
+      </i>
+                <span class="mls"> bowtie-pin (E9B9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pin-fill">
+      </i>
+                <span class="mls"> bowtie-pin-fill (E9BA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pin-pinned">
+      </i>
+                <span class="mls"> bowtie-pin-pinned (E9BB)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pin-pinned-fill">
+      </i>
+                <span class="mls"> bowtie-pin-pinned-fill (E9BC)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pin-unpin">
+      </i>
+                <span class="mls"> bowtie-pin-unpin (E9BD)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pin-unpin-fill">
+      </i>
+                <span class="mls"> bowtie-pin-unpin-fill (E9BE)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-radio-button">
+      </i>
+                <span class="mls"> bowtie-radio-button (E9BF)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-radio-button-empty">
+      </i>
+                <span class="mls"> bowtie-radio-button-empty (E9C0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-resize-grip">
+      </i>
+                <span class="mls"> bowtie-resize-grip (E9C1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-separator">
+      </i>
+                <span class="mls"> bowtie-separator (E9C2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-toggle-collapse">
+      </i>
+                <span class="mls"> bowtie-toggle-collapse (E9C3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-toggle-expand">
+      </i>
+                <span class="mls"> bowtie-toggle-expand (E9C4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-toggle-collapse-all">
+      </i>
+                <span class="mls"> bowtie-toggle-collapse-all (E9C5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-toggle-expand-all">
+      </i>
+                <span class="mls"> bowtie-toggle-expand-all (E9C6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-triangle-up">
+      </i>
+                <span class="mls"> bowtie-triangle-up (E9C7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-triangle-left">
+      </i>
+                <span class="mls"> bowtie-triangle-left (E9C8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-triangle-down">
+      </i>
+                <span class="mls"> bowtie-triangle-down (E9C9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-triangle-right">
+      </i>
+                <span class="mls"> bowtie-triangle-right (E9CA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-toggle-tree-expanded">
+      </i>
+                <span class="mls"> bowtie-toggle-tree-expanded (E9CB)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-toggle-tree-expanded-outline">
+      </i>
+                <span class="mls"> bowtie-toggle-tree-expanded-outline (E9CC)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-toggle-tree-collapsed">
+      </i>
+                <span class="mls"> bowtie-toggle-tree-collapsed (E9CD)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-view-full-screen">
+      </i>
+                <span class="mls"> bowtie-view-full-screen (E9CE)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-view-full-screen-exit">
+      </i>
+                <span class="mls"> bowtie-view-full-screen-exit (E9CF)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-external">
+      </i>
+                <span class="mls"> bowtie-navigate-external (E9D0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-work-item-bar">
+      </i>
+                <span class="mls"> bowtie-work-item-bar (E9D1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-font">
+      </i>
+                <span class="mls"> bowtie-format-font (E9D2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-bold">
+      </i>
+                <span class="mls"> bowtie-format-bold (E9D3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-italic">
+      </i>
+                <span class="mls"> bowtie-format-italic (E9D4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-underline">
+      </i>
+                <span class="mls"> bowtie-format-underline (E9D5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-font-color">
+      </i>
+                <span class="mls"> bowtie-format-font-color (E9D6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-font-size">
+      </i>
+                <span class="mls"> bowtie-format-font-size (E9D7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-clear">
+      </i>
+                <span class="mls"> bowtie-format-clear (E9D8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-indent-decrease">
+      </i>
+                <span class="mls"> bowtie-format-indent-decrease (E9D9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-indent-increase">
+      </i>
+                <span class="mls"> bowtie-format-indent-increase (E9DA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-list-ordered">
+      </i>
+                <span class="mls"> bowtie-format-list-ordered (E9DB)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-format-list-unordered">
+      </i>
+                <span class="mls"> bowtie-format-list-unordered (E9DC)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file">
+      </i>
+                <span class="mls"> bowtie-file (E9DD)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-bug">
+      </i>
+                <span class="mls"> bowtie-file-bug (E9DE)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-code">
+      </i>
+                <span class="mls"> bowtie-file-code (E9DF)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-comment">
+      </i>
+                <span class="mls"> bowtie-file-comment (E9E0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-content">
+      </i>
+                <span class="mls"> bowtie-file-content (E9E1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-image">
+      </i>
+                <span class="mls"> bowtie-file-image (E9E2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-preview">
+      </i>
+                <span class="mls"> bowtie-file-preview (E9E3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-symlink">
+      </i>
+                <span class="mls"> bowtie-file-symlink (E9E4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-media-play">
+      </i>
+                <span class="mls"> bowtie-media-play (E9E5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-media-play-fill">
+      </i>
+                <span class="mls"> bowtie-media-play-fill (E9E6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-play">
+      </i>
+                <span class="mls"> bowtie-play (E9E7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-play-fill">
+      </i>
+                <span class="mls"> bowtie-play-fill (E9E8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pause">
+      </i>
+                <span class="mls"> bowtie-pause (E9E9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-pause-fill">
+      </i>
+                <span class="mls"> bowtie-pause-fill (E9EA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-play-resume">
+      </i>
+                <span class="mls"> bowtie-play-resume (E9EB)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-play-resume-fill">
+      </i>
+                <span class="mls"> bowtie-play-resume-fill (E9EC)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-stop">
+      </i>
+                <span class="mls"> bowtie-stop (E9ED)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-stop-fill">
+      </i>
+                <span class="mls"> bowtie-stop-fill (E9EE)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-fast-backward">
+      </i>
+                <span class="mls"> bowtie-fast-backward (E9EF)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-fast-backward-fill">
+      </i>
+                <span class="mls"> bowtie-fast-backward-fill (E9F0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-fast-forward">
+      </i>
+                <span class="mls"> bowtie-fast-forward (E9F1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-fast-forward-fill">
+      </i>
+                <span class="mls"> bowtie-fast-forward-fill (E9F2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-previous-frame">
+      </i>
+                <span class="mls"> bowtie-previous-frame (E9F3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-previous-frame-fill">
+      </i>
+                <span class="mls"> bowtie-previous-frame-fill (E9F4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-next-frame">
+      </i>
+                <span class="mls"> bowtie-next-frame (E9F5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-next-frame-fill">
+      </i>
+                <span class="mls"> bowtie-next-frame-fill (E9F6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-record">
+      </i>
+                <span class="mls"> bowtie-record (E9F7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-record-fill">
+      </i>
+                <span class="mls"> bowtie-record-fill (E9F8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-menu">
+      </i>
+                <span class="mls"> bowtie-menu (E9F9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-close">
+      </i>
+                <span class="mls"> bowtie-navigate-close (E9FA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-back-circle">
+      </i>
+                <span class="mls"> bowtie-navigate-back-circle (E9FB)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-back-disc">
+      </i>
+                <span class="mls"> bowtie-navigate-back-disc (E9FC)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-forward-circle">
+      </i>
+                <span class="mls"> bowtie-navigate-forward-circle (E9FD)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-forward-disc">
+      </i>
+                <span class="mls"> bowtie-navigate-forward-disc (E9FE)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-history">
+      </i>
+                <span class="mls"> bowtie-navigate-history (E9FF)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-refresh">
+      </i>
+                <span class="mls"> bowtie-navigate-refresh (EA00)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-navigate-reload">
+      </i>
+                <span class="mls"> bowtie-navigate-reload (EA01)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-error">
+      </i>
+                <span class="mls"> bowtie-status-error (EA02)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-error-outline">
+      </i>
+                <span class="mls"> bowtie-status-error-outline (EA03)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-failure">
+      </i>
+                <span class="mls"> bowtie-status-failure (EA04)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-failure-outline">
+      </i>
+                <span class="mls"> bowtie-status-failure-outline (EA05)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-help">
+      </i>
+                <span class="mls"> bowtie-status-help (EA06)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-help-outline">
+      </i>
+                <span class="mls"> bowtie-status-help-outline (EA07)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-info">
+      </i>
+                <span class="mls"> bowtie-status-info (EA08)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-info-outline">
+      </i>
+                <span class="mls"> bowtie-status-info-outline (EA09)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-no">
+      </i>
+                <span class="mls"> bowtie-status-no (EA0A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-no-fill">
+      </i>
+                <span class="mls"> bowtie-status-no-fill (EA0B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-pause">
+      </i>
+                <span class="mls"> bowtie-status-pause (EA0C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-pause-outline">
+      </i>
+                <span class="mls"> bowtie-status-pause-outline (EA0D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-run">
+      </i>
+                <span class="mls"> bowtie-status-run (EA0E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-run-outline">
+      </i>
+                <span class="mls"> bowtie-status-run-outline (EA0F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-stop">
+      </i>
+                <span class="mls"> bowtie-status-stop (EA10)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-stop-outline">
+      </i>
+                <span class="mls"> bowtie-status-stop-outline (EA11)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-success">
+      </i>
+                <span class="mls"> bowtie-status-success (EA12)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-success-outline">
+      </i>
+                <span class="mls"> bowtie-status-success-outline (EA13)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-waiting">
+      </i>
+                <span class="mls"> bowtie-status-waiting (EA14)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-waiting-fill">
+      </i>
+                <span class="mls"> bowtie-status-waiting-fill (EA15)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-warning">
+      </i>
+                <span class="mls"> bowtie-status-warning (EA16)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-warning-outline">
+      </i>
+                <span class="mls"> bowtie-status-warning-outline (EA17)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-success-box">
+      </i>
+                <span class="mls"> bowtie-status-success-box (EA18)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test-fill">
+      </i>
+                <span class="mls"> bowtie-test-fill (EA19)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test">
+      </i>
+                <span class="mls"> bowtie-test (EA1A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test-auto-fill">
+      </i>
+                <span class="mls"> bowtie-test-auto-fill (EA1B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test-auto">
+      </i>
+                <span class="mls"> bowtie-test-auto (EA1C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test-user-fill">
+      </i>
+                <span class="mls"> bowtie-test-user-fill (EA1D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test-user">
+      </i>
+                <span class="mls"> bowtie-test-user (EA1E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test-explore-fill">
+      </i>
+                <span class="mls"> bowtie-test-explore-fill (EA1F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-trigger">
+      </i>
+                <span class="mls"> bowtie-trigger (EA20)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-trigger-auto">
+      </i>
+                <span class="mls"> bowtie-trigger-auto (EA21)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-trigger-user">
+      </i>
+                <span class="mls"> bowtie-trigger-user (EA22)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-folder-plan">
+      </i>
+                <span class="mls"> bowtie-folder-plan (EA23)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-folder-query">
+      </i>
+                <span class="mls"> bowtie-folder-query (EA24)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-log">
+      </i>
+                <span class="mls"> bowtie-log (EA25)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-step">
+      </i>
+                <span class="mls"> bowtie-step (EA26)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-step-shared">
+      </i>
+                <span class="mls"> bowtie-step-shared (EA27)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-server-remote">
+      </i>
+                <span class="mls"> bowtie-server-remote (EA28)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-diff-image">
+      </i>
+                <span class="mls"> bowtie-diff-image (EA29)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-diff-image-overlay">
+      </i>
+                <span class="mls"> bowtie-diff-image-overlay (EA2A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-diff-image-pixel">
+      </i>
+                <span class="mls"> bowtie-diff-image-pixel (EA2B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-diff-inline">
+      </i>
+                <span class="mls"> bowtie-diff-inline (EA2C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-diff-side-by-side">
+      </i>
+                <span class="mls"> bowtie-diff-side-by-side (EA2D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-repo">
+      </i>
+                <span class="mls"> bowtie-repo (EA2E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-repo-fill">
+      </i>
+                <span class="mls"> bowtie-repo-fill (EA2F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-repo-git">
+      </i>
+                <span class="mls"> bowtie-repo-git (EA30)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-change-list">
+      </i>
+                <span class="mls"> bowtie-tfvc-change-list (EA31)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-repo-submodule">
+      </i>
+                <span class="mls"> bowtie-repo-submodule (EA32)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-folder">
+      </i>
+                <span class="mls"> bowtie-tfvc-folder (EA33)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-repo-tfvc">
+      </i>
+                <span class="mls"> bowtie-repo-tfvc (EA34)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-branch">
+      </i>
+                <span class="mls"> bowtie-tfvc-branch (EA35)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-branch-locked">
+      </i>
+                <span class="mls"> bowtie-tfvc-branch-locked (EA36)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-commit">
+      </i>
+                <span class="mls"> bowtie-tfvc-commit (EA37)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-compare">
+      </i>
+                <span class="mls"> bowtie-tfvc-compare (EA38)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-merge">
+      </i>
+                <span class="mls"> bowtie-tfvc-merge (EA39)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-pull-request">
+      </i>
+                <span class="mls"> bowtie-tfvc-pull-request (EA3A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-shelveset">
+      </i>
+                <span class="mls"> bowtie-tfvc-shelveset (EA3B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-raw-source">
+      </i>
+                <span class="mls"> bowtie-tfvc-raw-source (EA3C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-group-rows">
+      </i>
+                <span class="mls"> bowtie-group-rows (EA3D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-recycle-bin-restore">
+      </i>
+                <span class="mls"> bowtie-recycle-bin-restore (EA3E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-view-list">
+      </i>
+                <span class="mls"> bowtie-view-list (EA3F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-view-list-group">
+      </i>
+                <span class="mls"> bowtie-view-list-group (EA40)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-view-list-tree">
+      </i>
+                <span class="mls"> bowtie-view-list-tree (EA41)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-work-item">
+      </i>
+                <span class="mls"> bowtie-work-item (EA42)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-work-item-bug">
+      </i>
+                <span class="mls"> bowtie-work-item-bug (EA43)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-work-item-move">
+      </i>
+                <span class="mls"> bowtie-work-item-move (EA44)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-merge-duplicate">
+      </i>
+                <span class="mls"> bowtie-merge-duplicate (EA45)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-storyboard">
+      </i>
+                <span class="mls"> bowtie-storyboard (EA46)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-auto-fill-template">
+      </i>
+                <span class="mls"> bowtie-auto-fill-template (EA47)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-recycle-bin">
+      </i>
+                <span class="mls"> bowtie-recycle-bin (EA48)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-dot">
+      </i>
+                <span class="mls"> bowtie-dot (EA49)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-square">
+      </i>
+                <span class="mls"> bowtie-square (EA4A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-row-child">
+      </i>
+                <span class="mls"> bowtie-row-child (EA4B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-log-remove">
+      </i>
+                <span class="mls"> bowtie-log-remove (EA4C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-live-update-feed-off">
+      </i>
+                <span class="mls"> bowtie-live-update-feed-off (EA4D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-corner-resize">
+      </i>
+                <span class="mls"> bowtie-corner-resize (EA4E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-link-remove">
+      </i>
+                <span class="mls"> bowtie-link-remove (EA4F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-spinner">
+      </i>
+                <span class="mls"> bowtie-spinner (EA50)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-personalize">
+      </i>
+                <span class="mls"> bowtie-personalize (EA51)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-parameter">
+      </i>
+                <span class="mls"> bowtie-parameter (EA52)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-step-insert">
+      </i>
+                <span class="mls"> bowtie-step-insert (EA53)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-step-shared-add">
+      </i>
+                <span class="mls"> bowtie-step-shared-add (EA54)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-step-shared-insert">
+      </i>
+                <span class="mls"> bowtie-step-shared-insert (EA55)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-process">
+      </i>
+                <span class="mls"> bowtie-process (EA56)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-process-meta-task">
+      </i>
+                <span class="mls"> bowtie-process-meta-task (EA57)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-column-option">
+      </i>
+                <span class="mls"> bowtie-column-option (EA58)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-globe">
+      </i>
+                <span class="mls"> bowtie-globe (EA59)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-locale-timezone">
+      </i>
+                <span class="mls"> bowtie-locale-timezone (EA5A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-locale-language">
+      </i>
+                <span class="mls"> bowtie-locale-language (EA5B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-feedback-positive-outline">
+      </i>
+                <span class="mls"> bowtie-feedback-positive-outline (EA5C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-feedback-negative-outline">
+      </i>
+                <span class="mls"> bowtie-feedback-negative-outline (EA5D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-contact-card">
+      </i>
+                <span class="mls"> bowtie-contact-card (EA5E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-triangle">
+      </i>
+                <span class="mls"> bowtie-triangle (EA5F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-brand-vsts">
+      </i>
+                <span class="mls"> bowtie-brand-vsts (EA60)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-set-actions">
+      </i>
+                <span class="mls"> bowtie-set-actions (EA61)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-packages">
+      </i>
+                <span class="mls"> bowtie-packages (EA62)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-search-in-branch">
+      </i>
+                <span class="mls"> bowtie-search-in-branch (EA63)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-settings">
+      </i>
+                <span class="mls"> bowtie-file-type-settings (EA64)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-pdb">
+      </i>
+                <span class="mls"> bowtie-file-type-pdb (EA65)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-zip">
+      </i>
+                <span class="mls"> bowtie-file-type-zip (EA66)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-build-issue">
+      </i>
+                <span class="mls"> bowtie-build-issue (EA67)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-user-pause">
+      </i>
+                <span class="mls"> bowtie-user-pause (EA68)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-user-pending">
+      </i>
+                <span class="mls"> bowtie-user-pending (EA69)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-notification">
+      </i>
+                <span class="mls"> bowtie-notification (EA6A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-notification-off">
+      </i>
+                <span class="mls"> bowtie-notification-off (EA6B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-assessment-group">
+      </i>
+                <span class="mls"> bowtie-assessment-group (EA6C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-table">
+      </i>
+                <span class="mls"> bowtie-table (EA6D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-timeline-delivery">
+      </i>
+                <span class="mls"> bowtie-timeline-delivery (EA6E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-timeline-progress">
+      </i>
+                <span class="mls"> bowtie-timeline-progress (EA6F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-sln">
+      </i>
+                <span class="mls"> bowtie-file-type-sln (EA70)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-application-window">
+      </i>
+                <span class="mls"> bowtie-application-window (EA71)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-html">
+      </i>
+                <span class="mls"> bowtie-file-type-html (EA72)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-js">
+      </i>
+                <span class="mls"> bowtie-file-type-js (EA73)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-jsproj">
+      </i>
+                <span class="mls"> bowtie-file-type-jsproj (EA74)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-cs">
+      </i>
+                <span class="mls"> bowtie-file-type-cs (EA75)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-csproj">
+      </i>
+                <span class="mls"> bowtie-file-type-csproj (EA76)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-vb">
+      </i>
+                <span class="mls"> bowtie-file-type-vb (EA77)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-vbproj">
+      </i>
+                <span class="mls"> bowtie-file-type-vbproj (EA78)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-cpp">
+      </i>
+                <span class="mls"> bowtie-file-type-cpp (EA79)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-vcxproj">
+      </i>
+                <span class="mls"> bowtie-file-type-vcxproj (EA7A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-fs">
+      </i>
+                <span class="mls"> bowtie-file-type-fs (EA7B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-fsproj">
+      </i>
+                <span class="mls"> bowtie-file-type-fsproj (EA7C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-python">
+      </i>
+                <span class="mls"> bowtie-file-type-python (EA7D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-pyproj">
+      </i>
+                <span class="mls"> bowtie-file-type-pyproj (EA7E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-typescript">
+      </i>
+                <span class="mls"> bowtie-file-type-typescript (EA7F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-coffeescript">
+      </i>
+                <span class="mls"> bowtie-file-type-coffeescript (EA80)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-aspx">
+      </i>
+                <span class="mls"> bowtie-file-type-aspx (EA81)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-css">
+      </i>
+                <span class="mls"> bowtie-file-type-css (EA82)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-sass">
+      </i>
+                <span class="mls"> bowtie-file-type-sass (EA83)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-less">
+      </i>
+                <span class="mls"> bowtie-file-type-less (EA84)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-json">
+      </i>
+                <span class="mls"> bowtie-file-type-json (EA85)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-xml">
+      </i>
+                <span class="mls"> bowtie-file-type-xml (EA86)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-md">
+      </i>
+                <span class="mls"> bowtie-file-type-md (EA87)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-powershell">
+      </i>
+                <span class="mls"> bowtie-file-type-powershell (EA88)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-cmd">
+      </i>
+                <span class="mls"> bowtie-file-type-cmd (EA89)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-java">
+      </i>
+                <span class="mls"> bowtie-file-type-java (EA8A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-sql">
+      </i>
+                <span class="mls"> bowtie-file-type-sql (EA8B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-stack">
+      </i>
+                <span class="mls"> bowtie-file-stack (EA8C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-script">
+      </i>
+                <span class="mls"> bowtie-script (EA8D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-default-executable">
+      </i>
+                <span class="mls"> bowtie-default-executable (EA8E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-file-type-template">
+      </i>
+                <span class="mls"> bowtie-file-type-template (EA8F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-split">
+      </i>
+                <span class="mls"> bowtie-split (EA90)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-image-action-log">
+      </i>
+                <span class="mls"> bowtie-image-action-log (EA91)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-shield">
+      </i>
+                <span class="mls"> bowtie-shield (EA92)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-shield-fill">
+      </i>
+                <span class="mls"> bowtie-shield-fill (EA93)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-tfvc-fork">
+      </i>
+                <span class="mls"> bowtie-tfvc-fork (EA94)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-status-run-box">
+      </i>
+                <span class="mls"> bowtie-status-run-box (EA95)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-arrow-import">
+      </i>
+                <span class="mls"> bowtie-arrow-import (EA96)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-new-team-project">
+      </i>
+                <span class="mls"> bowtie-new-team-project (EA97)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-package-feed-mix">
+      </i>
+                <span class="mls"> bowtie-package-feed-mix (EA98)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-package-feed-remote">
+      </i>
+                <span class="mls"> bowtie-package-feed-remote (EA99)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-package-feed-local">
+      </i>
+                <span class="mls"> bowtie-package-feed-local (EA9A)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-work-item-bar-outline">
+      </i>
+                <span class="mls"> bowtie-work-item-bar-outline (EA9B)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-sort-asc">
+      </i>
+                <span class="mls"> bowtie-sort-asc (EA9C)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-sort-desc">
+      </i>
+                <span class="mls"> bowtie-sort-desc (EA9D)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-plug-disconnected">
+      </i>
+                <span class="mls"> bowtie-plug-disconnected (EA9E)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-plug-connected">
+      </i>
+                <span class="mls"> bowtie-plug-connected (EA9F)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-plug-disconnected-fill">
+      </i>
+                <span class="mls"> bowtie-plug-disconnected-fill (EAA0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-plug-connected-fill">
+      </i>
+                <span class="mls"> bowtie-plug-connected-fill (EAA1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-sync-user">
+      </i>
+                <span class="mls"> bowtie-sync-user (EAA2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-clear-filter">
+      </i>
+                <span class="mls"> bowtie-clear-filter (EAA3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-watch-eye-off">
+      </i>
+                <span class="mls"> bowtie-watch-eye-off (EAA4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-shopping-cart">
+      </i>
+                <span class="mls"> bowtie-shopping-cart (EAA5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-shopping-cart-fill">
+      </i>
+                <span class="mls"> bowtie-shopping-cart-fill (EAA6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-control-panel">
+      </i>
+                <span class="mls"> bowtie-control-panel (EAA7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-add-team">
+      </i>
+                <span class="mls"> bowtie-add-team (EAA8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-unpin">
+      </i>
+                <span class="mls"> bowtie-unpin (EAA9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-unpin-fill">
+      </i>
+                <span class="mls"> bowtie-unpin-fill (EAAA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-backlog">
+      </i>
+                <span class="mls"> bowtie-backlog (EAAB)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-backlog-view-list">
+      </i>
+                <span class="mls"> bowtie-backlog-view-list (EAAC)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-plan">
+      </i>
+                <span class="mls"> bowtie-plan (EAAD)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-query-list">
+      </i>
+                <span class="mls"> bowtie-query-list (EAAE)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-timeline-matrix">
+      </i>
+                <span class="mls"> bowtie-timeline-matrix (EAAF)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-team-favorite">
+      </i>
+                <span class="mls"> bowtie-team-favorite (EAB0)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-test-impact-fill">
+      </i>
+                <span class="mls"> bowtie-test-impact-fill (EAB1)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-task-group">
+      </i>
+                <span class="mls"> bowtie-task-group (EAB2)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-engineering-group">
+      </i>
+                <span class="mls"> bowtie-engineering-group (EAB3)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-briefcase">
+      </i>
+                <span class="mls"> bowtie-briefcase (EAB4)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-variable-group">
+      </i>
+                <span class="mls"> bowtie-variable-group (EAB5)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-full-history">
+      </i>
+                <span class="mls"> bowtie-full-history (EAB6)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-scope-template">
+      </i>
+                <span class="mls"> bowtie-scope-template (EAB7)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-assessment-group-template">
+      </i>
+                <span class="mls"> bowtie-assessment-group-template (EAB8)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-send-fill">
+      </i>
+                <span class="mls"> bowtie-send-fill (EAB9)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-draft">
+      </i>
+                <span class="mls"> bowtie-draft (EABA)</span>
+            </div>
+            
+            <div class="item">
+                <i class="Bowtie-icon bowtie-giftbox-open">
+      </i>
+                <span class="mls"> bowtie-giftbox-open (EABB)</span>
+            </div>
+            
+    </div>
+    <script type="text/javascript">
+        var icons = document.getElementsByClassName('item');
+        var search = function() {
+            var query = document.getElementById('search').value;
+            for (var icon of icons) {
+                icon.style.display = 'block';
+                if (!icon.querySelector('.mls').innerHTML.includes(query)) {
+                    icon.style.display = 'none';
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>

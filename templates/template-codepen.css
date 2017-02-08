@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "<%= fontName %>";
+  font-weight: normal;
+  font-style: normal;
+  src: url('<%= fontName %>.eot?v=@@hash');
+  src: url('<%= fontName %>.eot?iefix&&v=@@hash') format('embedded-opentype'),
+    url('<%= fontName %>.ttf?v=@@hash') format('truetype'),
+    url('<%= fontName %>.woff?v=@@hash') format('woff'),
+    url('<%= fontName %>.svg#<%= fontName %>?v=@@hash') format('svg');
+}
+
+.<%= fontName %>-icon {
+  font-family: '<%= fontName %>' !important;
+  font-size: 14px !default;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  line-height: 16px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.<%= fontName %>-icon.icon-disabled {
+    opacity: 0.5;
+}
+
+.<%= className %>-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.<%= className %> { font-size: 1em; }
+.<%= className %>-2x { font-size: 2em; }
+.<%= className %>-3x { font-size: 3em; }
+.<%= className %>-4x { font-size: 4em; }
+.<%= className %>-5x { font-size: 5em; }
+.<%= className %>-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+  line-height: 1.2857142857142858em;
+}
+
+<% _.each(glyphs, function(glyph) { %>
+.<%= className %>-<%= glyph.name %>:before {
+	content: "\<%= glyph.codepoint %>";
+}
+<% }); %>
