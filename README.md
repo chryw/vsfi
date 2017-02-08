@@ -12,6 +12,3 @@
 - edit gulpfile.js as needed
 - run gulp task
 - asset files are generated in dist folder
-
-### Known Issues
-- Instructions on the demo html page are still draft
