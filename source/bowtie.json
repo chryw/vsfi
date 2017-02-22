@@ -442,8 +442,9 @@
 {"id":442,"name":"send-fill","unicode":"EAB9","decimal":60089,"version":"1.1","style":"bold","subset":"VSTS","group":"Common","keywords":["send","message","submit"],"usage":"Used for submitting a form on mobile or small space areas."},
 {"id":443,"name":"draft","unicode":"EABA","decimal":60090,"version":"1.1","style":"","subset":"VSTS","group":"Build","keywords":["draft","edit","file","pencil"],"usage":""},
 {"id":444,"name":"giftbox-open","unicode":"EABB","decimal":60091,"version":"1.1","style":"","subset":"VSTS","group":"Common","keywords":["giftbox","open","new","feature","magic","preview"],"usage":""},
-{"id":461,"name":"brand-vsts-alt-1","unicode":"EACC","decimal":60108,"version":"1.1","style":"bold","subset":"","group":"","keywords":["brand","vsts","rtw"],"usage":""},
-{"id":462,"name":"brand-vsts-alt-2","unicode":"EACD","decimal":60109,"version":"1.1","style":"bold","subset":"","group":"","keywords":["brand","vsts","rc","preview"],"usage":""},
-{"id":463,"name":"map-pin","unicode":"EACE","decimal":60110,"version":"1.1","style":"light","subset":"Work","group":"","keywords":["map","pin","mark","location"],"usage":"Used in work item topology diagram to indicate the current position."},
-{"id":464,"name":"map-pin-fill","unicode":"EACF","decimal":60111,"version":"1.1","style":"bold","subset":"Work","group":"","keywords":["map","pin","mark","location"],"usage":"Used in work item topology diagram to indicate the current position."}
+{"id":461,"name":"brand-vsts-alt-1","unicode":"EACC","decimal":60108,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["brand","vsts","rtw"],"usage":"Only use this version when the display size is big enough to read the icon details."},
+{"id":462,"name":"brand-vsts-alt-2","unicode":"EACD","decimal":60109,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["brand","vsts","rc","preview"],"usage":"Only use this version when the display size is big enough to read the icon details."},
+{"id":463,"name":"map-pin","unicode":"EACE","decimal":60110,"version":"1.1","style":"light","subset":"VSTS","group":"Work","keywords":["map","pin","mark","location"],"usage":"Used in work item topology diagram to indicate the current position."},
+{"id":464,"name":"map-pin-fill","unicode":"EACF","decimal":60111,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["map","pin","mark","location"],"usage":"Used in work item topology diagram to indicate the current position."},
+{"id":465,"name":"brand-svn","unicode":"EAD0","decimal":60112,"version":"1.1","style":"bold","subset":"VSTS","group":"Brand","keywords":["brand","svn","subversion","version","control"],"usage":"Subversion logo."}
 ]
