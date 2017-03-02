@@ -464,5 +464,6 @@
 {"id":464,"name":"map-pin-fill","unicode":"EACF","decimal":60111,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["map","pin","mark","location"],"usage":"Used in work item topology diagram to indicate the current position."},
 {"id":465,"name":"brand-svn","unicode":"EAD0","decimal":60112,"version":"1.1","style":"bold","subset":"VSTS","group":"Brand","keywords":["brand","svn","subversion","version","control"],"usage":"Subversion logo."},
 {"id":466,"name":"map-destination","unicode":"EAD1","decimal":60113,"version":"1.1","style":"light","subset":"VSTS","group":"Work","keywords":["map","destination","circle"],"usage":"Used in work item topology diagram to indicate the destination."},
-{"id":467,"name":"map-destination-fill","unicode":"EAD2","decimal":60114,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["map","destination","circle"],"usage":"Used in work item topology diagram to indicate the destination."}
+{"id":467,"name":"map-destination-fill","unicode":"EAD2","decimal":60114,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["map","destination","circle"],"usage":"Used in work item topology diagram to indicate the destination."},
+{"id":468,"name":"git-graph","unicode":"EAD3","decimal":60115,"version":"1.1","style":"bold","subset":"VSTS","group":"Code","keywords":["git","version","control","graph","line","node"],"usage":"Used in Code to toggle on off git graph."}
 ]
