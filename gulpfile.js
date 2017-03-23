@@ -16,10 +16,10 @@ const cheerio = require('gulp-cheerio');
 const raster = require('gulp-raster');
 const fontName = 'Bowtie';
 const svgsrc = 'source/svgs/*.svg';
-let runTimestamp = Math.round(Date.now() / 1000);
+const runTimestamp = Math.round(Date.now() / 1000);
 
 // bowtie options
-let iconFontOptions = {
+const iconFontOptions = {
     normalize: true,
     fontHeight: 448,
     descent: 64,
@@ -33,7 +33,7 @@ let iconFontOptions = {
 };
 
 //png options
-let optionsDefault = {
+const optionsDefault = {
     run: function($) {
         //set width and height to prevent raster generating wrong dimensions
         $('svg')
@@ -53,7 +53,7 @@ let optionsDefault = {
 };
 
 //white png options
-let optionsWhite = {
+const optionsWhite = {
     run: function($) {
         //set width and height to prevent raster generating wrong dimensions
         $('svg')
@@ -171,16 +171,11 @@ gulp.task('iconfont', ['svgmin'], function() {
                 arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
             });
 
-            //generate codepen version for guideline site
-            gulp.src('templates/template-codepen.css')
-                .pipe(consolidate('lodash', options))
-                .pipe(rename(fontName.toLowerCase() + '-codepen.css'))
-                .pipe(replace('@@hash',`1.0.${runTimestamp}`))
-                .pipe(gulp.dest('dist'));
-            gulp.src('templates/template-codepen.html')
+            //generate demo page
+            gulp.src('templates/template-demo.html')
                 .pipe(consolidate('lodash', options))
                 .pipe(replace('@@hash',`1.0.${runTimestamp}`))
-                .pipe(rename(fontName.toLowerCase() + '-codepen.html'))
+                .pipe(rename(fontName.toLowerCase() + '-demo.html'))
                 .pipe(gulp.dest('dist'));
 
             //generate scss for vsts
