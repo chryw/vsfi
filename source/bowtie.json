@@ -492,5 +492,6 @@
 {"id":492,"name":"field-empty","unicode":"EAEB","decimal":60139,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["field","empty"],"usage":"Indicates a form field is empty."},
 {"id":493,"name":"field-filled","unicode":"EAEC","decimal":60140,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["field","filled"],"usage":"Indicates a form field has value."},
 {"id":494,"name":"field-changed","unicode":"EAED","decimal":60141,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["field","changed","edit","pencil","update"],"usage":"Indicates a form field has value and has changed."},
-{"id":495,"name":"field-not-changed","unicode":"EAEE","decimal":60142,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["field","not","changed","edit","pencil","update"],"usage":"Indicates a form field has value and has not changed."}
+{"id":495,"name":"field-not-changed","unicode":"EAEE","decimal":60142,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["field","not","changed","edit","pencil","update"],"usage":"Indicates a form field has value and has not changed."},
+{"id":496,"name":"sprint","unicode":"EAEF","decimal":60143,"version":"1.1","style":"light","subset":"VSTS","group":"Work","keywords":["sprint","loop","arrow","iterate","agile"],"usage":"Used in Work hub navigation to represent sprint view."}
 ]
