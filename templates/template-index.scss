@@ -1,0 +1,220 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (min-width: 551px) {
+    width: 80%;
+  }
+  @media screen and (min-width: 769px) {
+    width: 60%;
+  }
+}
+
+.header {
+  background-color: #0078d7;
+  color: #fff;
+  padding: 1em 2em;
+  position: fixed;
+  top:0;
+  height: 150px;
+  width: inherit;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,.2);
+  h1,
+  h2 {
+    font-weight: 400;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  @media screen and (min-width: 769px) {
+    display: table;
+    height: 80px;
+    &>div {
+      display: table-cell;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.gallery {
+  padding: 1em 2em;
+  background-color: #fff;
+  display: list;
+  margin-top: 150px;
+  @media screen and (min-width: 769px) {
+    margin-top: 80px;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+}
+
+.item {
+  display: list-item;
+  list-style: none;
+  padding: .5em 0;
+  vertical-align: middle;
+}
+
+.icon {
+  padding-right: .5em;
+  color: #444;
+}
+.search {
+  margin-top: 1em;
+  input {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid transparent;
+    &:hover,
+    &:focus {
+      border-color: #106ebe;
+    }
+  }
+}
+
+
+.footer {
+  height: 60px;
+  overflow: hidden;
+  background-color: #212121;
+  color: #fff;
+  padding: 0 2em;
+  display: table;
+  width: 100%;
+}
+.copyright {
+  opacity: .5;
+}
+.links {
+  list-style: none;
+  padding: 0;
+  a {
+    &, &:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .footer {
+    display: table;
+  }
+  .copyright, .links {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .links {
+    text-align: right;
+    li {
+      display: inline-block;
+      &:not(:first-child) {
+        &:before {
+          display: inline-block;
+          content: '';
+          width: 1px;
+          height: 1em;
+          background-color: #fff;
+          margin-left: 1em;
+          margin-right: 1em;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+@font-face {
+    font-family: "<%= fontName %>";
+    font-weight: normal;
+    font-style: normal;
+    src: url('<%= fontName %>.eot?v=@@hash');
+    src: url('<%= fontName %>.eot?iefix&&v=@@hash') format('embedded-opentype'), url('<%= fontName %>.ttf?v=@@hash') format('truetype'), url('<%= fontName %>.woff?v=@@hash') format('woff'), url('<%= fontName %>.svg#<%= fontName %>?v=@@hash') format('svg');
+}
+
+.<%=fontName %>-icon {
+    font-family: '<%= fontName %>' !important;
+    font-size: 14px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 16px;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.<%=fontName %>-icon.icon-disabled {
+    opacity: 0.5;
+}
+
+.<%=className %>-lg {
+    font-size: 1.3333333333333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.<%=className %> {
+    font-size: 1em;
+}
+
+.<%=className %>-2x {
+    font-size: 2em;
+}
+
+.<%=className %>-3x {
+    font-size: 3em;
+}
+
+.<%=className %>-4x {
+    font-size: 4em;
+}
+
+.<%=className %>-5x {
+    font-size: 5em;
+}
+
+.<%=className %>-fw {
+    width: 1.2857142857142858em;
+    text-align: center;
+    line-height: 1.2857142857142858em;
+}
+
+<% _.each(glyphs,
+function(glyph) {
+    %>.<%=className %>-<%=glyph.name %>:before {
+        content: "\<%= glyph.codepoint %>";
+    }
+    <%
+}
+
+);
+%>

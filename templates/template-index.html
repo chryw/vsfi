@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bowtie icon font for Visual Studio Team Services</title>
+    <link rel="stylesheet" href="style.css?v=@@hash">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <h1>Bowtie Icon Font</h1>
+                <h2>for Visual Studio Team Services</h2>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search..." onkeyup="search()" />
+            </div>
+        </div>
+        <div class="gallery">
+            <% _.each(glyphs, function(glyph) { %>
+                <div class="item">
+                    <i class="icon <%= fontName %>-icon <%= className %>-<%= glyph.name %>">
+      </i>
+                    <span class="name"> <%= className %>-<%= glyph.name %> (<%= glyph.codepoint %>)</span>
+                </div>
+                <% }); %>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                <p>© 2017 Microsoft</p>
+            </div>
+            <ul class="links">
+                <li><a href="https://vsowiki.com/index.php?title=User_Friendly_-_Bowtie_Icon_Font">About Bowtie</a></li>
+                <li><a href="https://aka.ms/dduxicon">Request new icons</a></li>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        var icons = document.getElementsByClassName('item');
+        var search = function() {
+            var query = document.getElementById('search').value;
+            for (var icon of icons) {
+                icon.style.display = 'block';
+                if (!icon.querySelector('.name').innerHTML.includes(query)) {
+                    icon.style.display = 'none';
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>

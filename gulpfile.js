@@ -11,6 +11,7 @@ const foreach = require('gulp-foreach');
 const concat = require('gulp-concat');
 const merge = require('merge-stream');
 const svgmin = require('gulp-svgmin');
+const sass = require('gulp-sass');
 const fs = require('fs');
 const cheerio = require('gulp-cheerio');
 const raster = require('gulp-raster');
@@ -171,11 +172,18 @@ gulp.task('iconfont', ['svgmin'], function() {
                 arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
             });
 
-            //generate demo page
-            gulp.src('templates/template-demo.html')
+            //generate catalog page html
+            gulp.src('templates/template-index.html')
                 .pipe(consolidate('lodash', options))
                 .pipe(replace('@@hash',`1.0.${runTimestamp}`))
                 .pipe(rename('index.html'))
+                .pipe(gulp.dest('dist'));
+            //generate catalog page CSS
+            gulp.src('templates/template-index.scss')
+                .pipe(consolidate('lodash', options))
+                .pipe(replace('@@hash',`1.0.${runTimestamp}`))
+                .pipe(sass())
+                .pipe(rename('style.css'))
                 .pipe(gulp.dest('dist'));
 
             //generate scss for vsts
