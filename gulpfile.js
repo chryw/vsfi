@@ -175,7 +175,7 @@ gulp.task('iconfont', ['svgmin'], function() {
             gulp.src('templates/template-demo.html')
                 .pipe(consolidate('lodash', options))
                 .pipe(replace('@@hash',`1.0.${runTimestamp}`))
-                .pipe(rename(fontName.toLowerCase() + '-demo.html'))
+                .pipe(rename('index.html'))
                 .pipe(gulp.dest('dist'));
 
             //generate scss for vsts
