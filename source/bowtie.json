@@ -503,5 +503,6 @@
 {"id":503,"name":"tvmonitor","unicode":"EAF6","decimal":60150,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["desktop","computer","monitor","tv"],"usage":"Used for switching to desktop view."},
 {"id":504,"name":"out-of-office","unicode":"EAF7","decimal":60151,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["out","of","office","oof","leave","door","arrow","left"],"usage":"Out of office status."},
 {"id":505,"name":"manual-approval","unicode":"EAF8","decimal":60152,"version":"1.1","style":"light","subset":"VSTS","group":"Code","keywords":["manual","approval","user","checkmark","review"],"usage":"Used in Build hub to indicate manual approval is needed for an action."},
-{"id":506,"name":"trigger-approval","unicode":"EAF9","decimal":60153,"version":"1.1","style":"light","subset":"VSTS","group":"Code","keywords":["trigger","approval","lightning","bolt","checkmark","review"],"usage":"Used in Build hub to indicate trigger approval is needed for an action."}
+{"id":506,"name":"trigger-approval","unicode":"EAF9","decimal":60153,"version":"1.1","style":"light","subset":"VSTS","group":"Code","keywords":["trigger","approval","lightning","bolt","checkmark","review"],"usage":"Used in Build hub to indicate trigger approval is needed for an action."},
+{"id":507,"name":"test-case","unicode":"EAFA","decimal":60154,"version":"1.1","style":"bold","subset":"VSTS","group":"Test","keywords":["test","case","beaker","checkbox"],"usage":"Used in Test hub for Test Case work item type."}
 ]
