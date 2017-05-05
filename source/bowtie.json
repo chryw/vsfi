@@ -507,5 +507,6 @@
 {"id":507,"name":"test-case","unicode":"EAFA","decimal":60154,"version":"1.1","style":"bold","subset":"VSTS","group":"Test","keywords":["test","case","beaker","checkbox"],"usage":"Used in Test hub for Test Case work item type."},
 {"id":508,"name":"rocket","unicode":"EAFB","decimal":60155,"version":"1.1","style":"light","subset":"VSTS","group":"Build","keywords":["rocket","launch","release"],"usage":"Used in Build & Release hub for Release definitions."},
 {"id":509,"name":"parachute","unicode":"EAFC","decimal":60156,"version":"1.1","style":"light","subset":"VSTS","group":"Build","keywords":["parachute","deployment"],"usage":"Used in Build & Release hub for deployment."},
-{"id":510,"name":"stopwatch","unicode":"EAFD","decimal":60157,"version":"1.1","style":"light","subset":"VSTS","group":"Build","keywords":["stopwatch","duration","time","clock"],"usage":"Used in Build & Release hub to represent the duration of a process."}
+{"id":510,"name":"stopwatch","unicode":"EAFD","decimal":60157,"version":"1.1","style":"light","subset":"VSTS","group":"Build","keywords":["stopwatch","duration","time","clock"],"usage":"Used in Build & Release hub to represent the duration of a process."},
+{"id":511,"name":"azure-key-vault","unicode":"EAFE","decimal":60158,"version":"1.1","style":"bold","subset":"VSTS","group":"Brand","keywords":["azure","key","vault"],"usage":"Azure Key Vault."}
 ]
