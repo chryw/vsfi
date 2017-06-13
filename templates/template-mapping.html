@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bowtie and Fabric MDL2 mapping</title>
+    <link rel="stylesheet" href="mapping.css?v=@@hash">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <h1>Bowtie and Fabric MDL2</h1>
+                <h2>Class name and unicode mapping</h2>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search..." onkeyup="search()" />
+            </div>
+        </div>
+        <table class="gallery">
+          <thead>
+            <tr>
+              <td>Bowtie</td>
+              <td>Fabric MDL2</td>
+              <td>Bowtie Name (unicode)</td>
+              <td>Fabric Name (unicode)</td>
+            </tr>
+          </thead>
+          <tbody>
+          <% _.each(items, function(item) { %>
+            <tr class="item">
+              <td><span class="icon bowtie bowtie-<%= item.namebowtie %>"></span></td>
+              <td><span class="icon ms-Icon ms-Icon--<%= item.namemdl2 %>"></span></td>
+              <td><span class="name">bowtie-<%= item.namebowtie %> (<%= item.codebowtie %>)</span></td>
+              <td><span class="name">ms-Icon--<%= item.namemdl2 %> (<%= item.codemdl2 %>)</span></td>
+            </tr>
+          <% }); %>
+          </tbody>
+        </table>
+        <div class="footer">
+            <div class="copyright">
+                <p>© 2017 Microsoft</p>
+            </div>
+            <ul class="links">
+                <li><a href="https://vsowiki.com/index.php?title=User_Friendly_-_Bowtie_Icon_Font">About Bowtie</a></li>
+                <li><a href="https://aka.ms/dduxicon">Request new icons</a></li>
+                <li><a href="https://mseng.visualstudio.com/DevDivDesign/_git/bowtie?path=%2Fsource%2Fsvgs&version=GBmaster&_a=contents">Download SVG icons</a></li>
+                <li><a href="https://mseng.visualstudio.com/DevDivDesign/_build/index?context=Mine&path=%5C&definitionId=4762&_a=completed">Get the latest build</a></li>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        var items = document.getElementsByClassName('item');
+        var search = function() {
+            var query = document.getElementById('search').value;
+            for (var item of items) {
+                item.style.display = 'table-row';
+                if (!item.querySelector('.name').innerHTML.includes(query)) {
+                    item.style.display = 'none';
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>

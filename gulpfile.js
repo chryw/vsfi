@@ -15,6 +15,7 @@ const sass = require('gulp-sass');
 const fs = require('fs');
 const cheerio = require('gulp-cheerio');
 const raster = require('gulp-raster');
+
 const fontName = 'Bowtie';
 const svgsrc = 'source/svgs/*.svg';
 const runTimestamp = Math.round(Date.now() / 1000);
@@ -194,4 +195,25 @@ gulp.task('iconfont', ['svgmin'], function() {
                 .pipe(gulp.dest('dist'));
         })
         .pipe(gulp.dest('dist')); // where to save the generated font files
+});
+
+gulp.task('map', () => {
+  const items = JSON.parse(fs.readFileSync('source/mapping.json', 'utf8'));
+
+  gulp.src('templates/template-mapping.html')
+    .pipe(consolidate('lodash', {
+      items: items,
+    }))
+    .pipe(replace('@@hash',`${runTimestamp}`))
+    .pipe(rename('mapping.html'))
+    .pipe(gulp.dest('dist'));
+
+  gulp.src('templates/template-mapping.scss')
+    .pipe(consolidate('lodash', {
+      items: items,
+    }))
+    .pipe(replace('@@hash',`${runTimestamp}`))
+    .pipe(sass())
+    .pipe(rename('mapping.css'))
+    .pipe(gulp.dest('dist'));
 });
