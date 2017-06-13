@@ -512,5 +512,7 @@
 {"id":512,"name":"feedback","unicode":"EAFF","decimal":60159,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["feedback","user","voice","chat","bubble","suggestion"],"usage":"Used for feedback dropdown in navigation."},
 {"id":513,"name":"file-lock","unicode":"EB00","decimal":60160,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["file","document","lock","permission"],"usage":"Used to represent the user does not have permission to a file."},
 {"id":514,"name":"not-executed","unicode":"EB01","decimal":60161,"version":"1.1","style":"light","subset":"VSTS","group":"Status","keywords":["not","execute","run","play","triangle","block","no"],"usage":"Used in Test hub for not executed test outcome."},
-{"id":515,"name":"not-impacted","unicode":"EB02","decimal":60162,"version":"1.1","style":"bold","subset":"VSTS","group":"Status","keywords":["not","impact","hammer","block","no"],"usage":"Used in Test hub for not impacted test outcome."}
+{"id":515,"name":"not-impacted","unicode":"EB02","decimal":60162,"version":"1.1","style":"bold","subset":"VSTS","group":"Status","keywords":["not","impact","hammer","block","no"],"usage":"Used in Test hub for not impacted test outcome."},
+{"id":516,"name":"field-readonly","unicode":"EB03","decimal":60163,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["field","read","only","lock"],"usage":"Used in rules editor to represent read-only field."},
+{"id":517,"name":"field-required","unicode":"EB04","decimal":60164,"version":"1.1","style":"light","subset":"VSTS","group":"Common","keywords":["field","required","asterisk"],"usage":"Used in rules editor to represent required field."}
 ]
