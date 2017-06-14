@@ -512,5 +512,8 @@
 {"decimal":"60159","namebowtie":"feedback","namemdl2":"Feedback","codebowtie":"EAFF","codemdl2":"ED15"},
 {"decimal":"60160","namebowtie":"file-lock","namemdl2":"null","codebowtie":"EB00","codemdl2":"null"},
 {"decimal":"60161","namebowtie":"not-executed","namemdl2":"null","codebowtie":"EB01","codemdl2":"null"},
-{"decimal":"60162","namebowtie":"not-impacted","namemdl2":"null","codebowtie":"EB02","codemdl2":"null"}
+{"decimal":"60162","namebowtie":"not-impacted","namemdl2":"null","codebowtie":"EB02","codemdl2":"null"},
+{"decimal":"60163","namebowtie":"field-readonly","namemdl2":"null","codebowtie":"EB03","codemdl2":"null"},
+{"decimal":"60164","namebowtie":"field-required","namemdl2":"null","codebowtie":"EB04","codemdl2":"null"},
+{"decimal":"60165","namebowtie":"backlog-board","namemdl2":"null","codebowtie":"EB05","codemdl2":"null"}
 ]
