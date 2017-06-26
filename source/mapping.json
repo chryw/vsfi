@@ -515,5 +515,10 @@
 {"decimal":"60162","namebowtie":"not-impacted","namemdl2":"null","codebowtie":"EB02","codemdl2":"null"},
 {"decimal":"60163","namebowtie":"field-readonly","namemdl2":"null","codebowtie":"EB03","codemdl2":"null"},
 {"decimal":"60164","namebowtie":"field-required","namemdl2":"null","codebowtie":"EB04","codemdl2":"null"},
-{"decimal":"60165","namebowtie":"backlog-board","namemdl2":"null","codebowtie":"EB05","codemdl2":"null"}
+{"decimal":"60165","namebowtie":"backlog-board","namemdl2":"null","codebowtie":"EB05","codemdl2":"null"},
+{"decimal":"60166","namebowtie":"external-build","namemdl2":"null","codebowtie":"EB06","codemdl2":"null"},
+{"decimal":"60167","namebowtie":"external-git","namemdl2":"null","codebowtie":"EB07","codemdl2":"null"},
+{"decimal":"60168","namebowtie":"external-tfvc","namemdl2":"null","codebowtie":"EB08","codemdl2":"null"},
+{"decimal":"60169","namebowtie":"external-xaml","namemdl2":"null","codebowtie":"EB09","codemdl2":"null"},
+{"decimal":"60170","namebowtie":"brand-jenkins","namemdl2":"null","codebowtie":"EB0A","codemdl2":"null"}
 ]
