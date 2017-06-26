@@ -520,5 +520,7 @@
 {"decimal":"60167","namebowtie":"external-git","namemdl2":"null","codebowtie":"EB07","codemdl2":"null"},
 {"decimal":"60168","namebowtie":"external-tfvc","namemdl2":"null","codebowtie":"EB08","codemdl2":"null"},
 {"decimal":"60169","namebowtie":"external-xaml","namemdl2":"null","codebowtie":"EB09","codemdl2":"null"},
-{"decimal":"60170","namebowtie":"brand-jenkins","namemdl2":"null","codebowtie":"EB0A","codemdl2":"null"}
+{"decimal":"60170","namebowtie":"brand-jenkins","namemdl2":"null","codebowtie":"EB0A","codemdl2":"null"},
+{"decimal":"60171","namebowtie":"symbol-issue","namemdl2":"null","codebowtie":"EB0B","codemdl2":"null"},
+{"decimal":"60172","namebowtie":"symbol-defect","namemdl2":"null","codebowtie":"EB0C","codemdl2":"null"}
 ]

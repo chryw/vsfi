@@ -520,5 +520,7 @@
 {"id":520,"name":"external-git","unicode":"EB07","decimal":60167,"version":"1.1","style":"bold","subset":"VSTS","group":"Build","keywords":["build","source","external","git"],"usage":"Used in Build & Relase hub for selecting build source."},
 {"id":521,"name":"external-tfvc","unicode":"EB08","decimal":60168,"version":"1.1","style":"bold","subset":"VSTS","group":"Build","keywords":["build","source","external","tfvc"],"usage":"Used in Build & Relase hub for selecting build source."},
 {"id":522,"name":"external-xaml","unicode":"EB09","decimal":60169,"version":"1.1","style":"bold","subset":"VSTS","group":"Build","keywords":["build","source","external","xaml"],"usage":"Used in Build & Relase hub for selecting build source."},
-{"id":523,"name":"brand-jenkins","unicode":"EB0A","decimal":60170,"version":"1.1","style":"bold","subset":"VSTS","group":"Build","keywords":["build","source","external","jenkins","brand","logo"],"usage":"Used in Build & Relase hub for selecting build source."}
+{"id":523,"name":"brand-jenkins","unicode":"EB0A","decimal":60170,"version":"1.1","style":"bold","subset":"VSTS","group":"Build","keywords":["build","source","external","jenkins","brand","logo"],"usage":"Used in Build & Relase hub for selecting build source."},
+{"id":524,"name":"symbol-issue","unicode":"EB0B","decimal":60171,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["symbol","work","item","issue","task","exclamation"],"usage":"Work item type indicator."},
+{"id":525,"name":"symbol-defect","unicode":"EB0C","decimal":60172,"version":"1.1","style":"bold","subset":"VSTS","group":"Work","keywords":["symbol","work","item","defect","lightbulb","crack","broken"],"usage":"Work item type indicator."}
 ]
