@@ -41,14 +41,14 @@
     </div>
     </div>
     <script type="text/javascript">
-        var icons = document.getElementsByClassName('item');
+        var icons = document.querySelectorAll('.item');
         var search = function() {
             var query = document.getElementById('search').value;
-            for (var icon of icons) {
-                icon.style.display = 'block';
-                if (!icon.querySelector('.name').innerHTML.includes(query)) {
-                    icon.style.display = 'none';
-                }
+            for(var i = 0; i < icons.length; i++) {
+              icons[i].style.display = 'block';
+              if (!icons[i].querySelector('.name').innerHTML.includes(query)) {
+                  icons[i].style.display = 'none';
+              }
             }
         };
     </script>

@@ -52,14 +52,14 @@
     </div>
     </div>
     <script type="text/javascript">
-        var items = document.getElementsByClassName('item');
+        var icons = document.querySelectorAll('.item');
         var search = function() {
             var query = document.getElementById('search').value;
-            for (var item of items) {
-                item.style.display = 'table-row';
-                if (!item.querySelector('.name').innerHTML.includes(query)) {
-                    item.style.display = 'none';
-                }
+            for(var i = 0; i < icons.length; i++) {
+              icons[i].style.display = 'table-row';
+              if (!icons[i].querySelector('.name').innerHTML.includes(query)) {
+                  icons[i].style.display = 'none';
+              }
             }
         };
     </script>
