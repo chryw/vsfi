@@ -198,7 +198,7 @@ gulp.task('iconfont', ['svgmin'], function() {
 });
 
 gulp.task('map', () => {
-  const items = JSON.parse(fs.readFileSync('source/mapping.json', 'utf8'));
+  const items = JSON.parse(fs.readFileSync('source/data.json', 'utf8'));
 
   gulp.src('source/copy/**/*')
     .pipe(gulp.dest('dist'));
