@@ -208,10 +208,10 @@ body {
     line-height: 1.2857142857142858em;
 }
 
-<% _.each(glyphs,
-function(glyph) {
-    %>.<%=className %>-<%=glyph.name %>:before {
-        content: "\<%= glyph.codepoint %>";
+<% _.each(items,
+function(item) {
+    %>.<%=className %>-<%=item.namebowtie %>:before {
+        content: "\<%= item.codebowtie %>";
     }
     <%
 }

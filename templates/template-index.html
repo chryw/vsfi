@@ -20,11 +20,11 @@
             </div>
         </div>
         <div class="gallery">
-            <% _.each(glyphs, function(glyph) { %>
-                <div class="item">
-                    <i class="icon <%= fontName %>-icon <%= className %>-<%= glyph.name %>">
+            <% _.each(items, function(item) { %>
+                <div class="item" data-name="<%= item.namebowtie %>" data-keywords="<%= item.keywords.join(' ') %>">
+                    <i class="icon <%= fontName %>-icon <%= className %>-<%= item.namebowtie %>">
       </i>
-                    <span class="name"> <%= className %>-<%= glyph.name %> (<%= glyph.codepoint %>)</span>
+                    <span class="name"> <%= className %>-<%= item.namebowtie %> (<%= item.codebowtie %>)</span>
                 </div>
                 <% }); %>
         </div>
@@ -41,13 +41,13 @@
     </div>
     </div>
     <script type="text/javascript">
-        var icons = document.querySelectorAll('.item');
+        var items = document.querySelectorAll('.item');
         var search = function() {
             var query = document.getElementById('search').value;
-            for(var i = 0; i < icons.length; i++) {
-              icons[i].style.display = 'block';
-              if (!icons[i].querySelector('.name').innerHTML.includes(query)) {
-                  icons[i].style.display = 'none';
+            for(var i = 0; i < items.length; i++) {
+              items[i].style.display = 'block';
+              if (!items[i].dataset.name.includes(query) && !items[i].dataset.keywords.includes(query) ) {
+                  items[i].style.display = 'none';
               }
             }
         };

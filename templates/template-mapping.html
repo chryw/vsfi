@@ -30,7 +30,7 @@
           </thead>
           <tbody>
           <% _.each(items, function(item) { %>
-            <tr class="item">
+            <tr class="item" data-name="<%= item.namebowtie %>" data-keywords="<%= item.keywords.join(' ') %>">
               <td><span class="icon bowtie bowtie-<%= item.namebowtie %>"></span></td>
               <td><span class="icon ms-Icon ms-Icon--<%= item.namemdl2 %>"></span></td>
               <td><span class="name">bowtie-<%= item.namebowtie %> (<%= item.codebowtie %>)</span></td>
@@ -52,13 +52,13 @@
     </div>
     </div>
     <script type="text/javascript">
-        var icons = document.querySelectorAll('.item');
+        var items = document.querySelectorAll('.item');
         var search = function() {
             var query = document.getElementById('search').value;
-            for(var i = 0; i < icons.length; i++) {
-              icons[i].style.display = 'table-row';
-              if (!icons[i].querySelector('.name').innerHTML.includes(query)) {
-                  icons[i].style.display = 'none';
+            for(var i = 0; i < items.length; i++) {
+              items[i].style.display = 'table-row';
+              if (!items[i].dataset.name.includes(query) && !items[i].dataset.keywords.includes(query) ) {
+                  items[i].style.display = 'none';
               }
             }
         };

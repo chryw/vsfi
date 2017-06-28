@@ -6,7 +6,7 @@
 /// <reference path="../_BowtieCommon.scss" />
 
 $icon-map: (
-    <%= glyphs.map(function(g) { return "\"" + className + "-" + g.name + "\": \"" + g.codepoint + "\"" }).join(",\r\n    ") %>
+    <%= items.map(function(item) { return "\"" + className + "-" + item.namebowtie + "\": \"" + item.codebowtie + "\"" }).join(",\r\n    ") %>
 );
 
 // SASS makes it really difficult to add backslashes to a string, so we use this hack.
