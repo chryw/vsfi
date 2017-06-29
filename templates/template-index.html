@@ -46,7 +46,7 @@
             var query = document.getElementById('search').value;
             for(var i = 0; i < items.length; i++) {
               items[i].style.display = 'block';
-              if (!items[i].dataset.name.includes(query) && !items[i].dataset.keywords.includes(query) ) {
+              if (items[i].dataset.name.indexOf(query) < 0 && items[i].dataset.keywords.indexOf(query) < 0 ) {
                   items[i].style.display = 'none';
               }
             }
