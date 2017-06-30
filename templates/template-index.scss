@@ -12,6 +12,13 @@ html {
   box-sizing: inherit;
 }
 
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -23,10 +30,10 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
-  @media screen and (min-width: 551px) {
+  @media screen and (min-width: 550px) {
     width: 80%;
   }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 768px) {
     width: 60%;
   }
 }
@@ -34,7 +41,7 @@ body {
 .header {
   background-color: #0078d7;
   color: #fff;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
   position: fixed;
   top:0;
   height: 150px;
@@ -47,12 +54,12 @@ body {
     margin: 0;
   }
   h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1rem;
   }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 550px) {
     display: table;
     height: 80px;
     &>div {
@@ -63,34 +70,50 @@ body {
 }
 
 .gallery {
-  padding: 1em 2em;
+  padding: 2rem;
   background-color: #fff;
-  display: list;
+  font-size: 0;
+  width: 100%;
   margin-top: 150px;
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 550px) {
     margin-top: 80px;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    columns: 2;
+  }
+}
+
+.gallery-header {
+  font-size: 600;
+  *>div {
+    display: inline-block;
   }
 }
 
 .item {
-  display: list-item;
-  list-style: none;
-  padding: .5em 0;
   vertical-align: middle;
+  font-size: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eaeaea;
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    float: left;
+  }
+}
+
+.item-row {
+  &:nth-child(2) {
+    margin-top: 1rem;
+  }
 }
 
 .icon {
-  padding-right: .5em;
   color: #444;
+  font-size: 1em;
+  padding-right: 1rem;
 }
 .search {
-  margin-top: 1em;
+  margin-top: 1rem;
   input {
     width: 100%;
-    padding: 1em;
+    padding: 1rem;
     border: 1px solid transparent;
     &:hover,
     &:focus {
@@ -105,7 +128,7 @@ body {
   overflow: hidden;
   background-color: #212121;
   color: #fff;
-  padding: 0 2em;
+  padding: 0 2rem;
   display: table;
   width: 100%;
 }
@@ -123,7 +146,7 @@ body {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .footer {
     display: table;
   }
@@ -140,10 +163,10 @@ body {
           display: inline-block;
           content: '';
           width: 1px;
-          height: 1em;
+          height: 1rem;
           background-color: #fff;
-          margin-left: 1em;
-          margin-right: 1em;
+          margin-left: 1rem;
+          margin-right: 1rem;
           vertical-align: middle;
         }
       }
@@ -155,13 +178,28 @@ body {
     font-family: "<%= fontName %>";
     font-weight: normal;
     font-style: normal;
-    src: url('<%= fontName %>.eot?v=@@hash');
-    src: url('<%= fontName %>.eot?iefix&&v=@@hash') format('embedded-opentype'), url('<%= fontName %>.ttf?v=@@hash') format('truetype'), url('<%= fontName %>.woff?v=@@hash') format('woff'), url('<%= fontName %>.svg#<%= fontName %>?v=@@hash') format('svg');
+    src: url('<%= fontName %>.eot?v=@@Bowtie-eot');
+    src: url('<%= fontName %>.eot?iefix?v=@@Bowtie-eot') format('embedded-opentype'), url('<%= fontName %>.ttf?v=@@Bowtie-ttf') format('truetype'), url('<%= fontName %>.woff?v=@@Bowtie-woff') format('woff'), url('<%= fontName %>.svg#<%= fontName %>?v=@@Bowtie-svg') format('svg');
 }
 
-.<%=fontName %>-icon {
-    font-family: '<%= fontName %>' !important;
-    font-size: 14px;
+@font-face {
+    font-family: "FabricMDL2Icons";
+    font-weight: normal;
+    font-style: normal;
+    src: url('FabMDL2.woff2?v=@@FabMDL2-woff2') format('woff2'),url('FabMDL2.woff?v=@@FabMDL2-woff') format('woff'),url('FabMDL2.ttf?v=@@FabMDL2-ttf') format('truetype');
+}
+
+.<%= className %> {
+  font-family: '<%= fontName %>' !important;
+  font-size: 14px;
+}
+
+.ms-Icon {
+  font-family: 'FabricMDL2Icons' !important;
+  font-size: 16px;
+}
+
+.<%=fontName %> {
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -172,7 +210,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.<%=fontName %>-icon.icon-disabled {
+.<%=fontName %>.icon-disabled {
     opacity: 0.5;
 }
 
@@ -180,10 +218,6 @@ body {
     font-size: 1.3333333333333333em;
     line-height: 0.75em;
     vertical-align: -15%;
-}
-
-.<%=className %> {
-    font-size: 1em;
 }
 
 .<%=className %>-2x {
@@ -212,6 +246,9 @@ body {
 function(item) {
     %>.<%=className %>-<%=item.namebowtie %>:before {
         content: "\<%= item.codebowtie %>";
+    }
+    .ms-Icon--<%=item.namemdl2 %>:before {
+        content: "\<%= item.codemdl2 %>";
     }
     <%
 }

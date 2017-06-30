@@ -15,7 +15,7 @@ const iconFontOptions = {
 
 //generate iconfont, stylesheet and demo page.
 gulp.task('iconfont', ['svgmin'], function() {
-    gulp.src(['source/svgs/*.svg']) // the location of all the svg files to be created into the font
+    return gulp.src(['source/svgs/*.svg']) // the location of all the svg files to be created into the font
         .pipe(iconfont(iconFontOptions))
         // automatically assign a unicode value to the icon
         .on('glyphs', function(glyphs) {

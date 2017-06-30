@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bowtie and Fabric MDL2 mapping</title>
-    <link rel="stylesheet" href="mapping.css?v=@@hash">
+    <link rel="stylesheet" href="style.css?v=@@style-css">
 </head>
 
 <body>
@@ -19,26 +19,22 @@
                 <input type="text" id="search" placeholder="Search..." onkeyup="search()" />
             </div>
         </div>
-        <table class="gallery">
-          <thead>
-            <tr>
-              <td>Bowtie</td>
-              <td>Fabric MDL2</td>
-              <td>Bowtie Name (unicode)</td>
-              <td>Fabric Name (unicode)</td>
-            </tr>
-          </thead>
-          <tbody>
-          <% _.each(items, function(item) { %>
-            <tr class="item" data-name="<%= item.namebowtie %>" data-keywords="<%= item.keywords.join(' ') %>">
-              <td><span class="icon bowtie bowtie-<%= item.namebowtie %>"></span></td>
-              <td><span class="icon ms-Icon ms-Icon--<%= item.namemdl2 %>"></span></td>
-              <td><span class="name">bowtie-<%= item.namebowtie %> (<%= item.codebowtie %>)</span></td>
-              <td><span class="name">ms-Icon--<%= item.namemdl2 %> (<%= item.codemdl2 %>)</span></td>
-            </tr>
-          <% }); %>
-          </tbody>
-        </table>
+        <div class="gallery clearfix">
+            <% _.each(items, function(item) { %>
+                <div class="item" data-name="<%= item.namebowtie %>" data-keywords="<%= item.keywords.join(' ') %>">
+                  <div class="item-row">
+                    <span class="icon bowtie bowtie-<%= item.namebowtie %>">
+      </span>
+                    <span class="name"> bowtie-<%= item.namebowtie %> (<%= item.codebowtie %>)</span>
+                  </div>
+                  <div class="item-row">
+                    <span class="icon ms-Icon ms-Icon--<%= item.namemdl2 %>">
+      </span>
+                    <span class="name"> ms-Icon--<%= item.namemdl2 %> (<%= item.codemdl2 %>)</span>
+                  </div>
+                </div>
+                <% }); %>
+        </div>
         <div class="footer">
             <div class="copyright">
                 <p>© 2017 Microsoft</p>
@@ -56,7 +52,7 @@
         var search = function() {
             var query = document.getElementById('search').value;
             for(var i = 0; i < items.length; i++) {
-              items[i].style.display = 'table-row';
+              items[i].style.display = 'block';
               if (items[i].dataset.name.indexOf(query) < 0 && items[i].dataset.keywords.indexOf(query) < 0 ) {
                   items[i].style.display = 'none';
               }

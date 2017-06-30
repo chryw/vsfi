@@ -6,7 +6,7 @@ const rename = require('gulp-rename');
 gulp.task('style-vsts', () => {
   const items = JSON.parse(fs.readFileSync('./source/data.json', 'utf8'));
 
-  gulp.src('templates/template-vsts.scss')
+  return gulp.src('templates/template-vsts.scss')
   .pipe(consolidate('lodash', {
     items: items,
     fontName: 'Bowtie',

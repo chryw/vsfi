@@ -7,7 +7,7 @@ const sass = require('gulp-sass');
 gulp.task('style-catalog', () => {
   const items = JSON.parse(fs.readFileSync('./source/data.json', 'utf8'));
 
-  gulp.src('templates/template-index.scss')
+  return gulp.src('templates/template-index.scss')
   .pipe(consolidate('lodash', {
     items: items,
     fontName: 'Bowtie',
