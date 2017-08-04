@@ -1,3 +1,3 @@
 const gulp = require('gulp');
 
-gulp.task('default', ['copy']);
+gulp.task('default', ['cachebust']);
