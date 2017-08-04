@@ -14,5 +14,5 @@ gulp.task('html-catalog', () => {
     className: 'bowtie',
   }))
   .pipe(rename('index.html'))
-  .pipe(gulp.dest('dist'));
+  .pipe(gulp.dest('dist/catalog'));
 });

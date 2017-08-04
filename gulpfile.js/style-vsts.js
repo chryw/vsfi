@@ -13,5 +13,5 @@ gulp.task('style-vsts', () => {
     className: 'bowtie',
   }))
   .pipe(rename('_IconsCommon.scss'))
-  .pipe(gulp.dest('dist'));
+  .pipe(gulp.dest('dist/VSO'));
 });

@@ -15,5 +15,5 @@ gulp.task('style-catalog', () => {
   }))
   .pipe(sass())
   .pipe(rename('style.css'))
-  .pipe(gulp.dest('dist'));
+  .pipe(gulp.dest('dist/catalog'));
 });

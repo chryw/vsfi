@@ -32,5 +32,6 @@ gulp.task('iconfont', ['svgmin'], function() {
                 arr[idx].glyph = glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
             });
         })
-        .pipe(gulp.dest('dist')); // where to save the generated font files
+        .pipe(gulp.dest('dist/VSO'))
+        .pipe(gulp.dest('dist/catalog'));
 });
