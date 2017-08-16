@@ -524,6 +524,5 @@
 {"decimal":"60171","namebowtie":"symbol-issue","namemdl2":"IssueSolid","codebowtie":"EB0B","codemdl2":"F448","stylevariation":"bold","keywords":["symbol","work","item","issue","task","exclamation"],"subset":"VSTS","group":"Work","usagenotes":"Work item type indicator."},
 {"decimal":"60172","namebowtie":"symbol-defect","namemdl2":"DefectSolid","codebowtie":"EB0C","codemdl2":"F449","stylevariation":"bold","keywords":["symbol","work","item","defect","lightbulb","crack","broken"],"subset":"VSTS","group":"Work","usagenotes":"Work item type indicator."},
 {"decimal":"60173","namebowtie":"login","namemdl2":"IDBadge","codebowtie":"EB0D","codemdl2":"F427","stylevariation":"light","keywords":["login","account","credential","user","password","lock","security"],"subset":"VSTS","group":"Common","usagenotes":"Used in top nav Credentials command."},
-{"decimal":"60174","namebowtie":"placeholder","namemdl2":"null","codebowtie":"EB0E","codemdl2":"null","stylevariation":"","keywords":[""],"subset":"","group":"","usagenotes":"Empty codepoint due to deleted glyph."},
 {"decimal":"60175","namebowtie":"brand-ivy","namemdl2":"null","codebowtie":"EB0F","codemdl2":"null","stylevariation":"bold","keywords":["brand","apache","ivy","package","feed"],"subset":"VSTS","group":"Package","usagenotes":"Used in Packages hub for Apache Ivy package feeds."}
 ]
