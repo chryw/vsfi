@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/chryw/vsfi",
   "dependencies": {
+    "character-map": "^1.1.0",
     "del": "^3.0.0",
+    "fontkit": "^1.7.7",
+    "fontmin": "^0.9.6",
     "gulp": "^3.9.1",
     "gulp-cheerio": "^0.6.2",
     "gulp-concat": "^2.6.0",
@@ -39,6 +42,8 @@
     "lodash": "^3.10.1",
     "merge-stream": "^1.0.0",
     "node-gyp": "^3.0.3",
-    "require-dir": "^0.3.2"
+    "opentype.js": "^0.7.3",
+    "require-dir": "^0.3.2",
+    "util": "^0.10.3"
   }
 }
