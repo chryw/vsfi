@@ -7,7 +7,7 @@ const iconFontOptions = {
     descent: 64,
     fontName: 'Bowtie',
     metadata: 'Bowtie icon font for VSTS.',
-    appendCodepoints: true,
+    prependUnicode: true,
     formats: ['ttf', 'eot', 'woff', 'svg'],
     minsize: 14,
     maxsize: 448
