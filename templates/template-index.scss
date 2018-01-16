@@ -178,15 +178,14 @@ body {
     font-family: "<%= fontName %>";
     font-weight: normal;
     font-style: normal;
-    src: url('<%= fontName %>.eot?v=@@Bowtie-eot');
-    src: url('<%= fontName %>.eot?iefix?v=@@Bowtie-eot') format('embedded-opentype'), url('<%= fontName %>.ttf?v=@@Bowtie-ttf') format('truetype'), url('<%= fontName %>.woff?v=@@Bowtie-woff') format('woff'), url('<%= fontName %>.svg#<%= fontName %>?v=@@Bowtie-svg') format('svg');
+    src: url('<%= fontName %>.ttf?v=@@Bowtie-ttf') format('truetype');
 }
 
 @font-face {
     font-family: "FabricMDL2Icons";
     font-weight: normal;
     font-style: normal;
-    src: url('FabMDL2.woff2?v=@@FabMDL2-woff2') format('woff2'),url('FabMDL2.woff?v=@@FabMDL2-woff') format('woff'),url('FabMDL2.ttf?v=@@FabMDL2-ttf') format('truetype');
+    src: url('FabMDL2.ttf?v=@@FabMDL2-ttf') format('truetype');
 }
 
 .<%= className %> {
