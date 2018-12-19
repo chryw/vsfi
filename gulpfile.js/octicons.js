@@ -1,3 +1,9 @@
+// The octicon assets belong to GitHub.
+// I made these scripts to generate icon font
+// as a temporary workaround for VS Code, which
+// had dependency on an older version of octicons
+// in font format.
+
 const gulp = require('gulp');
 const replace = require('gulp-replace');
 const hasha = require('hasha');
