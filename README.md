@@ -3,6 +3,8 @@
 ### Prerequisites
 - nodejs 4.1+
 - python 2.7
+- gulp 3.9.1
+  > Don't use gulp 4 yet. The scripts are written in old style. I'll update later.
 
 ### Use
 - clone repo

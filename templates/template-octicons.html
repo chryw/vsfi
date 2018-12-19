@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Octicons for VS Code (temporary)</title>
+    <link rel="stylesheet" href="octicons.css?v=@@octicons-css">
+    <link rel="stylesheet" href="style.css?v=@@style-css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <h1>Octicons for VS Code (temporary)</h1>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search..." onkeyup="search()" />
+            </div>
+        </div>
+        <div class="gallery clearfix">
+            <% _.each(items, function(item) { %>
+                <div class="item" data-name="<%= item.name %>">
+                  <div class="item-row">
+                    <span class="icon <%= className %> <%= className %>-<%= item.name %>">
+      </span>
+                    <span class="name"> <%= className %>-<%= item.name %> (<%= item.code %>)</span>
+                  </div>
+                </div>
+                <% }); %>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        var items = document.querySelectorAll('.item');
+        var search = function() {
+            var query = document.getElementById('search').value;
+            for(var i = 0; i < items.length; i++) {
+              items[i].style.display = 'block';
+              if (items[i].dataset.name.indexOf(query) < 0) {
+                  items[i].style.display = 'none';
+              }
+            }
+        };
+    </script>
+</body>
+
+</html>
